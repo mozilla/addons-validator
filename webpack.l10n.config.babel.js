@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 const webpackConfig = require('./webpack.config');
 
-const babelrc = fs.readFileSync('./.babelrc');
+const babelrc = fs.readFileSync('./babel.config.json');
 const babelrcObject = JSON.parse(babelrc);
 const babelPlugins = babelrcObject.plugins || [];
 

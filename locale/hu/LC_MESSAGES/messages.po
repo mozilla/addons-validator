@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-21 10:05+0000\n"
-"PO-Revision-Date: 2024-03-13 10:43+0000\n"
+"PO-Revision-Date: 2024-08-27 18:10+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -44,13 +44,11 @@ msgstr "Oszlop"
 
 #: src/linter.js:60
 msgid ""
-"Invalid manifest version range requested: --min-manifest-version (currently "
-"set to %(minManifestVersion)s) should not be greater than --max-manifest-"
-"version (currently set to %(maxManifestVersion)s)."
+"Invalid manifest version range requested: --min-manifest-version (currently set to %(minManifestVersion)s) should not be greater than --max-manifest-version (currently set to "
+"%(maxManifestVersion)s)."
 msgstr ""
-"A jegyzékfájl kért verziótartománya érvénytelen: a --min-manifest-version "
-"(jelenleg érték: %(minManifestVersion)s) nem lehet nagyobb, mint a --max-"
-"manifest-version (jelenlegi érték: %(maxManifestVersion)s)."
+"A jegyzékfájl kért verziótartománya érvénytelen: a --min-manifest-version (jelenleg érték: %(minManifestVersion)s) nem lehet nagyobb, mint a --max-manifest-version (jelenlegi érték: "
+"%(maxManifestVersion)s)."
 
 #: src/messages/fluent.js:5
 msgid "Your FTL is not valid."
@@ -62,62 +60,43 @@ msgstr "Az FTL fájl nem dolgozható fel."
 
 #: src/messages/html.js:12
 msgid "Remote scripts are not allowed as per the Add-on Policies."
-msgstr ""
-"A távoli parancsfájlok a kiegészítők irányelvei szerint nem engedélyezettek."
+msgstr "A távoli parancsfájlok a kiegészítők irányelvei szerint nem engedélyezettek."
 
 #: src/messages/html.js:13
-msgid ""
-"Please include all scripts in the add-on. For more information, refer to "
-"https://mzl.la/2uEOkYp."
-msgstr ""
-"Adja meg az összes, a kiegészítőben lévő parancsfájlt. További "
-"információkért lásd: https://mzl.la/2uEOkYp."
+msgid "Please include all scripts in the add-on. For more information, refer to https://mzl.la/2uEOkYp."
+msgstr "Adja meg az összes, a kiegészítőben lévő parancsfájlt. További információkért lásd: https://mzl.la/2uEOkYp."
 
 #: src/messages/html.js:5
 msgid "Inline scripts blocked by default"
 msgstr "A soron belüli parancsfájlok alapértelmezetten blokkoltak"
 
 #: src/messages/html.js:6
-msgid ""
-"Default CSP rules prevent inline JavaScript from running (https://mzl."
-"la/2pn32nd)."
-msgstr ""
-"Az alapértelmezett CSP-szabályok megakadályozzák a beágyazott JavaScript "
-"futtatását (https://mzl.la/2pn32nd)."
+msgid "Default CSP rules prevent inline JavaScript from running (https://mzl.la/2pn32nd)."
+msgstr "Az alapértelmezett CSP-szabályok megakadályozzák a beágyazott JavaScript futtatását (https://mzl.la/2pn32nd)."
 
 #: src/messages/javascript.js:100
 msgid "Unadvised 3rd-party JS library"
 msgstr "Nem tanácsolt harmadik féltől származó JS könyvtár"
 
 #: src/messages/javascript.js:101
-msgid ""
-"Your add-on uses a JavaScript library we do not recommend. Read more: "
-"https://bit.ly/1TRIyZY"
-msgstr ""
-"A kiegészítője egy általunk nem javasolt JavaScript programkönyvtárat "
-"használ. Bővebben: https://bit.ly/1TRIyZY"
+msgid "Your add-on uses a JavaScript library we do not recommend. Read more: https://bit.ly/1TRIyZY"
+msgstr "A kiegészítője egy általunk nem javasolt JavaScript programkönyvtárat használ. Bővebben: https://bit.ly/1TRIyZY"
 
 #: src/messages/javascript.js:107
 msgid "Known JS library detected"
 msgstr "Ismert JS könyvtár észlelve"
 
 #: src/messages/javascript.js:108
-msgid ""
-"JavaScript libraries are discouraged for simple add-ons, but are generally "
-"accepted."
-msgstr ""
-"A JavaScript programkönyvtárak nem javasoltak az egyszerű kiegészítőknél, de "
-"általában elfogadottak."
+msgid "JavaScript libraries are discouraged for simple add-ons, but are generally accepted."
+msgstr "A JavaScript programkönyvtárak nem javasoltak az egyszerű kiegészítőknél, de általában elfogadottak."
 
 #: src/messages/javascript.js:116
 msgid ""
-"Due to both security and performance concerns, this may not be set using "
-"dynamic values which have not been adequately sanitized. This can lead to "
-"security issues or fairly serious performance degradation."
+"Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance "
+"degradation."
 msgstr ""
-"Biztonsági és teljesítménybeli okokból ez nem adható meg olyan dinamikus "
-"értékekkel, amelyek nem lettek megfelelően megtisztítva. Ez biztonsági "
-"problémákhoz, vagy komoly teljesítménycsökkenéshez vezethet."
+"Biztonsági és teljesítménybeli okokból ez nem adható meg olyan dinamikus értékekkel, amelyek nem lettek megfelelően megtisztítva. Ez biztonsági problémákhoz, vagy komoly teljesítménycsökkenéshez "
+"vezethet."
 
 #: src/messages/javascript.js:125
 msgid "{{api}} is not supported"
@@ -128,12 +107,8 @@ msgid "This API has not been implemented by Firefox."
 msgstr "Ez az API még nincs megvalósítva a Firefoxban."
 
 #: src/messages/javascript.js:132
-msgid ""
-"\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` "
-"property)"
-msgstr ""
-"A(z) „{{api}}” el lett távolítva a leíró 3. verziójából (`manifest_version` "
-"tulajdonság)"
+msgid "\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` property)"
+msgstr "A(z) „{{api}}” el lett távolítva a leíró 3. verziójából (`manifest_version` tulajdonság)"
 
 #: src/messages/javascript.js:141
 msgid "{{api}} is deprecated"
@@ -161,14 +136,11 @@ msgstr "A(z) „%(api)s” problémákat okozhat, ha ideiglenesen betöltik"
 
 #: src/messages/javascript.js:165
 msgid ""
-"This API can cause issues when loaded temporarily using about:debugging in "
-"Firefox unless you specify \"browser_specific_settings.gecko.id\" in the "
-"manifest. Please see: https://mzl.la/2hizK4a for more."
+"This API can cause issues when loaded temporarily using about:debugging in Firefox unless you specify \"browser_specific_settings.gecko.id\" in the manifest. Please see: https://mzl.la/2hizK4a for "
+"more."
 msgstr ""
-"Ez az API problémákat okozhat, ha a Firefox about:debugging használatával "
-"ideiglenesen betöltik, hacsak nem adja meg a „browser_specific_settings."
-"gecko.id” értéket a jegyzékfájlban. További információkért lásd: https://mzl."
-"la/2hizK4a."
+"Ez az API problémákat okozhat, ha a Firefox about:debugging használatával ideiglenesen betöltik, hacsak nem adja meg a „browser_specific_settings.gecko.id” értéket a jegyzékfájlban. További "
+"információkért lásd: https://mzl.la/2hizK4a."
 
 #: src/messages/javascript.js:185
 msgid "{{api}} is not supported in Firefox version {{minVersion}}"
@@ -176,20 +148,15 @@ msgstr "A(z) {{api}} nem támogatott a Firefox {{minVersion}} verzióban"
 
 #: src/messages/javascript.js:188
 msgid "This API is not implemented by the given minimum Firefox version"
-msgstr ""
-"Ez az API még nincs megvalósítva a megadott minimális Firefox verzióban"
+msgstr "Ez az API még nincs megvalósítva a megadott minimális Firefox verzióban"
 
 #: src/messages/javascript.js:196
 msgid "{{api}} is not supported in Firefox for Android version {{minVersion}}"
-msgstr ""
-"A(z) {{api}} nem támogatott a Firefox for Android {{minVersion}} verzióban"
+msgstr "A(z) {{api}} nem támogatott a Firefox for Android {{minVersion}} verzióban"
 
 #: src/messages/javascript.js:199
-msgid ""
-"This API is not implemented by the given minimum Firefox for Android version"
-msgstr ""
-"Ez az API még nincs megvalósítva a megadott minimális Firefox for Android "
-"verzióban"
+msgid "This API is not implemented by the given minimum Firefox for Android version"
+msgstr "Ez az API még nincs megvalósítva a megadott minimális Firefox for Android verzióban"
 
 #: src/messages/javascript.js:22
 msgid "Content script file name should not be empty."
@@ -204,27 +171,18 @@ msgid "\"%(method)s\" called with a non-literal uri"
 msgstr "A(z) „%(method)s” nem URI literállal meghívva"
 
 #: src/messages/javascript.js:34
-msgid ""
-"Calling \"%(method)s\" with variable parameters can result in potential "
-"security vulnerabilities if the variable contains a remote URI. Consider "
-"using 'window.open' with the 'chrome=no' flag."
+msgid "Calling \"%(method)s\" with variable parameters can result in potential security vulnerabilities if the variable contains a remote URI. Consider using 'window.open' with the 'chrome=no' flag."
 msgstr ""
-"A(z) „%(method)s” változóparaméterekkel történő meghívása lehetséges "
-"biztonsági sebezhetőséget okozhat, ha a változó távoli URI-t tartalmaz. "
-"Fontolja meg a „window.open” metódus „chrome=no” jelzővel történő "
-"használatát."
+"A(z) „%(method)s” változóparaméterekkel történő meghívása lehetséges biztonsági sebezhetőséget okozhat, ha a változó távoli URI-t tartalmaz. Fontolja meg a „window.open” metódus „chrome=no” jelzővel"
+" történő használatát."
 
 #: src/messages/javascript.js:45
 msgid "\"%(method)s\" called with non-local URI"
 msgstr "A(z) „%(method)s” nem helyi URI-val meghívva"
 
 #: src/messages/javascript.js:49
-msgid ""
-"Calling \"%(method)s\" with a non-local URI will result in the dialog being "
-"opened with chrome privileges."
-msgstr ""
-"A(z) „%(method)s” nem helyi URI-val történő meghívása a chrome "
-"jogosultságával fogja megnyitni a párbeszédablakot."
+msgid "Calling \"%(method)s\" with a non-local URI will result in the dialog being opened with chrome privileges."
+msgstr "A(z) „%(method)s” nem helyi URI-val történő meghívása a chrome jogosultságával fogja megnyitni a párbeszédablakot."
 
 #: src/messages/javascript.js:5
 msgid "JavaScript syntax error"
@@ -232,85 +190,55 @@ msgstr "JavaScript szintaktikai hiba"
 
 #: src/messages/javascript.js:6
 msgid ""
-"There is a JavaScript syntax error in your code, which might be related to "
-"some experimental JavaScript features that aren't an official part of the "
-"language specification and therefore not supported yet. The validation "
-"cannot continue on this file."
+"There is a JavaScript syntax error in your code, which might be related to some experimental JavaScript features that aren't an official part of the language specification and therefore not "
+"supported yet. The validation cannot continue on this file."
 msgstr ""
-"JavaScript szintaktikai hiba van a kódjában, amely néhány kísérleti "
-"JavaScript funkcióhoz kötődhet, amelyek hivatalosan nem részei a nyelvi "
-"specifikációnak, ezért még nem támogatottak. Az ellenőrzés nem folytatódhat "
-"ennél a fájlnál."
+"JavaScript szintaktikai hiba van a kódjában, amely néhány kísérleti JavaScript funkcióhoz kötődhet, amelyek hivatalosan nem részei a nyelvi specifikációnak, ezért még nem támogatottak. Az ellenőrzés"
+" nem folytatódhat ennél a fájlnál."
 
 #: src/messages/javascript.js:62
 msgid ""
-"Evaluation of strings as code can lead to security vulnerabilities and "
-"performance issues, even in the most innocuous of circumstances. Please "
-"avoid using `eval` and the `Function` constructor when at all possible."
+"Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when "
+"at all possible."
 msgstr ""
-"A karakterláncok kódként történő kiértékelése biztonsági sérülékenységekhez "
-"és teljesítménybeli problémákhoz vezethet, még a legártalmatlanabb "
-"körülmények között is. Lehetőleg kerülje az `eval` függvény és a `Function` "
-"konstruktor használatát."
+"A karakterláncok kódként történő kiértékelése biztonsági sérülékenységekhez és teljesítménybeli problémákhoz vezethet, még a legártalmatlanabb körülmények között is. Lehetőleg kerülje az `eval` "
+"függvény és a `Function` konstruktor használatát."
 
 #: src/messages/javascript.js:71
-msgid ""
-"setTimeout, setInterval and execScript functions should be called only with "
-"function expressions as their first argument"
-msgstr ""
-"A setTimeout, a setInterval és az execScript függvényeket csak "
-"függvénykifejezést tartalmazó első argumentummal szabad meghívni"
+msgid "setTimeout, setInterval and execScript functions should be called only with function expressions as their first argument"
+msgstr "A setTimeout, a setInterval és az execScript függvényeket csak függvénykifejezést tartalmazó első argumentummal szabad meghívni"
 
 #: src/messages/javascript.js:78
 msgid "Unexpected global passed as an argument"
 msgstr "Nem várt argumentumként átadott globális változó"
 
 #: src/messages/javascript.js:79
-msgid ""
-"Passing a global as an argument is not recommended. Please make this a var "
-"instead."
-msgstr ""
-"A globális változók argumentumként történő átadása nem ajánlott. Tegye ezt "
-"változóvá."
+msgid "Passing a global as an argument is not recommended. Please make this a var instead."
+msgstr "A globális változók argumentumként történő átadása nem ajánlott. Tegye ezt változóvá."
 
 #: src/messages/javascript.js:85
 msgid "Use of document.write strongly discouraged."
 msgstr "A document.write használata erősen ellenjavallt."
 
 #: src/messages/javascript.js:86
-msgid ""
-"document.write will fail in many circumstances when used in extensions, and "
-"has potentially severe security repercussions when used improperly. "
-"Therefore, it should not be used."
-msgstr ""
-"A document.write sok esetben nem sikerül, ha kiegészítőkben használják, és "
-"nem megfelelő használat esetén súlyos biztonsági vonatkozásai lehetnek. "
-"Ezért nem szabad használni."
+msgid "document.write will fail in many circumstances when used in extensions, and has potentially severe security repercussions when used improperly. Therefore, it should not be used."
+msgstr "A document.write sok esetben nem sikerül, ha kiegészítőkben használják, és nem megfelelő használat esetén súlyos biztonsági vonatkozásai lehetnek. Ezért nem szabad használni."
 
 #: src/messages/javascript.js:93
 msgid "Banned 3rd-party JS library"
 msgstr "Tiltott harmadik féltől származó JS könyvtár"
 
 #: src/messages/javascript.js:94
-msgid ""
-"Your add-on uses a JavaScript library we consider unsafe. Read more: https://"
-"bit.ly/1TRIyZY"
-msgstr ""
-"A kiegészítője egy általunk nem biztonságosnak tekintett JavaScript "
-"programkönyvtárat használ. Bővebben: https://bit.ly/1TRIyZY"
+msgid "Your add-on uses a JavaScript library we consider unsafe. Read more: https://bit.ly/1TRIyZY"
+msgstr "A kiegészítője egy általunk nem biztonságosnak tekintett JavaScript programkönyvtárat használ. Bővebben: https://bit.ly/1TRIyZY"
 
 #: src/messages/json.js:11
 msgid "Your JSON contains block comments."
 msgstr "A JSON megjegyzésblokkot tartalmaz."
 
 #: src/messages/json.js:12
-msgid ""
-"Only line comments (comments beginning with \"//\") are allowed in JSON "
-"files. Please remove block comments (comments beginning with \"/*\")"
-msgstr ""
-"Csak a sorszintű megjegyzések („//” karakterekkel kezdődő megjegyzések) "
-"használhatók a JSON-fájlokban. Távolítsa el a blokkszintű megjegyzéseket („/"
-"*” karakterekkel kezdődő megjegyzések)."
+msgid "Only line comments (comments beginning with \"//\") are allowed in JSON files. Please remove block comments (comments beginning with \"/*\")"
+msgstr "Csak a sorszintű megjegyzések („//” karakterekkel kezdődő megjegyzések) használhatók a JSON-fájlokban. Távolítsa el a blokkszintű megjegyzéseket („/*” karakterekkel kezdődő megjegyzések)."
 
 #: src/messages/json.js:19
 msgid "Duplicate keys are not allowed in JSON files."
@@ -333,25 +261,16 @@ msgid "Reserved filename found."
 msgstr "Fenntartott fájlnév találva."
 
 #: src/messages/layout.js:108
-msgid ""
-"Files whose names are reserved have been found in the add-on. Please refrain "
-"from using them and rename your files."
-msgstr ""
-"Fenntartott nevű fájlok találhatók a kiegészítőben. Ttartózkodjon ezek "
-"használatától, és nevezze át a fájlokat."
+msgid "Files whose names are reserved have been found in the add-on. Please refrain from using them and rename your files."
+msgstr "Fenntartott nevű fájlok találhatók a kiegészítőben. Ttartózkodjon ezek használatától, és nevezze át a fájlokat."
 
 #: src/messages/layout.js:22
 msgid ""
-"The package is invalid. It may contain entries using invalid characters, as "
-"an example using '\\' as a path separator is not allowed in Firefox. Try to "
-"recreate your add-on package (ZIP) and make sure all entries are using '/' "
-"as the path separator."
+"The package is invalid. It may contain entries using invalid characters, as an example using '\\' as a path separator is not allowed in Firefox. Try to recreate your add-on package (ZIP) and make "
+"sure all entries are using '/' as the path separator."
 msgstr ""
-"A csomag érvénytelen. Érvénytelen karaktereket használó bejegyzéseket "
-"tartalmazhat, mert például a Firefoxban nem engedélyezett a „\\” útvonal-"
-"elválasztó használata. Próbálja meg újra létrehozni a kiegészítőcsomagot "
-"(ZIP), és győződjön meg arról, hogy az összes bejegyzés „/” jelet használ "
-"útvonal-elválasztóként."
+"A csomag érvénytelen. Érvénytelen karaktereket használó bejegyzéseket tartalmazhat, mert például a Firefoxban nem engedélyezett a „\\” útvonal-elválasztó használata. Próbálja meg újra létrehozni a "
+"kiegészítőcsomagot (ZIP), és győződjön meg arról, hogy az összes bejegyzés „/” jelet használ útvonal-elválasztóként."
 
 #: src/messages/layout.js:32
 msgid "We were unable to decompress the zip file."
@@ -363,14 +282,11 @@ msgstr "a manifest.json nem található"
 
 #: src/messages/layout.js:38
 msgid ""
-"No manifest.json was found at the root of the extension. The package file "
-"must be a ZIP of the extension's files themselves, not of the containing "
-"directory. See: https://mzl.la/2r2McKv for more on packaging."
+"No manifest.json was found at the root of the extension. The package file must be a ZIP of the extension's files themselves, not of the containing directory. See: https://mzl.la/2r2McKv for more on "
+"packaging."
 msgstr ""
-"Nem található manifest.json a kiegészítő gyökerében. A csomagfájlnak magának "
-"a kiegészítő fájljaiból készült ZIP-fájlnak kell lennie, nem az azokat "
-"tartalmazó könyvtárat kell becsomagolni. A csomagolás további információért "
-"lásd: https://mzl.la/2r2McKv."
+"Nem található manifest.json a kiegészítő gyökerében. A csomagfájlnak magának a kiegészítő fájljaiból készült ZIP-fájlnak kell lennie, nem az azokat tartalmazó könyvtárat kell becsomagolni. A "
+"csomagolás további információért lásd: https://mzl.la/2r2McKv."
 
 #: src/messages/layout.js:45
 msgid "File is too large to parse."
@@ -378,15 +294,11 @@ msgstr "A fájl túl nagy a feldolgozáshoz"
 
 #: src/messages/layout.js:47
 msgid ""
-"This file is not binary and is too large to parse. Files larger than "
-"%(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists "
-"of data out of JavaScript files and into JSON files, or splitting very large "
-"files into smaller ones."
+"This file is not binary and is too large to parse. Files larger than %(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists of data out of JavaScript files and into JSON files, "
+"or splitting very large files into smaller ones."
 msgstr ""
-"Ez a fájl nem bináris, és túl nagy a feldolgozáshoz. A "
-"%(maxFileSizeToParseMB)s MB-nál nagyobb fájlok nem lesznek feldolgozva. "
-"Fontolja meg a nagy adatlisták JavaScript-fájlokból JSON-fájlokba történő "
-"áthelyezését, vagy a nagyon nagy fájlok kisebbekre bontását."
+"Ez a fájl nem bináris, és túl nagy a feldolgozáshoz. A %(maxFileSizeToParseMB)s MB-nál nagyobb fájlok nem lesznek feldolgozva. Fontolja meg a nagy adatlisták JavaScript-fájlokból JSON-fájlokba "
+"történő áthelyezését, vagy a nagyon nagy fájlok kisebbekre bontását."
 
 #: src/messages/layout.js:57
 msgid "Hidden file flagged"
@@ -394,13 +306,10 @@ msgstr "Rejtett fájl megjelölve"
 
 #: src/messages/layout.js:58
 msgid ""
-"Hidden files complicate the review process and can contain sensitive "
-"information about the system that generated the add-on. Please modify the "
-"packaging process so that these files aren't included."
+"Hidden files complicate the review process and can contain sensitive information about the system that generated the add-on. Please modify the packaging process so that these files aren't included."
 msgstr ""
-"A rejtett fájlok nehezítik az ellenőrzési folyamatot, és érzékeny "
-"információkat tartalmazhatnak a kiegészítőt előállító rendszerről. Módosítsa "
-"a csomagolási folyamatot, hogy ezek a fájlok ne legyenek benne."
+"A rejtett fájlok nehezítik az ellenőrzési folyamatot, és érzékeny információkat tartalmazhatnak a kiegészítőt előállító rendszerről. Módosítsa a csomagolási folyamatot, hogy ezek a fájlok ne "
+"legyenek benne."
 
 #: src/messages/layout.js:6
 msgid "Package contains duplicate entries"
@@ -411,20 +320,12 @@ msgid "Flagged filename found"
 msgstr "Megjelölt fájlnév találva"
 
 #: src/messages/layout.js:67 src/messages/layout.js:74
-msgid ""
-"Files were found that are either unnecessary or have been included "
-"unintentionally. They should be removed."
-msgstr ""
-"Olyan fájlok találhatók, amelyek vagy feleslegesek, vagy véletlenül kerültek "
-"bele. Ezeket el kell távolítani."
+msgid "Files were found that are either unnecessary or have been included unintentionally. They should be removed."
+msgstr "Olyan fájlok találhatók, amelyek vagy feleslegesek, vagy véletlenül kerültek bele. Ezeket el kell távolítani."
 
 #: src/messages/layout.js:7
-msgid ""
-"The package contains multiple entries with the same name. This practice has "
-"been banned. Try unzipping and re-zipping your add-on package and try again."
-msgstr ""
-"A csomag több azonos nevű bejegyzést tartalmaz. Ez a gyakorlat tiltott. "
-"Próbálja ki a kiegészítőcsomag újracsomagolását, majd próbálja újra."
+msgid "The package contains multiple entries with the same name. This practice has been banned. Try unzipping and re-zipping your add-on package and try again."
+msgstr "A csomag több azonos nevű bejegyzést tartalmaz. Ez a gyakorlat tiltott. Próbálja ki a kiegészítőcsomag újracsomagolását, majd próbálja újra."
 
 #: src/messages/layout.js:73
 msgid "Flagged file extensions found"
@@ -436,61 +337,39 @@ msgstr "Megjelölt fájltípus találva"
 
 #: src/messages/layout.js:81
 msgid ""
-"Files whose names end with flagged extensions have been found in the add-on. "
-"The extension of these files are flagged because they usually identify "
-"binary components. Please see https://bit.ly/review-policy for more "
-"information on the binary content review process."
+"Files whose names end with flagged extensions have been found in the add-on. The extension of these files are flagged because they usually identify binary components. Please see "
+"https://bit.ly/review-policy for more information on the binary content review process."
 msgstr ""
-"Megjelölt kiterjesztéssel végződő fájlok találhatók a kiegészítőben. Ezen "
-"fájlok kiterjesztései azért lettek megjelölve, mert ezek általában bináris "
-"komponenseket azonosítanak. Keresse fel a https://bit.ly/review-policy "
-"oldalt a bináris tartalmak értékelési folyamatának további információiért."
+"Megjelölt kiterjesztéssel végződő fájlok találhatók a kiegészítőben. Ezen fájlok kiterjesztései azért lettek megjelölve, mert ezek általában bináris komponenseket azonosítanak. Keresse fel a "
+"https://bit.ly/review-policy oldalt a bináris tartalmak értékelési folyamatának további információiért."
 
 #: src/messages/layout.js:90
 msgid "Package already signed"
 msgstr "A csomag már aláírt"
 
 #: src/messages/layout.js:91
-msgid ""
-"Add-ons which are already signed will be re-signed when published on AMO. "
-"This will replace any existing signatures on the add-on."
-msgstr ""
-"A már aláírt kiegészítők újra aláírásra kerülnek az AMO-n történő "
-"közzétételükkor. Ez lecseréli a kiegészítőn lévő aláírásokat."
+msgid "Add-ons which are already signed will be re-signed when published on AMO. This will replace any existing signatures on the add-on."
+msgstr "A már aláírt kiegészítők újra aláírásra kerülnek az AMO-n történő közzétételükkor. Ez lecseréli a kiegészítőn lévő aláírásokat."
 
 #: src/messages/layout.js:98
 msgid "Firefox add-ons are not allowed to run coin miners."
-msgstr ""
-"A Firefox kiegészítők nem futtathatnak kriptovaluta bányász programokat."
+msgstr "A Firefox kiegészítők nem futtathatnak kriptovaluta bányász programokat."
 
 #: src/messages/layout.js:99
-msgid ""
-"We do not allow coinminer scripts to be run inside WebExtensions. See "
-"https://github.com/mozilla/addons-linter/issues/1643 for more details."
-msgstr ""
-"Nem engedélyezzük a kriptopénzbányász parancsfájlok WebExtensionökön belül "
-"történő futtatását. További részletekért lásd: https://github.com/mozilla/"
-"addons-linter/issues/1643."
+msgid "We do not allow coinminer scripts to be run inside WebExtensions. See https://github.com/mozilla/addons-linter/issues/1643 for more details."
+msgstr "Nem engedélyezzük a kriptopénzbányász parancsfájlok WebExtensionökön belül történő futtatását. További részletekért lásd: https://github.com/mozilla/addons-linter/issues/1643."
 
 #: src/messages/locale-messagesjson.js:13
 msgid "String name is reserved for a predefined message"
 msgstr "A karakterlánc neve egy előre definiált üzenetnek van fenntartva"
 
 #: src/messages/locale-messagesjson.js:14
-msgid ""
-"String names starting with @@ get translated to built-in constants (https://"
-"mzl.la/2BL9ZjE)."
-msgstr ""
-"A @@ karakterlánccal kezdődő karakterláncnevek beépített konstansokká "
-"alakulnak (https://mzl.la/2BL9ZjE)."
+msgid "String names starting with @@ get translated to built-in constants (https://mzl.la/2BL9ZjE)."
+msgstr "A @@ karakterlánccal kezdődő karakterláncnevek beépített konstansokká alakulnak (https://mzl.la/2BL9ZjE)."
 
 #: src/messages/locale-messagesjson.js:21
-msgid ""
-"String name should only contain alpha-numeric characters, _ and @ (https://"
-"mzl.la/2Eztyi5)."
-msgstr ""
-"A karakterláncnév csak alfanumerikus karaktereket, _ és @ karaktereket "
-"tartalmazhat (https://mzl.la/2Eztyi5)."
+msgid "String name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2Eztyi5)."
+msgstr "A karakterláncnév csak alfanumerikus karaktereket, _ és @ karaktereket tartalmazhat (https://mzl.la/2Eztyi5)."
 
 #: src/messages/locale-messagesjson.js:27
 msgid "Placeholder for message is missing"
@@ -505,76 +384,56 @@ msgid "Placeholder name contains invalid characters"
 msgstr "A helykitöltő neve érvénytelen karaktereket tartalmaz"
 
 #: src/messages/locale-messagesjson.js:34
-msgid ""
-"Placeholder name should only contain alpha-numeric characters, _ and @ "
-"(https://mzl.la/2ExbYez)."
-msgstr ""
-"A helykitöltő neve csak alfanumerikus karaktereket, _ és @ karaktereket "
-"tartalmazhat (https://mzl.la/2ExbYez)."
+msgid "Placeholder name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2ExbYez)."
+msgstr "A helykitöltő neve csak alfanumerikus karaktereket, _ és @ karaktereket tartalmazhat (https://mzl.la/2ExbYez)."
 
 #: src/messages/locale-messagesjson.js:40
 msgid "Placeholder is missing the content property"
 msgstr "A helykitöltőből hiányzik a content tulajdonság"
 
 #: src/messages/locale-messagesjson.js:41
-msgid ""
-"A placeholder needs a content property defining the replacement of it "
-"(https://mzl.la/2DT1MQd)"
-msgstr ""
-"Egy helykitöltőhöz szükséges a tartalom tulajdonság, amely meghatározza, "
-"hogy mire lesz cserélve (https://mzl.la/2DT1MQd)"
+msgid "A placeholder needs a content property defining the replacement of it (https://mzl.la/2DT1MQd)"
+msgstr "Egy helykitöltőhöz szükséges a tartalom tulajdonság, amely meghatározza, hogy mire lesz cserélve (https://mzl.la/2DT1MQd)"
 
 #: src/messages/locale-messagesjson.js:5
 msgid "Translation string is missing the message property"
 msgstr "A fordítási karakterláncból hiányzik a message tulajdonság"
 
 #: src/messages/locale-messagesjson.js:6
-msgid ""
-"No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
-msgstr ""
-"Nincs „message” üzenettulajdonság beállítva a karakterlánchoz (https://mzl."
-"la/2DSBTjA)."
+msgid "No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
+msgstr "Nincs „message” üzenettulajdonság beállítva a karakterlánchoz (https://mzl.la/2DSBTjA)."
 
 #: src/messages/manifestjson.js:10
 msgid "The field is required."
 msgstr "A mező kötelező."
 
-#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110
-#: src/messages/manifestjson.js:118
+#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110 src/messages/manifestjson.js:118
 msgid "The permission type is unsupported."
 msgstr "Az engedélytípus nem támogatott."
 
 #: src/messages/manifestjson.js:103 src/messages/manifestjson.js:128
 msgid "See https://mzl.la/1R1n1t0 (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/1R1n1t0 (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/1R1n1t0 (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:11 src/messages/manifestjson.js:20
 msgid "See https://mzl.la/1ZOhoEN (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/1ZOhoEN (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/1ZOhoEN (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:111 src/messages/manifestjson.js:157
 msgid "See https://mzl.la/2Qn0fWC (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/2Qn0fWC (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/2Qn0fWC (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:119 src/messages/manifestjson.js:166
 msgid "See https://mzl.la/3Woeqv4 (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/3Woeqv4 (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/3Woeqv4 (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:127 src/messages/manifestjson.js:156
 msgid "Unknown permission."
 msgstr "Ismeretlen engedély."
 
 #: src/messages/manifestjson.js:138
-msgid ""
-"%(instancePath)s: the following privileged permissions are only allowed in "
-"privileged extensions: %(privilegedPermissions)s."
-msgstr ""
-"%(instancePath)s: a következő privilegizált engedélyek csak privilegizált "
-"kiegészítőkben engedélyezettek: %(privilegedPermissions)s."
+msgid "%(instancePath)s: the following privileged permissions are only allowed in privileged extensions: %(privilegedPermissions)s."
+msgstr "%(instancePath)s: a következő privilegizált engedélyek csak privilegizált kiegészítőkben engedélyezettek: %(privilegedPermissions)s."
 
 #: src/messages/manifestjson.js:165
 msgid "Invalid host permission."
@@ -585,13 +444,8 @@ msgid "Invalid install origin."
 msgstr "Érvénytelen telepítési eredet."
 
 #: src/messages/manifestjson.js:175
-msgid ""
-"Invalid install origin. A valid origin has - only - a scheme, hostname and "
-"optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
-msgstr ""
-"Érvénytelen telepítési eredet. Egy érvényes eredetnek – csak – egy sémája, "
-"gazdagépneve és nem kötelező portja van. További információkért lásd: "
-"https://mzl.la/3TEbqbE (MDN dokumentáció)."
+msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
+msgstr "Érvénytelen telepítési eredet. Egy érvényes eredetnek – csak – egy sémája, gazdagépneve és nem kötelező portja van. További információkért lásd: https://mzl.la/3TEbqbE (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:183
 msgid "\"manifest_version\" in the manifest.json is not a valid value"
@@ -599,8 +453,7 @@ msgstr "A manifest.json fájlban szereplő „manifest_version” értéke érv�
 
 #: src/messages/manifestjson.js:186
 msgid "See https://mzl.la/20PenXl (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/20PenXl (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/20PenXl (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:19
 msgid "The field is invalid."
@@ -608,36 +461,23 @@ msgstr "A mező érvénytelen."
 
 #: src/messages/manifestjson.js:199
 msgid "\"%(property)s\" allows remote code execution in manifest.json"
-msgstr ""
-"A(z) „%(property)s” lehetővé teszi távoli kódfuttatást a manifest.json "
-"fájlban"
+msgstr "A(z) „%(property)s” lehetővé teszi távoli kódfuttatást a manifest.json fájlban"
 
 #: src/messages/manifestjson.js:203
 msgid "A custom \"%(property)s\" needs additional review."
 msgstr "Egy egyéni „%(property)s” további ellenőrzésre szorul."
 
 #: src/messages/manifestjson.js:215
-msgid ""
-"\"%(property)s\" allows 'eval', which has strong security and performance "
-"implications."
-msgstr ""
-"A(z) „%(property)s” engedélyezi az „eval” függvényt, amelynek komoly "
-"biztonsági és teljesítménybeli vonatkozásai vannak."
+msgid "\"%(property)s\" allows 'eval', which has strong security and performance implications."
+msgstr "A(z) „%(property)s” engedélyezi az „eval” függvényt, amelynek komoly biztonsági és teljesítménybeli vonatkozásai vannak."
 
 #: src/messages/manifestjson.js:219
-msgid ""
-"In most cases the same result can be achieved differently, therefore it is "
-"generally prohibited"
-msgstr ""
-"A legtöbb esetben ugyanaz az eredmény máshogy is elérhető, ezért általában "
-"tilos"
+msgid "In most cases the same result can be achieved differently, therefore it is generally prohibited"
+msgstr "A legtöbb esetben ugyanaz az eredmény máshogy is elérhető, ezért általában tilos"
 
 #: src/messages/manifestjson.js:227
-msgid ""
-"The \"name\" property must be a string with no leading/trailing whitespaces."
-msgstr ""
-"A „name” tulajdonságnak kezdő/záró üres karakterek nélküli karakterláncnak "
-"kell lennie."
+msgid "The \"name\" property must be a string with no leading/trailing whitespaces."
+msgstr "A „name” tulajdonságnak kezdő/záró üres karakterek nélküli karakterláncnak kell lennie."
 
 #: src/messages/manifestjson.js:230
 msgid "See http://mzl.la/1STmr48 (MDN Docs) for more information."
@@ -648,38 +488,26 @@ msgid "\"update_url\" is not allowed."
 msgstr "Az „update_url” nem engedélyezett."
 
 #: src/messages/manifestjson.js:239
-msgid ""
-"\"applications.gecko.update_url\" or \"browser_specific_settings.gecko."
-"update_url\" are not allowed for Mozilla-hosted add-ons."
-msgstr ""
-"Az „applications.gecko.update_url” vagy a „browser_specific_settings.gecko."
-"update_url” nem engedélyezett a Mozilla által kiszolgált kiegészítőknél."
+msgid "\"applications.gecko.update_url\" or \"browser_specific_settings.gecko.update_url\" are not allowed for Mozilla-hosted add-ons."
+msgstr "Az „applications.gecko.update_url” vagy a „browser_specific_settings.gecko.update_url” nem engedélyezett a Mozilla által kiszolgált kiegészítőknél."
 
 #: src/messages/manifestjson.js:248
 msgid "The \"update_url\" property is not used by Firefox."
 msgstr "Az „update_url” tulajdonságot nem használja a Firefox."
 
 #: src/messages/manifestjson.js:249
-msgid ""
-"The \"update_url\" is not used by Firefox in the root of a manifest; your "
-"add-on will be updated via the Add-ons site and not your \"update_url\". "
-"See: https://mzl.la/25zqk4O"
+msgid "The \"update_url\" is not used by Firefox in the root of a manifest; your add-on will be updated via the Add-ons site and not your \"update_url\". See: https://mzl.la/25zqk4O"
 msgstr ""
-"A leírófájl gyökerében lévő „update_url” paramétert nem használja a Firefox; "
-"a kiegészítője a Kiegészítők oldalon keresztül fog frissülni, és nem az "
-"„update_url” címen keresztül. Lásd: https://mzl.la/25zqk4O."
+"A leírófájl gyökerében lévő „update_url” paramétert nem használja a Firefox; a kiegészítője a Kiegészítők oldalon keresztül fog frissülni, és nem az „update_url” címen keresztül. Lásd: "
+"https://mzl.la/25zqk4O."
 
 #: src/messages/manifestjson.js:257
 msgid "\"strict_max_version\" not required."
 msgstr "A „strict_max_version” nem kötelező."
 
 #: src/messages/manifestjson.js:258
-msgid ""
-"\"strict_max_version\" shouldn't be used unless the add-on is expected not "
-"to work with future versions of Firefox."
-msgstr ""
-"A „strict_max_version” paramétert nem szabad használni, kivéve, ha a "
-"kiegészítő várhatóan nem fog működni a Firefox jövőbeli verzióival."
+msgid "\"strict_max_version\" shouldn't be used unless the add-on is expected not to work with future versions of Firefox."
+msgstr "A „strict_max_version” paramétert nem szabad használni, kivéve, ha a kiegészítő várhatóan nem fog működni a Firefox jövőbeli verzióival."
 
 #: src/messages/manifestjson.js:267
 msgid "No \"%(property)s\" property found in manifest.json"
@@ -715,9 +543,7 @@ msgstr "A háttéroldal nem található itt: „%(path)s”."
 
 #: src/messages/manifestjson.js:31
 msgid "\"%(fieldName)s\" is ignored for non-privileged add-ons."
-msgstr ""
-"A(z) „%(fieldName)s” figyelmen kívül van hagyva a nem privilegizált "
-"kiegészítőknél."
+msgstr "A(z) „%(fieldName)s” figyelmen kívül van hagyva a nem privilegizált kiegészítőknél."
 
 #: src/messages/manifestjson.js:324
 msgid "A content script defined in the manifest could not be found."
@@ -728,15 +554,11 @@ msgid "A content script css file defined in the manifest could not be found."
 msgstr "A leíróban definiált css fájl nem található."
 
 #: src/messages/manifestjson.js:330
-msgid ""
-"Content script defined in the manifest could not be found at \"%(path)s\"."
-msgstr ""
-"A leíróban definiált tartalomparancsfájl nem található itt: „%(path)s”."
+msgid "Content script defined in the manifest could not be found at \"%(path)s\"."
+msgstr "A leíróban definiált tartalomparancsfájl nem található itt: „%(path)s”."
 
 #: src/messages/manifestjson.js:333
-msgid ""
-"Content script css file defined in the manifest could not be found at "
-"\"%(path)s\"."
+msgid "Content script css file defined in the manifest could not be found at \"%(path)s\"."
 msgstr "A leíróban definiált tartalom CSS fájl nem található itt: „%(path)s”. "
 
 #: src/messages/manifestjson.js:347
@@ -744,16 +566,11 @@ msgid "A dictionary file defined in the manifest could not be found."
 msgstr "A leíróban definiált szótárfájl nem található."
 
 #: src/messages/manifestjson.js:35
-msgid ""
-"\"%(fieldName)s\" manifest field is only used for privileged and temporarily "
-"installed extensions."
-msgstr ""
-"A(z) „%(fieldName)s” jegyzékmező csak privilegizált és ideiglenesen "
-"telepített kiegészítőknél használatos."
+msgid "\"%(fieldName)s\" manifest field is only used for privileged and temporarily installed extensions."
+msgstr "A(z) „%(fieldName)s” jegyzékmező csak privilegizált és ideiglenesen telepített kiegészítőknél használatos."
 
 #: src/messages/manifestjson.js:351
-msgid ""
-"Dictionary file defined in the manifest could not be found at \"%(path)s\"."
+msgid "Dictionary file defined in the manifest could not be found at \"%(path)s\"."
 msgstr "A leíróban definiált szótárfájl nem található itt: „%(path)s”."
 
 #: src/messages/manifestjson.js:363
@@ -761,8 +578,7 @@ msgid "The manifest contains multiple dictionaries."
 msgstr "A leíró több szótárat is tartalmaz."
 
 #: src/messages/manifestjson.js:364
-msgid ""
-"Multiple dictionaries were defined in the manifest, which is unsupported."
+msgid "Multiple dictionaries were defined in the manifest, which is unsupported."
 msgstr "Több szótárat is definiált a leíróban, amely nem támogatott."
 
 #: src/messages/manifestjson.js:373
@@ -790,12 +606,8 @@ msgid "This add-on contains forbidden content."
 msgstr "Ez a kiegészítő tiltott tartalmat tartalmaz."
 
 #: src/messages/manifestjson.js:4
-msgid ""
-"Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn "
-"more about privileged extensions and signing."
-msgstr ""
-"Keresse fel a https://github.com/mozilla-extensions/xpi-manifest oldalt, "
-"hogy többet tudjon meg a privilegizált kiegészítőkről és az aláírásról."
+msgid "Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn more about privileged extensions and signing."
+msgstr "Keresse fel a https://github.com/mozilla-extensions/xpi-manifest oldalt, hogy többet tudjon meg a privilegizált kiegészítőkről és az aláírásról."
 
 #: src/messages/manifestjson.js:405
 msgid "Icons must be square."
@@ -810,12 +622,8 @@ msgid "The size of the icon does not match the manifest."
 msgstr "Az ikon mérete nem egyezik a leíróval."
 
 #: src/messages/manifestjson.js:419
-msgid ""
-"Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was "
-"%(actual)d."
-msgstr ""
-"A(z) „%(path)s” ikon %(expected)d képpont szélességűként várt, de valójában "
-"ilyen széles volt: %(actual)d."
+msgid "Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was %(actual)d."
+msgstr "A(z) „%(path)s” ikon %(expected)d képpont szélességűként várt, de valójában ilyen széles volt: %(actual)d."
 
 #: src/messages/manifestjson.js:432
 msgid "Corrupt image file"
@@ -835,8 +643,7 @@ msgstr "A téma LWT álneve eltávolításra került a Firefox 70-ben."
 
 #: src/messages/manifestjson.js:451
 msgid "See https://mzl.la/2T11Lkc (MDN Docs) for more information."
-msgstr ""
-"További információkért lásd: https://mzl.la/2T11Lkc (MDN dokumentáció)."
+msgstr "További információkért lásd: https://mzl.la/2T11Lkc (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:466
 msgid "Theme image for \"%(type)s\" could not be found at \"%(path)s\""
@@ -851,11 +658,8 @@ msgid "Theme image file at \"%(path)s\" is corrupted"
 msgstr "A(z) „%(path)s” helyen lévő témaképfájl sérült"
 
 #: src/messages/manifestjson.js:49
-msgid ""
-"\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
-msgstr ""
-"A(z) „%(fieldName)s” nem támogatott a következő jegyzékfájlverziókban: "
-"%(versionRange)s."
+msgid "\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
+msgstr "A(z) „%(fieldName)s” nem támogatott a következő jegyzékfájlverziókban: %(versionRange)s."
 
 #: src/messages/manifestjson.js:490
 msgid "Theme image file has an unsupported file extension"
@@ -870,10 +674,8 @@ msgid "Theme image file has an unsupported mime type"
 msgstr "A téma képfájlja nem támogatott MIME-típussal rendelkezik"
 
 #: src/messages/manifestjson.js:508
-msgid ""
-"Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
-msgstr ""
-"A(z) „%(path)s” helyen lévő képfájl nem támogatott MIME-típussal rendelkezik"
+msgid "Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
+msgstr "A(z) „%(path)s” helyen lévő képfájl nem támogatott MIME-típussal rendelkezik"
 
 #: src/messages/manifestjson.js:51
 msgid "\"%(fieldName)s\" is not supported."
@@ -884,38 +686,24 @@ msgid "Theme image file mime type does not match its file extension"
 msgstr "A téma képfájljának MIME-típusa nem egyezik a fájlkiterjesztésével"
 
 #: src/messages/manifestjson.js:526
-msgid ""
-"Theme image file extension at \"%(path)s\" does not match its actual mime "
-"type \"%(mime)s\""
-msgstr ""
-"A(z) „%(path)s” helyen lévő képfájl kiterjesztése nem egyezik a tényleges "
-"„%(mime)s” MIME-típusával."
+msgid "Theme image file extension at \"%(path)s\" does not match its actual mime type \"%(mime)s\""
+msgstr "A(z) „%(path)s” helyen lévő képfájl kiterjesztése nem egyezik a tényleges „%(mime)s” MIME-típusával."
 
 #: src/messages/manifestjson.js:539
 msgid "The \"default_locale\" is missing localizations."
 msgstr "A „default_locale” területi beállításhoz hiányoznak a fordítások."
 
 #: src/messages/manifestjson.js:540
-msgid ""
-"The \"default_locale\" value is specified in the manifest, but no matching "
-"\"messages.json\" in the \"_locales\" directory exists. See: https://mzl."
-"la/2hjcaEE"
-msgstr ""
-"A „default_locale” érték meg van adva a jegyzékfájlban, de nem létezik "
-"megfelelő „messages.json” a „_locales” könyvtárban. Lásd: https://mzl."
-"la/2hjcaEE."
+msgid "The \"default_locale\" value is specified in the manifest, but no matching \"messages.json\" in the \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
+msgstr "A „default_locale” érték meg van adva a jegyzékfájlban, de nem létezik megfelelő „messages.json” a „_locales” könyvtárban. Lásd: https://mzl.la/2hjcaEE."
 
 #: src/messages/manifestjson.js:548
 msgid "The \"default_locale\" is missing but \"_locales\" exist."
 msgstr "A „default_locale” hiányzik, de a „_locales” létezik."
 
 #: src/messages/manifestjson.js:549
-msgid ""
-"The \"default_locale\" value is not specifed in the manifest, but a "
-"\"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
-msgstr ""
-"A „default_locale” érték nincs megadva a jegyzékfájlban, de létezik "
-"„_locales” könyvtár. Lásd: https://mzl.la/2hjcaEE."
+msgid "The \"default_locale\" value is not specifed in the manifest, but a \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
+msgstr "A „default_locale” érték nincs megadva a jegyzékfájlban, de létezik „_locales” könyvtár. Lásd: https://mzl.la/2hjcaEE."
 
 #: src/messages/manifestjson.js:557
 msgid "Unsupported image extension"
@@ -926,22 +714,14 @@ msgid "Icons should be one of JPG/JPEG, WebP, GIF, PNG or SVG."
 msgstr "Az ikonoknak JPG/JPEG, WebP, GIF, PNG vagy SVG fájloknak kell lenniük."
 
 #: src/messages/manifestjson.js:566
-msgid ""
-"\"applications\" property overridden by \"browser_specific_settings\" "
-"property"
-msgstr ""
-"Az „applications” tulajdonságot felülírja a „browser_specific_settings” "
-"tulajdonság"
+msgid "\"applications\" property overridden by \"browser_specific_settings\" property"
+msgstr "Az „applications” tulajdonságot felülírja a „browser_specific_settings” tulajdonság"
 
 #: src/messages/manifestjson.js:569
-msgid ""
-"The \"applications\" property is being ignored because it is superseded by "
-"the \"browser_specific_settings\" property which is also defined in your "
-"manifest. Consider removing applications."
+msgid "The \"applications\" property is being ignored because it is superseded by the \"browser_specific_settings\" property which is also defined in your manifest. Consider removing applications."
 msgstr ""
-"Az „applications” tulajdonság figyelmen kívül van hagyva, mert felváltja a "
-"„browser_specific_settings” tulajdonság, amely ugyancsak a jegyzékfájlban "
-"adható meg. Fontolja meg az „applications” eltávolítását."
+"Az „applications” tulajdonság figyelmen kívül van hagyva, mert felváltja a „browser_specific_settings” tulajdonság, amely ugyancsak a jegyzékfájlban adható meg. Fontolja meg az „applications” "
+"eltávolítását."
 
 #: src/messages/manifestjson.js:579
 msgid "Empty language directory"
@@ -956,79 +736,46 @@ msgid "Manifest key not supported by the specified minimum Firefox version"
 msgstr "A leírókulcs nem támogatott a megadott minimális Firefox verzióban"
 
 #: src/messages/manifestjson.js:601 src/messages/manifestjson.js:623
-msgid ""
-"\"strict_min_version\" requires Firefox %(minVersion)s, which was released "
-"before version %(versionAdded)s introduced support for \"%(key)s\"."
-msgstr ""
-"A(z) „strict_min_version” szerint Firefox %(minVersion)s szükséges, amely "
-"korábbi, mint a(z) %(versionAdded)s verzió, amely bevezette a(z) „%(key)s” "
-"támogatását."
+msgid "\"strict_min_version\" requires Firefox %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
+msgstr "A(z) „strict_min_version” szerint Firefox %(minVersion)s szükséges, amely korábbi, mint a(z) %(versionAdded)s verzió, amely bevezette a(z) „%(key)s” támogatását."
 
 #: src/messages/manifestjson.js:619
 msgid "Permission not supported by the specified minimum Firefox version"
 msgstr "Az engedély nem támogatott a megadott minimális Firefox verzióban"
 
 #: src/messages/manifestjson.js:64
-msgid ""
-"%(instancePath)s: privileged manifest fields are only allowed in privileged "
-"extensions."
-msgstr ""
-"%(instancePath)s: a privilegizált jegyzékmezők csak privilegizált "
-"kiegészítőkben engedélyezettek."
+msgid "%(instancePath)s: privileged manifest fields are only allowed in privileged extensions."
+msgstr "%(instancePath)s: a privilegizált jegyzékmezők csak privilegizált kiegészítőkben engedélyezettek."
 
 #: src/messages/manifestjson.js:641
-msgid ""
-"Manifest key not supported by the specified minimum Firefox for Android "
-"version"
-msgstr ""
-"A leírókulcs nem támogatott a megadott minimális Firefox for Android "
-"verzióban"
+msgid "Manifest key not supported by the specified minimum Firefox for Android version"
+msgstr "A leírókulcs nem támogatott a megadott minimális Firefox for Android verzióban"
 
 #: src/messages/manifestjson.js:645 src/messages/manifestjson.js:667
-msgid ""
-"\"strict_min_version\" requires Firefox for Android %(minVersion)s, which "
-"was released before version %(versionAdded)s introduced support for "
-"\"%(key)s\"."
-msgstr ""
-"A(z) „strict_min_version” szerint Firefox for Android %(minVersion)s "
-"szükséges, amely korábbi, mint a(z) %(versionAdded)s verzió, amely bevezette "
-"a(z) „%(key)s” támogatását."
+msgid "\"strict_min_version\" requires Firefox for Android %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
+msgstr "A(z) „strict_min_version” szerint Firefox for Android %(minVersion)s szükséges, amely korábbi, mint a(z) %(versionAdded)s verzió, amely bevezette a(z) „%(key)s” támogatását."
 
 #: src/messages/manifestjson.js:663
-msgid ""
-"Permission not supported by the specified minimum Firefox for Android version"
-msgstr ""
-"Az engedély nem támogatott a megadott minimális Firefox for Android verzióban"
+msgid "Permission not supported by the specified minimum Firefox for Android version"
+msgstr "Az engedély nem támogatott a megadott minimális Firefox for Android verzióban"
 
 #: src/messages/manifestjson.js:678
 msgid "Linking to \"addons.mozilla.org\" is not allowed"
 msgstr "Az „addons.mozilla.org” webhelyre való hivatkozás nem engedélyezett"
 
 #: src/messages/manifestjson.js:679
-msgid ""
-"Links directing to \"addons.mozilla.org\" are not allowed to be used for "
-"homepage"
-msgstr ""
-"Az „addons.mozilla.org” oldalra mutató hivatkozások nem használhatók "
-"honlapként"
+msgid "Links directing to \"addons.mozilla.org\" are not allowed to be used for homepage"
+msgstr "Az „addons.mozilla.org” oldalra mutató hivatkozások nem használhatók honlapként"
 
 #: src/messages/manifestjson.js:691
-msgid ""
-"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
-"to \"%(minFirefoxVersion)s\" or above"
-msgstr ""
-"A(z) „%(permission)s” engedélyhez szükséges, hogy a „strict_min_version” "
-"legalább a következőre legyen beállítva: „%(minFirefoxVersion)s”."
+msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above"
+msgstr "A(z) „%(permission)s” engedélyhez szükséges, hogy a „strict_min_version” legalább a következőre legyen beállítva: „%(minFirefoxVersion)s”."
 
 #: src/messages/manifestjson.js:696
-msgid ""
-"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
-"to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json "
-"version to specify a minimum Firefox version."
+msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json version to specify a minimum Firefox version."
 msgstr ""
-"A(z) „%(permission)s” engedélyhez szükséges, hogy a „strict_min_version” "
-"legalább a következőre legyen beállítva: „%(minFirefoxVersion)s”. Frissítse "
-"a manifest.json verzióját, hogy megadja a Firefox minimális verzióját."
+"A(z) „%(permission)s” engedélyhez szükséges, hogy a „strict_min_version” legalább a következőre legyen beállítva: „%(minFirefoxVersion)s”. Frissítse a manifest.json verzióját, hogy megadja a Firefox"
+" minimális verzióját."
 
 #: src/messages/manifestjson.js:708
 msgid "The extension ID is required in Manifest Version 3 and above."
@@ -1039,106 +786,60 @@ msgid "See https://mzl.la/3PLZYdo for more information."
 msgstr "További információkért lásd: https://mzl.la/3PLZYdo."
 
 #: src/messages/manifestjson.js:717
-msgid ""
-"%(instancePath)s: Privileged extensions should declare privileged "
-"permissions."
-msgstr ""
-"%(instancePath)s: A privilegizált kiegészítőknek privilegizált engedélyeket "
-"kell deklarálniuk."
+msgid "%(instancePath)s: Privileged extensions should declare privileged permissions."
+msgstr "%(instancePath)s: A privilegizált kiegészítőknek privilegizált engedélyeket kell deklarálniuk."
 
 #: src/messages/manifestjson.js:728
-msgid ""
-"This extension does not declare any privileged permission. It does not need "
-"to be signed with the privileged certificate. Please upload it directly to "
-"https://addons.mozilla.org/."
-msgstr ""
-"Ez a kiegészítő nem deklarál privilegizált engedélyt. Nem kell a "
-"privilegizált tanúsítvánnyal aláírni. Töltse fel közvetlenül a https://"
-"addons.mozilla.org/ oldalra."
+msgid "This extension does not declare any privileged permission. It does not need to be signed with the privileged certificate. Please upload it directly to https://addons.mozilla.org/."
+msgstr "Ez a kiegészítő nem deklarál privilegizált engedélyt. Nem kell a privilegizált tanúsítvánnyal aláírni. Töltse fel közvetlenül a https://addons.mozilla.org/ oldalra."
 
 #: src/messages/manifestjson.js:741
-msgid ""
-"%(instancePath)s: The \"mozillaAddons\" permission is required for "
-"privileged extensions."
-msgstr ""
-"%(instancePath)s: A „mozillaAddons” engedély szükséges a privilegizált "
-"kiegészítőkhöz."
+msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for privileged extensions."
+msgstr "%(instancePath)s: A „mozillaAddons” engedély szükséges a privilegizált kiegészítőkhöz."
 
 #: src/messages/manifestjson.js:744
-msgid ""
-"%(instancePath)s: The \"mozillaAddons\" permission is required for "
-"extensions that include privileged manifest fields."
-msgstr ""
-"%(instancePath)s: A „mozillaAddons” engedély szükséges az olyan "
-"kiegészítőkhöz, amelyek privilegizált jegyzékmezőket tartalmaznak."
+msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for extensions that include privileged manifest fields."
+msgstr "%(instancePath)s: A „mozillaAddons” engedély szükséges az olyan kiegészítőkhöz, amelyek privilegizált jegyzékmezőket tartalmaznak."
 
 #: src/messages/manifestjson.js:757
-msgid ""
-"This extension does not include the \"mozillaAddons\" permission, which is "
-"required for privileged extensions."
-msgstr ""
-"Ez a kiegészítő nem tartalmazza a „mozillaAddons” engedélyt, amely a "
-"privilegizált kiegészítőkhöz szükséges."
+msgid "This extension does not include the \"mozillaAddons\" permission, which is required for privileged extensions."
+msgstr "Ez a kiegészítő nem tartalmazza a „mozillaAddons” engedélyt, amely a privilegizált kiegészítőkhöz szükséges."
 
 #: src/messages/manifestjson.js:767
 msgid "Cannot use actions in hidden add-ons."
 msgstr "A műveletek nem használhatók rejtett kiegészítőkben."
 
 #: src/messages/manifestjson.js:768
-msgid ""
-"The hidden and browser_action/page_action (or action in Manifest Version 3 "
-"and above) properties are mutually exclusive."
-msgstr ""
-"A „hidden” és a „browser_action/page_action” (vagy „action” a 3-as és újabb "
-"jegyzékverziókban) tulajdonságok kölcsönösen kizárják egymást."
+msgid "The hidden and browser_action/page_action (or action in Manifest Version 3 and above) properties are mutually exclusive."
+msgstr "A „hidden” és a „browser_action/page_action” (vagy „action” a 3-as és újabb jegyzékverziókban) tulajdonságok kölcsönösen kizárják egymást."
 
 #: src/messages/manifestjson.js:776
 msgid "Use \"browser_specific_settings\" instead of \"applications\"."
-msgstr ""
-"Használja a „browser_specific_settings” értéket az „applications” helyett."
+msgstr "Használja a „browser_specific_settings” értéket az „applications” helyett."
 
 #: src/messages/manifestjson.js:777
-msgid ""
-"The \"applications\" property in the manifest is deprecated and will no "
-"longer be accepted in Manifest Version 3 and above."
-msgstr ""
-"A jegyzékfájl „applications” tulajdonsága elavult, és már nem lesz elfogadva "
-"a 3-as és újabb jegyzékverziókban."
+msgid "The \"applications\" property in the manifest is deprecated and will no longer be accepted in Manifest Version 3 and above."
+msgstr "A jegyzékfájl „applications” tulajdonsága elavult, és már nem lesz elfogadva a 3-as és újabb jegyzékverziókban."
 
 #: src/messages/manifestjson.js:785
 msgid "\"applications\" is no longer allowed in Manifest Version 3 and above."
-msgstr ""
-"Az „applications” már nem engedélyezett a 3-as és újabb jegyzékverziókban."
+msgstr "Az „applications” már nem engedélyezett a 3-as és újabb jegyzékverziókban."
 
 #: src/messages/manifestjson.js:787
-msgid ""
-"The \"applications\" property in the manifest is no longer allowed in "
-"Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
-msgstr ""
-"A jegyzékfájlban szereplő „applications” tulajdonság már nem engedélyezett a "
-"3-as és újabb jegyzékverziókban. Használja helyette a "
-"„browser_specific_settings” paramétert."
+msgid "The \"applications\" property in the manifest is no longer allowed in Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
+msgstr "A jegyzékfájlban szereplő „applications” tulajdonság már nem engedélyezett a 3-as és újabb jegyzékverziókban. Használja helyette a „browser_specific_settings” paramétert."
 
 #: src/messages/manifestjson.js:795
-msgid ""
-"The version string should be simplified because it won't be compatible with "
-"Manifest Version 3 and above."
-msgstr ""
-"A verzió karakterláncot egyszerűsíteni kell, mert nem lesz kompatibilis a 3-"
-"as és újabb jegyzékfájlverziókkal."
+msgid "The version string should be simplified because it won't be compatible with Manifest Version 3 and above."
+msgstr "A verzió karakterláncot egyszerűsíteni kell, mert nem lesz kompatibilis a 3-as és újabb jegyzékfájlverziókkal."
 
 #: src/messages/manifestjson.js:797
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each "
-"number should have up to 9 digits and leading zeros will no longer be "
-"allowed. Letters will no longer be allowed either. See https://mzl."
-"la/3h3mCRu (MDN Docs) for more information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros will no longer be allowed. Letters will no longer be allowed either. "
+"See https://mzl.la/3h3mCRu (MDN Docs) for more information."
 msgstr ""
-"A verzió legyen egy 1 és 4 közti számú számjegycsoportból álló, pontokkal "
-"elválasztott karakterlánc. Minden szám legfeljebb 9 számjegyből állhat, és a "
-"kezdő nullák többé nem engedélyezettek. A betűk sem lesznek többé "
-"engedélyezettek. További információkért lásd: https://mzl.la/3h3mCRu (MDN "
-"dokumentáció)."
+"A verzió legyen egy 1 és 4 közti számú számjegycsoportból álló, pontokkal elválasztott karakterlánc. Minden szám legfeljebb 9 számjegyből állhat, és a kezdő nullák többé nem engedélyezettek. A betűk"
+" sem lesznek többé engedélyezettek. További információkért lásd: https://mzl.la/3h3mCRu (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:806
 msgid "The version string should be simplified."
@@ -1146,83 +847,62 @@ msgstr "A verzió karakterláncot egyszerűsíteni kell."
 
 #: src/messages/manifestjson.js:807
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each "
-"number should have up to 9 digits and leading zeros are not allowed. Letters "
-"are no longer allowed. See https://mzl.la/3h3mCRu (MDN Docs) for more "
-"information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros are not allowed. Letters are no longer allowed. See "
+"https://mzl.la/3h3mCRu (MDN Docs) for more information."
 msgstr ""
-"A verzió legyen egy 1 és 4 közti számú számjegycsoportból álló, pontokkal "
-"elválasztott karakterlánc. Minden szám legfeljebb 9 számjegyből állhat, és a "
-"kezdő nullák nem engedélyezettek. Már a betűk sem engedélyezettek. További "
-"információkért lásd: https://mzl.la/3h3mCRu (MDN dokumentáció)."
+"A verzió legyen egy 1 és 4 közti számú számjegycsoportból álló, pontokkal elválasztott karakterlánc. Minden szám legfeljebb 9 számjegyből állhat, és a kezdő nullák nem engedélyezettek. Már a betűk "
+"sem engedélyezettek. További információkért lásd: https://mzl.la/3h3mCRu (MDN dokumentáció)."
 
 #: src/messages/manifestjson.js:816
 msgid "incognito \"split\" is unsupported."
-msgstr ""
+msgstr "Az „incognito” kulcs „split” értéke nem támogatott."
 
 #: src/messages/manifestjson.js:817
 msgid ""
-"The incognito \"split\" value is unsupported and will be treated as "
-"\"not_allowed\" in Firefox. Remove the key from the manifest file, if your "
-"extension is compatible with Firefox's private browsing mode."
+"The incognito \"split\" value is unsupported and will be treated as \"not_allowed\" in Firefox. Remove the key from the manifest file, if your extension is compatible with Firefox's private browsing"
+" mode."
 msgstr ""
+"Az „incognito” kulcs „split” értéke nem támogatott, és „not_allowed” értékként lesz kezelve a Firefoxban. Távolítsa el a kulcsot a jegyzékfájlból, ha a kiegészítője kompatibilis a Firefox privát "
+"böngészési módjával."
 
 #: src/messages/manifestjson.js:825
 msgid "The \"admin_install_only\" property is reserved."
-msgstr ""
+msgstr "Az „admin_install_only” tulajdonság használata korlátozott."
 
 #: src/messages/manifestjson.js:826
-msgid ""
-"The \"admin_install_only\" property is reserved and can only be used in "
-"enterprise add-ons."
-msgstr ""
+msgid "The \"admin_install_only\" property is reserved and can only be used in enterprise add-ons."
+msgstr "Az „admin_install_only” tulajdonság használata korlátozott, és csak vállalati kiegészítőkben használható."
 
 #: src/messages/manifestjson.js:83
-msgid ""
-"/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions "
-"%(versionRange)s."
-msgstr ""
-"/%(fieldName)s: A(z) „%(permissionName)s” nem támogatott a következő "
-"jegyzékfájlverziókban: %(versionRange)s."
+msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions %(versionRange)s."
+msgstr "/%(fieldName)s: A(z) „%(permissionName)s” nem támogatott a következő jegyzékfájlverziókban: %(versionRange)s."
 
 #: src/messages/manifestjson.js:833
-msgid ""
-"\"/browser_specific_settings/gecko/admin_install_only\" property must be set "
-"to \"true\"."
-msgstr ""
+msgid "\"/browser_specific_settings/gecko/admin_install_only\" property must be set to \"true\"."
+msgstr "A „/browser_specific_settings/gecko/admin_install_only” tulajdonságot „true” értékre kell állítani."
 
 #: src/messages/manifestjson.js:835
-msgid ""
-"The \"admin_install_only\" property must be set to \"true\" in an enterprise "
-"add-on."
-msgstr ""
+msgid "The \"admin_install_only\" property must be set to \"true\" in an enterprise add-on."
+msgstr "Az „admin_install_only” tulajdonságot „true” értékre kell állítani a vállalati kiegészítőkben."
 
 #: src/messages/manifestjson.js:85
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported."
 msgstr "/%(fieldName)s: A(z) „%(permissionName)s” nem támogatott."
 
 #~ msgid "Manifest Version 3 is not fully supported on Firefox for Android."
-#~ msgstr ""
-#~ "A 3-as verziójú jegyzékfájl még nem teljes körűen támogatott a Firefox "
-#~ "for Androidban."
+#~ msgstr "A 3-as verziójú jegyzékfájl még nem teljes körűen támogatott a Firefox for Androidban."
 
 #~ msgid "Invalid nesting of selectors found"
 #~ msgstr "Érvénytelen egymásba ágyazott választók találva"
 
 #~ msgid "Selector nesting is supported from Firefox version 117.0 and above"
-#~ msgstr ""
-#~ "A választók egymásba ágyazása a Firefox 117.0-s és újabb verzióiban "
-#~ "támogatott"
+#~ msgstr "A választók egymásba ágyazása a Firefox 117.0-s és újabb verzióiban támogatott"
 
 #~ msgid "A CSS syntax error was encountered"
 #~ msgstr "CSS szintaktikai hiba észlelve"
 
-#~ msgid ""
-#~ "An error was found in the CSS file being processed. As a result, further "
-#~ "processing of that file is not possible"
-#~ msgstr ""
-#~ "Hiba található a feldolgozott CSS-fájlban. Emiatt a fájl további "
-#~ "feldolgozása nem lehetséges."
+#~ msgid "An error was found in the CSS file being processed. As a result, further processing of that file is not possible"
+#~ msgstr "Hiba található a feldolgozott CSS-fájlban. Emiatt a fájl további feldolgozása nem lehetséges."
 
 #~ msgid "Selectors should not be nested"
 #~ msgstr "A kiválasztókat nem szabad egymásba ágyazni"
@@ -1230,49 +910,33 @@ msgstr "/%(fieldName)s: A(z) „%(permissionName)s” nem támogatott."
 #~ msgid "The \"name\" property must be a string."
 #~ msgstr "A „name” tulajdonságnak karakterláncnak kell lennie."
 
-#~ msgid ""
-#~ "An error was found in the CSS file being processed as a result further "
-#~ "processing of that file is not possible"
-#~ msgstr ""
-#~ "Hiba található a feldolgozott CSS-fájlban, ezért a fájl további "
-#~ "feldolgozása nem lehetséges"
+#~ msgid "An error was found in the CSS file being processed as a result further processing of that file is not possible"
+#~ msgstr "Hiba található a feldolgozott CSS-fájlban, ezért a fájl további feldolgozása nem lehetséges"
 
 #~ msgid "\"$(api)s\" can cause issues when loaded temporarily"
 #~ msgstr "A(z) „$(api)s” problémákat okozhat, ha ideiglenesen betöltik"
 
 #~ msgid ""
-#~ "Evaluation of strings as code can lead to security vulnerabilities and "
-#~ "performance issues, even in the most innocuous of circumstances. Please "
-#~ "avoid using `eval` and the `Function` constructor when at all possible.'"
+#~ "Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when "
+#~ "at all possible.'"
 #~ msgstr ""
-#~ "A karakterláncok kódként történő kiértékelése biztonsági "
-#~ "sérülékenységekhez és teljesítménybeli problémákhoz vezethet, még a "
-#~ "legártalmatlanabb körülmények között is. Lehetőleg kerülje az `eval` "
+#~ "A karakterláncok kódként történő kiértékelése biztonsági sérülékenységekhez és teljesítménybeli problémákhoz vezethet, még a legártalmatlanabb körülmények között is. Lehetőleg kerülje az `eval` "
 #~ "függvény és a `Function` konstruktor használatát."
 
-#~ msgid ""
-#~ "Invalid install origin. A valid origin has - only - a scheme, hostname "
-#~ "and optional port."
-#~ msgstr ""
-#~ "Érvénytelen telepítési eredet. Egy érvényes eredet csak sémát, gépnevet "
-#~ "és portot (nem kötelező) tartalmaz."
+#~ msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port."
+#~ msgstr "Érvénytelen telepítési eredet. Egy érvényes eredet csak sémát, gépnevet és portot (nem kötelező) tartalmaz."
 
 #~ msgid "The \"version\" property must be a string."
 #~ msgstr "A „version” tulajdonságnak karakterláncnak kell lennie."
 
 #~ msgid "See http://mzl.la/1kXIADa (MDN Docs) for more information."
-#~ msgstr ""
-#~ "További információkért lásd: http://mzl.la/1kXIADa (MDN dokumentáció)."
+#~ msgstr "További információkért lásd: http://mzl.la/1kXIADa (MDN dokumentáció)."
 
 #~ msgid "The \"version\" property uses a Firefox-specific format."
 #~ msgstr "A „name” tulajdonságnak Firefox-függő formátumot használ."
 
-#~ msgid ""
-#~ "See https://extensionworkshop.com/documentation/develop/extensions-and-"
-#~ "the-add-on-id/ for more information."
-#~ msgstr ""
-#~ "További információkért lásd a https://extensionworkshop.com/documentation/"
-#~ "develop/extensions-and-the-add-on-id/ oldalt."
+#~ msgid "See https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/ for more information."
+#~ msgstr "További információkért lásd a https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/ oldalt."
 
 #~ msgid "addEventListener` called with truthy fourth argument."
 #~ msgstr "`addEventListener` igaz értékű negyedik argumentummal meghívva."
@@ -1284,12 +948,10 @@ msgstr "/%(fieldName)s: A(z) „%(permissionName)s” nem támogatott."
 #~ msgstr "Megsérti a Mozilla használati feltételeit."
 
 #~ msgid "mozIndexedDB has been removed; use indexedDB instead"
-#~ msgstr ""
-#~ "A mozIndexedDB eltávolításra került, használja helyette az indexedDB-t"
+#~ msgstr "A mozIndexedDB eltávolításra került, használja helyette az indexedDB-t"
 
 #~ msgid "mozIndexedDB has been removed; use indexedDB instead."
-#~ msgstr ""
-#~ "A mozIndexedDB eltávolításra került, használja helyette az indexedDB-t."
+#~ msgstr "A mozIndexedDB eltávolításra került, használja helyette az indexedDB-t."
 
 #~ msgid "mozIndexedDB used as an object key/property"
 #~ msgstr "mozIndexedDB objektumkulcsként/tulajdonságként használva"

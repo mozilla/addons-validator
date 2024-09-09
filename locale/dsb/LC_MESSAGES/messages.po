@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-21 10:05+0000\n"
-"PO-Revision-Date: 2024-07-24 16:33+0000\n"
+"PO-Revision-Date: 2024-09-06 17:18+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: none\n"
 "Language: dsb\n"
@@ -787,7 +787,7 @@ msgstr ""
 
 #: src/messages/manifestjson.js:776
 msgid "Use \"browser_specific_settings\" instead of \"applications\"."
-msgstr ""
+msgstr "Wužywajśo „browser_specific_settings“ město \"applications\"."
 
 #: src/messages/manifestjson.js:777
 msgid "The \"applications\" property in the manifest is deprecated and will no longer be accepted in Manifest Version 3 and above."
@@ -833,11 +833,11 @@ msgstr ""
 
 #: src/messages/manifestjson.js:825
 msgid "The \"admin_install_only\" property is reserved."
-msgstr ""
+msgstr "Kakosć „admin_install_only“ jo rezerwěrowana."
 
 #: src/messages/manifestjson.js:826
 msgid "The \"admin_install_only\" property is reserved and can only be used in enterprise add-ons."
-msgstr ""
+msgstr "Kakosć „admin_install_only“ jo rezerwěrowana a dajo se jano w dodankach za pśedewześa wužywaś."
 
 #: src/messages/manifestjson.js:83
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions %(versionRange)s."
@@ -845,11 +845,11 @@ msgstr "/%(fieldName)s: \"%(permissionName)s\" se w manifestowych wersijach %(ve
 
 #: src/messages/manifestjson.js:833
 msgid "\"/browser_specific_settings/gecko/admin_install_only\" property must be set to \"true\"."
-msgstr ""
+msgstr "Kakosć „/browser_specific_settings/gecko/admin_install_only“ musy se na „true“ stajiś."
 
 #: src/messages/manifestjson.js:835
 msgid "The \"admin_install_only\" property must be set to \"true\" in an enterprise add-on."
-msgstr ""
+msgstr "Kakosć „admin_install_only“ musy se w dodanku za pśedewześa na „true“ stajiś."
 
 #: src/messages/manifestjson.js:85
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported."

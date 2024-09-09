@@ -11,13 +11,13 @@ references:
     working_directory: ~/addons-linter
     docker:
       # This is the NodeJS version we run in production.
-      - image: cimg/node:16.19
+      - image: cimg/node:18.20
 
   defaults-next: &defaults-next
     <<: *defaults
     docker:
       # This is the next NodeJS version we will support.
-      - image: cimg/node:18.15
+      - image: cimg/node:20.17
 
   defaults-alternate: &defaults-alternate
     <<: *defaults
@@ -25,7 +25,7 @@ references:
       # This is an alternate Node version we support or want to support in the
       # (far) future. It can either be lower or higher than the current Node
       # version we run in production.
-      - image: cimg/node:19.6
+      - image: cimg/node:22.7
 
   restore_build_cache: &restore_build_cache
     restore_cache:
