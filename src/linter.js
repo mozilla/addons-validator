@@ -1,6 +1,5 @@
 import path from 'path';
 
-import columnify from 'columnify';
 import chalk from 'chalk';
 import { oneLine } from 'common-tags';
 import { lstat } from 'addons-scanner-utils/dist/io/utils';
@@ -10,7 +9,6 @@ import {
 } from 'addons-scanner-utils/dist/errors';
 import { Directory, Xpi, Crx } from 'addons-scanner-utils/dist/io';
 
-import { terminalWidth } from 'cli';
 import * as constants from 'const';
 import { BANNED_LIBRARIES, UNADVISED_LIBRARIES } from 'libraries';
 import * as messages from 'messages';
@@ -154,104 +152,43 @@ export default class Linter {
     return _JSON.stringify.apply(null, args);
   }
 
-  textOutput(_terminalWidth = terminalWidth) {
-    const maxColumns = _terminalWidth();
+  textOutput() {
     const out = [];
 
     out.push(i18n._('Validation Summary:'));
     out.push('');
-    out.push(
-      columnify(this.output.summary, {
-        showHeaders: false,
-        minWidth: 15,
-      })
-    );
+    Object.entries(this.output.summary).forEach(([key, value]) => {
+      out.push(`${key}: ${value}`);
+    });
     out.push('');
 
     constants.MESSAGE_TYPES.forEach((type) => {
       const messageType = `${type}s`;
       if (this.output[messageType].length) {
-        const outputConfig = {
-          code: {
-            dataTransform: (value) => {
-              return this.colorize(type)(value);
-            },
-            headingTransform: () => {
-              return i18n._('Code');
-            },
-            maxWidth: 35,
-          },
-          message: {
-            headingTransform: () => {
-              return i18n._('Message');
-            },
-            maxWidth: (maxColumns - 35) * 0.25,
-          },
-          description: {
-            headingTransform: () => {
-              return i18n._('Description');
-            },
-            maxWidth: (maxColumns - 35) * 0.5,
-          },
-          file: {
-            headingTransform: () => {
-              return i18n._('File');
-            },
-            maxWidth: (maxColumns - 35) * 0.25,
-          },
-          line: {
-            headingTransform: () => {
-              return i18n._('Line');
-            },
-            maxWidth: 6,
-          },
-          column: {
-            headingTransform: () => {
-              return i18n._('Column');
-            },
-            maxWidth: 6,
-          },
-        };
-
-        const outputColumns = [
-          'code',
-          'message',
-          'description',
-          'file',
-          'line',
-          'column',
-        ];
-
-        // If the terminal is this small we cave and don't size things
-        // contextually anymore.
-        if (maxColumns < 60) {
-          delete outputColumns[outputColumns.indexOf('column')];
-          delete outputConfig.column;
-          delete outputColumns[outputColumns.indexOf('description')];
-          delete outputConfig.description;
-          delete outputColumns[outputColumns.indexOf('line')];
-          delete outputConfig.line;
-
-          outputConfig.message.maxWidth = 15;
-          outputConfig.file.maxWidth = 15;
-        } else if (maxColumns < 78) {
-          delete outputColumns[outputColumns.indexOf('description')];
-          delete outputConfig.description;
-
-          outputConfig.message.maxWidth = (maxColumns - 47) * 0.5;
-          outputConfig.file.maxWidth = (maxColumns - 35) * 0.5;
-        }
-
-        out.push(`${messageType.toUpperCase()}:`);
+        out.push(this.colorize(type)(`${messageType.toUpperCase()}:`));
         out.push('');
-        out.push(
-          columnify(this.output[messageType], {
-            maxWidth: 35,
-            columns: outputColumns,
-            columnSplitter: '   ',
-            config: outputConfig,
-          })
-        );
+
+        const groupedMessages = {};
+        this.output[messageType].forEach((message) => {
+          if (!groupedMessages[message.code]) {
+            groupedMessages[message.code] = [];
+          }
+          groupedMessages[message.code].push(message);
+        });
+
+        Object.entries(groupedMessages).forEach(([code, list]) => {
+          out.push(this.colorize(type)(`  ${code}`));
+          out.push(`  ${list[0].message}`);
+          list.forEach((message) => {
+            const location = message.file
+              ? `${message.file}${message.line ? `:${message.line}` : ''}${
+                  message.column ? `:${message.column}` : ''
+                }`
+              : 'N/A';
+            out.push(`    ${location}`);
+          });
+          out.push('');
+        });
       }
     });
 
