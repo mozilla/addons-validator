@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-21 10:05+0000\n"
+"POT-Creation-Date: 2024-10-09 07:10+0000\n"
 "PO-Revision-Date: 2024-06-24 09:47+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: none\n"
@@ -18,37 +18,39 @@ msgstr ""
 msgid "Validation Summary:"
 msgstr "Përmbledhje Vleftësimi:"
 
-#: src/linter.js:180
+#: src/linter.js:181
 msgid "Code"
 msgstr "Kod"
 
-#: src/linter.js:186
+#: src/linter.js:187
 msgid "Message"
 msgstr "Mesazh"
 
-#: src/linter.js:192
+#: src/linter.js:193
 msgid "Description"
 msgstr "Përshkrim"
 
-#: src/linter.js:198
+#: src/linter.js:199
 msgid "File"
 msgstr "Kartelë"
 
-#: src/linter.js:204
+#: src/linter.js:205
 msgid "Line"
 msgstr "Rresht"
 
-#: src/linter.js:210
+#: src/linter.js:211
 msgid "Column"
 msgstr "Shtyllë"
 
 #: src/linter.js:60
 msgid ""
-"Invalid manifest version range requested: --min-manifest-version (currently set to %(minManifestVersion)s) should not be greater than --max-manifest-version (currently set to "
-"%(maxManifestVersion)s)."
+"Invalid manifest version range requested: --min-manifest-version (currently "
+"set to %(minManifestVersion)s) should not be greater than --max-manifest-"
+"version (currently set to %(maxManifestVersion)s)."
 msgstr ""
-"U kërkua interval i pavlefshëm versionesh manifesti: --min-manifest-version (aktualisht vënë sa %(minManifestVersion)s) s’mund të jetë më i madh se --max-manifest-version (aktualisht vënë sa "
-"%(maxManifestVersion)s)."
+"U kërkua interval i pavlefshëm versionesh manifesti: --min-manifest-version "
+"(aktualisht vënë sa %(minManifestVersion)s) s’mund të jetë më i madh se --"
+"max-manifest-version (aktualisht vënë sa %(maxManifestVersion)s)."
 
 #: src/messages/fluent.js:5
 msgid "Your FTL is not valid."
@@ -63,40 +65,59 @@ msgid "Remote scripts are not allowed as per the Add-on Policies."
 msgstr "Programthet e largët nuk lejohen, siç tregohet te Rregulla Shtesash."
 
 #: src/messages/html.js:13
-msgid "Please include all scripts in the add-on. For more information, refer to https://mzl.la/2uEOkYp."
-msgstr "Ju lutemi, përfshini krejt programthet te shtesa. Për më tepër informacion, shihni https://mzl.la/2uEOkYp."
+msgid ""
+"Please include all scripts in the add-on. For more information, refer to "
+"https://mzl.la/2uEOkYp."
+msgstr ""
+"Ju lutemi, përfshini krejt programthet te shtesa. Për më tepër informacion, "
+"shihni https://mzl.la/2uEOkYp."
 
 #: src/messages/html.js:5
 msgid "Inline scripts blocked by default"
 msgstr "Programthe të brendshëm të bllokuar si parazgjedhje"
 
 #: src/messages/html.js:6
-msgid "Default CSP rules prevent inline JavaScript from running (https://mzl.la/2pn32nd)."
-msgstr "Rregulla parazgjedhje CSP pengojnë xhirim JavaScript të brendshëm (https://mzl.la/2pn32nd)."
+msgid ""
+"Default CSP rules prevent inline JavaScript from running (https://mzl."
+"la/2pn32nd)."
+msgstr ""
+"Rregulla parazgjedhje CSP pengojnë xhirim JavaScript të brendshëm (https://"
+"mzl.la/2pn32nd)."
 
 #: src/messages/javascript.js:100
 msgid "Unadvised 3rd-party JS library"
 msgstr "Librari e pakëshilluar JS prej palësh të treta"
 
 #: src/messages/javascript.js:101
-msgid "Your add-on uses a JavaScript library we do not recommend. Read more: https://bit.ly/1TRIyZY"
-msgstr "Shtesa juaj përdor një bibliotekë JavaScript që nuk e rekomandjmë. Lexoni më tepër: https://bit.ly/1TRIyZY"
+msgid ""
+"Your add-on uses a JavaScript library we do not recommend. Read more: "
+"https://bit.ly/1TRIyZY"
+msgstr ""
+"Shtesa juaj përdor një bibliotekë JavaScript që nuk e rekomandjmë. Lexoni më "
+"tepër: https://bit.ly/1TRIyZY"
 
 #: src/messages/javascript.js:107
 msgid "Known JS library detected"
 msgstr "U pikas librari JS e njohur"
 
 #: src/messages/javascript.js:108
-msgid "JavaScript libraries are discouraged for simple add-ons, but are generally accepted."
-msgstr "Bibliotekat JavaScript nuk parapëlqehen për shtesa të thjeshta, por janë të pranuara, përgjithësisht."
+msgid ""
+"JavaScript libraries are discouraged for simple add-ons, but are generally "
+"accepted."
+msgstr ""
+"Bibliotekat JavaScript nuk parapëlqehen për shtesa të thjeshta, por janë të "
+"pranuara, përgjithësisht."
 
 #: src/messages/javascript.js:116
 msgid ""
-"Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance "
-"degradation."
+"Due to both security and performance concerns, this may not be set using "
+"dynamic values which have not been adequately sanitized. This can lead to "
+"security issues or fairly serious performance degradation."
 msgstr ""
-"Për shkak konsideratash qoftë sigurie, qoftë funksionimi, kjo s’mund të ujdiset duke përdorur vlera dinamike që s’janë sanitarizuar në mënyrë adekuate. Kjo mund të shpjerë në probleme sigurie, ose "
-"degradim goxha serioz të funksionimit."
+"Për shkak konsideratash qoftë sigurie, qoftë funksionimi, kjo s’mund të "
+"ujdiset duke përdorur vlera dinamike që s’janë sanitarizuar në mënyrë "
+"adekuate. Kjo mund të shpjerë në probleme sigurie, ose degradim goxha serioz "
+"të funksionimit."
 
 #: src/messages/javascript.js:125
 msgid "{{api}} is not supported"
@@ -107,8 +128,11 @@ msgid "This API has not been implemented by Firefox."
 msgstr "Kjo API s’është sendërtuar nga Firefox-i."
 
 #: src/messages/javascript.js:132
-msgid "\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` property)"
-msgstr "\"{{api}}\" është hequr te Manifest Version 3 (vetia `manifest_version`)"
+msgid ""
+"\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` "
+"property)"
+msgstr ""
+"\"{{api}}\" është hequr te Manifest Version 3 (vetia `manifest_version`)"
 
 #: src/messages/javascript.js:141
 msgid "{{api}} is deprecated"
@@ -136,11 +160,14 @@ msgstr "“%(api)s” mund të shkaktojë probleme, kur ngarkohet përkohësisht
 
 #: src/messages/javascript.js:165
 msgid ""
-"This API can cause issues when loaded temporarily using about:debugging in Firefox unless you specify \"browser_specific_settings.gecko.id\" in the manifest. Please see: https://mzl.la/2hizK4a for "
-"more."
+"This API can cause issues when loaded temporarily using about:debugging in "
+"Firefox unless you specify \"browser_specific_settings.gecko.id\" in the "
+"manifest. Please see: https://mzl.la/2hizK4a for more."
 msgstr ""
-"Kjo API mund të shkaktojë probleme, kur ngarkohet përkohësisht duke përdorur about:debugging në Firefox, veç në përcaktofshi “browser_specific_settings.gecko.id” te manifesti. Për më tepër, ju "
-"lutemi, shihni: https://mzl.la/2hizK4a."
+"Kjo API mund të shkaktojë probleme, kur ngarkohet përkohësisht duke përdorur "
+"about:debugging në Firefox, veç në përcaktofshi “browser_specific_settings."
+"gecko.id” te manifesti. Për më tepër, ju lutemi, shihni: https://mzl."
+"la/2hizK4a."
 
 #: src/messages/javascript.js:185
 msgid "{{api}} is not supported in Firefox version {{minVersion}}"
@@ -148,15 +175,20 @@ msgstr "{{api}} nuk mbulohet në versionin {{minVersion}} të Firefox-it"
 
 #: src/messages/javascript.js:188
 msgid "This API is not implemented by the given minimum Firefox version"
-msgstr "Kjo API s’është e sendërtuar nga versioni minimum i dhënë për Firefox-in"
+msgstr ""
+"Kjo API s’është e sendërtuar nga versioni minimum i dhënë për Firefox-in"
 
 #: src/messages/javascript.js:196
 msgid "{{api}} is not supported in Firefox for Android version {{minVersion}}"
-msgstr "{{api}} nuk mbulohet në versionin {{minVersion}} të Firefox-it për Android"
+msgstr ""
+"{{api}} nuk mbulohet në versionin {{minVersion}} të Firefox-it për Android"
 
 #: src/messages/javascript.js:199
-msgid "This API is not implemented by the given minimum Firefox for Android version"
-msgstr "Kjo API s’është e sendërtuar nga versioni minimum i dhënë për Firefox-in për Android"
+msgid ""
+"This API is not implemented by the given minimum Firefox for Android version"
+msgstr ""
+"Kjo API s’është e sendërtuar nga versioni minimum i dhënë për Firefox-in për "
+"Android"
 
 #: src/messages/javascript.js:22
 msgid "Content script file name should not be empty."
@@ -171,18 +203,26 @@ msgid "\"%(method)s\" called with a non-literal uri"
 msgstr "“%(method)s” u thirr me një URI jo-literale"
 
 #: src/messages/javascript.js:34
-msgid "Calling \"%(method)s\" with variable parameters can result in potential security vulnerabilities if the variable contains a remote URI. Consider using 'window.open' with the 'chrome=no' flag."
+msgid ""
+"Calling \"%(method)s\" with variable parameters can result in potential "
+"security vulnerabilities if the variable contains a remote URI. Consider "
+"using 'window.open' with the 'chrome=no' flag."
 msgstr ""
-"Thirrja e “%(method)s” me parametra ndryshore mund të rezultojë në cenueshmëri potenciale sigurie, nëse ndryshorja përmban një URI të largët. Shihni mundësinë e përdorimit të 'window.open' me "
-"flamurkën 'chrome=no'."
+"Thirrja e “%(method)s” me parametra ndryshore mund të rezultojë në "
+"cenueshmëri potenciale sigurie, nëse ndryshorja përmban një URI të largët. "
+"Shihni mundësinë e përdorimit të 'window.open' me flamurkën 'chrome=no'."
 
 #: src/messages/javascript.js:45
 msgid "\"%(method)s\" called with non-local URI"
 msgstr "“%(method)s” u thirr me një URI jo lokale"
 
 #: src/messages/javascript.js:49
-msgid "Calling \"%(method)s\" with a non-local URI will result in the dialog being opened with chrome privileges."
-msgstr "Thirrja e “%(method)s” me një URI jo vendore do të sjellë hapjen e dialogut me privilegje “chrome”."
+msgid ""
+"Calling \"%(method)s\" with a non-local URI will result in the dialog being "
+"opened with chrome privileges."
+msgstr ""
+"Thirrja e “%(method)s” me një URI jo vendore do të sjellë hapjen e dialogut "
+"me privilegje “chrome”."
 
 #: src/messages/javascript.js:5
 msgid "JavaScript syntax error"
@@ -190,55 +230,84 @@ msgstr "Gabim sintakse JavaScript"
 
 #: src/messages/javascript.js:6
 msgid ""
-"There is a JavaScript syntax error in your code, which might be related to some experimental JavaScript features that aren't an official part of the language specification and therefore not "
-"supported yet. The validation cannot continue on this file."
+"There is a JavaScript syntax error in your code, which might be related to "
+"some experimental JavaScript features that aren't an official part of the "
+"language specification and therefore not supported yet. The validation "
+"cannot continue on this file."
 msgstr ""
-"Ka një gabim sintakse JavaScript në kodin tuaj, çka mund të jetë i lidhur me ndonjë veçori eksperimentale të JavaScript-it, që s’janë pjesë zyrtare e specifikimeve të gjuhës dhe ndaj nuk mbulohen "
-"ende. Vlerësimi për këtë kartelë nuk mund të vazhdojë."
+"Ka një gabim sintakse JavaScript në kodin tuaj, çka mund të jetë i lidhur me "
+"ndonjë veçori eksperimentale të JavaScript-it, që s’janë pjesë zyrtare e "
+"specifikimeve të gjuhës dhe ndaj nuk mbulohen ende. Vlerësimi për këtë "
+"kartelë nuk mund të vazhdojë."
 
 #: src/messages/javascript.js:62
 msgid ""
-"Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when "
-"at all possible."
+"Evaluation of strings as code can lead to security vulnerabilities and "
+"performance issues, even in the most innocuous of circumstances. Please "
+"avoid using `eval` and the `Function` constructor when at all possible."
 msgstr ""
-"Vlerësimi i vargjeve si kod mund të shpjerë te cenueshmëri sigurie dhe probleme funksionimi, qoftë edhe në rrethana plotësisht të padëmshme. Ju lutemi, shmangni përdorimin e elementëve `eval` dhe "
-"`Function`, kur kjo është e mundur."
+"Vlerësimi i vargjeve si kod mund të shpjerë te cenueshmëri sigurie dhe "
+"probleme funksionimi, qoftë edhe në rrethana plotësisht të padëmshme. Ju "
+"lutemi, shmangni përdorimin e elementëve `eval` dhe `Function`, kur kjo "
+"është e mundur."
 
 #: src/messages/javascript.js:71
-msgid "setTimeout, setInterval and execScript functions should be called only with function expressions as their first argument"
-msgstr "Funksionet setTimeout, setInterval dhe execScript duhen thirrur vetëm me shprehje funksioni si argumenti i parë i tyre"
+msgid ""
+"setTimeout, setInterval and execScript functions should be called only with "
+"function expressions as their first argument"
+msgstr ""
+"Funksionet setTimeout, setInterval dhe execScript duhen thirrur vetëm me "
+"shprehje funksioni si argumenti i parë i tyre"
 
 #: src/messages/javascript.js:78
 msgid "Unexpected global passed as an argument"
 msgstr "U dha si argument një global i papritur"
 
 #: src/messages/javascript.js:79
-msgid "Passing a global as an argument is not recommended. Please make this a var instead."
-msgstr "Nuk rekomandohet përtypja e një globali si të qe një argument. Ju lutemi, bëjeni këtë një ndryshore më mirë."
+msgid ""
+"Passing a global as an argument is not recommended. Please make this a var "
+"instead."
+msgstr ""
+"Nuk rekomandohet përtypja e një globali si të qe një argument. Ju lutemi, "
+"bëjeni këtë një ndryshore më mirë."
 
 #: src/messages/javascript.js:85
 msgid "Use of document.write strongly discouraged."
 msgstr "Përdorimi i document.write shkëshillohet me forcë."
 
 #: src/messages/javascript.js:86
-msgid "document.write will fail in many circumstances when used in extensions, and has potentially severe security repercussions when used improperly. Therefore, it should not be used."
-msgstr "document.write do të dështojë në mjaft rrethana, kur përdoret në zgjerime dhe ka pasoja sigurie potencialisht të rëndat, kur përdoret keq. Ndaj, s’duhet përdorur."
+msgid ""
+"document.write will fail in many circumstances when used in extensions, and "
+"has potentially severe security repercussions when used improperly. "
+"Therefore, it should not be used."
+msgstr ""
+"document.write do të dështojë në mjaft rrethana, kur përdoret në zgjerime "
+"dhe ka pasoja sigurie potencialisht të rëndat, kur përdoret keq. Ndaj, "
+"s’duhet përdorur."
 
 #: src/messages/javascript.js:93
 msgid "Banned 3rd-party JS library"
 msgstr "Librari e ndaluar JS prej palësh të treta"
 
 #: src/messages/javascript.js:94
-msgid "Your add-on uses a JavaScript library we consider unsafe. Read more: https://bit.ly/1TRIyZY"
-msgstr "Shtesa juaj përdor një bibliotekë JavaScript që e konsiderojmë jo të parrezik. Lexoni më tepër: https://bit.ly/1TRIyZY"
+msgid ""
+"Your add-on uses a JavaScript library we consider unsafe. Read more: https://"
+"bit.ly/1TRIyZY"
+msgstr ""
+"Shtesa juaj përdor një bibliotekë JavaScript që e konsiderojmë jo të "
+"parrezik. Lexoni më tepër: https://bit.ly/1TRIyZY"
 
 #: src/messages/json.js:11
 msgid "Your JSON contains block comments."
 msgstr "Kartela juaj JSON përmban komente blloku."
 
 #: src/messages/json.js:12
-msgid "Only line comments (comments beginning with \"//\") are allowed in JSON files. Please remove block comments (comments beginning with \"/*\")"
-msgstr "Në kartela JSON lejohen vetëm komente rreshti (komente që fillojnë me \"//\"). Ju lutemi, hiqni komente blloqesh (komente që fillojnë me \"/*\")"
+msgid ""
+"Only line comments (comments beginning with \"//\") are allowed in JSON "
+"files. Please remove block comments (comments beginning with \"/*\")"
+msgstr ""
+"Në kartela JSON lejohen vetëm komente rreshti (komente që fillojnë me \"//"
+"\"). Ju lutemi, hiqni komente blloqesh (komente që fillojnë me \"/*\")"
 
 #: src/messages/json.js:19
 msgid "Duplicate keys are not allowed in JSON files."
@@ -261,16 +330,24 @@ msgid "Reserved filename found."
 msgstr "U gjet emër kartele i rezervuar."
 
 #: src/messages/layout.js:108
-msgid "Files whose names are reserved have been found in the add-on. Please refrain from using them and rename your files."
-msgstr "Te shtesa u gjetën kartela emrat e të cilave janë të rezervuar. Ju lutemi, hiqni dorë nga përdorimi i tyre dhe riemërtoni kartelat tuaja."
+msgid ""
+"Files whose names are reserved have been found in the add-on. Please refrain "
+"from using them and rename your files."
+msgstr ""
+"Te shtesa u gjetën kartela emrat e të cilave janë të rezervuar. Ju lutemi, "
+"hiqni dorë nga përdorimi i tyre dhe riemërtoni kartelat tuaja."
 
 #: src/messages/layout.js:22
 msgid ""
-"The package is invalid. It may contain entries using invalid characters, as an example using '\\' as a path separator is not allowed in Firefox. Try to recreate your add-on package (ZIP) and make "
-"sure all entries are using '/' as the path separator."
+"The package is invalid. It may contain entries using invalid characters, as "
+"an example using '\\' as a path separator is not allowed in Firefox. Try to "
+"recreate your add-on package (ZIP) and make sure all entries are using '/' "
+"as the path separator."
 msgstr ""
-"Paketa është e pavlefshme. Mund të përmbajë zëra që përdorin shenja të pavlefshme, si shembull, përdorimi i '\\'si ndarës në shtigje nuk lejohet në Firefox. Provoni të rikrijoni paketën e shtesës "
-"tuaj (ZIP) dhe sigurohuni se krejt zërat përdorin '/' si ndarës në shtigje."
+"Paketa është e pavlefshme. Mund të përmbajë zëra që përdorin shenja të "
+"pavlefshme, si shembull, përdorimi i '\\'si ndarës në shtigje nuk lejohet në "
+"Firefox. Provoni të rikrijoni paketën e shtesës tuaj (ZIP) dhe sigurohuni se "
+"krejt zërat përdorin '/' si ndarës në shtigje."
 
 #: src/messages/layout.js:32
 msgid "We were unable to decompress the zip file."
@@ -282,11 +359,13 @@ msgstr "S’u gjet manifest.json"
 
 #: src/messages/layout.js:38
 msgid ""
-"No manifest.json was found at the root of the extension. The package file must be a ZIP of the extension's files themselves, not of the containing directory. See: https://mzl.la/2r2McKv for more on "
-"packaging."
+"No manifest.json was found at the root of the extension. The package file "
+"must be a ZIP of the extension's files themselves, not of the containing "
+"directory. See: https://mzl.la/2r2McKv for more on packaging."
 msgstr ""
-"Në rrënjë të zgjerimit s’u gjet manifest.json. Kartela paketë duhet të jetë një  ZIP e vetë kartelave të zgjerimit, jo e drejtorisë që i përmban. Për më tepër mbi paketimin, shihni: "
-"https://mzl.la/2r2McKv."
+"Në rrënjë të zgjerimit s’u gjet manifest.json. Kartela paketë duhet të jetë "
+"një  ZIP e vetë kartelave të zgjerimit, jo e drejtorisë që i përmban. Për më "
+"tepër mbi paketimin, shihni: https://mzl.la/2r2McKv."
 
 #: src/messages/layout.js:45
 msgid "File is too large to parse."
@@ -294,11 +373,16 @@ msgstr "Kartela është shumë e madhe për t’u përtypur."
 
 #: src/messages/layout.js:47
 msgid ""
-"This file is not binary and is too large to parse. Files larger than %(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists of data out of JavaScript files and into JSON files, "
-"or splitting very large files into smaller ones."
+"This file is not binary and is too large to parse. Files larger than "
+"%(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists "
+"of data out of JavaScript files and into JSON files, or splitting very large "
+"files into smaller ones."
 msgstr ""
-"Kartela s’është dyore dhe është shumë e madhe për t’u analizuar. Kartelat më të mëdha se %(maxFileSizeToParseMB)sMB s’do të analizohen. Shihni mundësinë e kalimit të listave të mëdha të të dhënave "
-"jashtë kartelash JavaScript dhe brenda kartelash JSON, ose ndarjen e kartelave shumë të mëdha në kartela më të vogla."
+"Kartela s’është dyore dhe është shumë e madhe për t’u analizuar. Kartelat më "
+"të mëdha se %(maxFileSizeToParseMB)sMB s’do të analizohen. Shihni mundësinë "
+"e kalimit të listave të mëdha të të dhënave jashtë kartelash JavaScript dhe "
+"brenda kartelash JSON, ose ndarjen e kartelave shumë të mëdha në kartela më "
+"të vogla."
 
 #: src/messages/layout.js:57
 msgid "Hidden file flagged"
@@ -306,9 +390,13 @@ msgstr ""
 
 #: src/messages/layout.js:58
 msgid ""
-"Hidden files complicate the review process and can contain sensitive information about the system that generated the add-on. Please modify the packaging process so that these files aren't included."
+"Hidden files complicate the review process and can contain sensitive "
+"information about the system that generated the add-on. Please modify the "
+"packaging process so that these files aren't included."
 msgstr ""
-"Kartela e fshehura e procesin e shqyrtimit dhe mund të përmbajnë informacion me spec rreth sistemit që prodhoi shtesën. Ju lutemi, ndryshoni procesin e paketimit, që këto kartela të mos përfshihen."
+"Kartela e fshehura e procesin e shqyrtimit dhe mund të përmbajnë informacion "
+"me spec rreth sistemit që prodhoi shtesën. Ju lutemi, ndryshoni procesin e "
+"paketimit, që këto kartela të mos përfshihen."
 
 #: src/messages/layout.js:6
 msgid "Package contains duplicate entries"
@@ -319,12 +407,21 @@ msgid "Flagged filename found"
 msgstr "U gjet emër kartele me probleme"
 
 #: src/messages/layout.js:67 src/messages/layout.js:74
-msgid "Files were found that are either unnecessary or have been included unintentionally. They should be removed."
-msgstr "U gjetën kartela që ose janë të panevojshme, ose janë përfshirë padashur. Duhen hequr."
+msgid ""
+"Files were found that are either unnecessary or have been included "
+"unintentionally. They should be removed."
+msgstr ""
+"U gjetën kartela që ose janë të panevojshme, ose janë përfshirë padashur. "
+"Duhen hequr."
 
 #: src/messages/layout.js:7
-msgid "The package contains multiple entries with the same name. This practice has been banned. Try unzipping and re-zipping your add-on package and try again."
-msgstr "Paketa përmban shumë zëra me të njëjtin emër. Kjo praktikë është ndaluar. Provoni ta çngjeshni dhe ta ngjeshni sërish paketën e shtesës tuaj dhe të riprovoni."
+msgid ""
+"The package contains multiple entries with the same name. This practice has "
+"been banned. Try unzipping and re-zipping your add-on package and try again."
+msgstr ""
+"Paketa përmban shumë zëra me të njëjtin emër. Kjo praktikë është ndaluar. "
+"Provoni ta çngjeshni dhe ta ngjeshni sërish paketën e shtesës tuaj dhe të "
+"riprovoni."
 
 #: src/messages/layout.js:73
 msgid "Flagged file extensions found"
@@ -336,39 +433,60 @@ msgstr "U gjet lloj kartele me probleme"
 
 #: src/messages/layout.js:81
 msgid ""
-"Files whose names end with flagged extensions have been found in the add-on. The extension of these files are flagged because they usually identify binary components. Please see "
-"https://bit.ly/review-policy for more information on the binary content review process."
+"Files whose names end with flagged extensions have been found in the add-on. "
+"The extension of these files are flagged because they usually identify "
+"binary components. Please see https://bit.ly/review-policy for more "
+"information on the binary content review process."
 msgstr ""
-"Te shtesa janë gjetur kartela emrat e të cilave përmbajnë zgjatime me probleme. Zgjatimet e këtyre kartelave janë sinjalizuar ngaqë zakonisht identifikojnë përbërës dyorë. Për më tepër informacion "
-"rreth procesit të shqyrtimit të lëndës dyore, jJu lutemi, shihni https://bit.ly/review-policy."
+"Te shtesa janë gjetur kartela emrat e të cilave përmbajnë zgjatime me "
+"probleme. Zgjatimet e këtyre kartelave janë sinjalizuar ngaqë zakonisht "
+"identifikojnë përbërës dyorë. Për më tepër informacion rreth procesit të "
+"shqyrtimit të lëndës dyore, jJu lutemi, shihni https://bit.ly/review-policy."
 
 #: src/messages/layout.js:90
 msgid "Package already signed"
 msgstr "Paketë tashmë e nënshkruar"
 
 #: src/messages/layout.js:91
-msgid "Add-ons which are already signed will be re-signed when published on AMO. This will replace any existing signatures on the add-on."
-msgstr "Shtesat të cilat janë nënshkruar tashmë do të rinënshkruhen, kur të botohen në AMO. Kjo do të zëvendësojë çfarëdo nënshkrimesh ekzistuese mbi shtesën."
+msgid ""
+"Add-ons which are already signed will be re-signed when published on AMO. "
+"This will replace any existing signatures on the add-on."
+msgstr ""
+"Shtesat të cilat janë nënshkruar tashmë do të rinënshkruhen, kur të botohen "
+"në AMO. Kjo do të zëvendësojë çfarëdo nënshkrimesh ekzistuese mbi shtesën."
 
 #: src/messages/layout.js:98
 msgid "Firefox add-ons are not allowed to run coin miners."
 msgstr "Shtesat Firefox nuk janë të lejuara të xhirojnë nxjerrës monedhash."
 
 #: src/messages/layout.js:99
-msgid "We do not allow coinminer scripts to be run inside WebExtensions. See https://github.com/mozilla/addons-linter/issues/1643 for more details."
-msgstr "Nuk lejojmë nxjerrës kriptomonedhash të xhirojnë brenda WebExtensions. Për më tepër hollësi, shihni https://github.com/mozilla/addons-linter/issues/1643."
+msgid ""
+"We do not allow coinminer scripts to be run inside WebExtensions. See "
+"https://github.com/mozilla/addons-linter/issues/1643 for more details."
+msgstr ""
+"Nuk lejojmë nxjerrës kriptomonedhash të xhirojnë brenda WebExtensions. Për "
+"më tepër hollësi, shihni https://github.com/mozilla/addons-linter/"
+"issues/1643."
 
 #: src/messages/locale-messagesjson.js:13
 msgid "String name is reserved for a predefined message"
 msgstr "Emri i vargut është i rezervuar për një mesazh të paracaktuar"
 
 #: src/messages/locale-messagesjson.js:14
-msgid "String names starting with @@ get translated to built-in constants (https://mzl.la/2BL9ZjE)."
-msgstr "Emra vargjesh që fillojnë me @@ përkthehen si konstante të brendshme (https://mzl.la/2BL9ZjE)."
+msgid ""
+"String names starting with @@ get translated to built-in constants (https://"
+"mzl.la/2BL9ZjE)."
+msgstr ""
+"Emra vargjesh që fillojnë me @@ përkthehen si konstante të brendshme "
+"(https://mzl.la/2BL9ZjE)."
 
 #: src/messages/locale-messagesjson.js:21
-msgid "String name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2Eztyi5)."
-msgstr "Emri i vargut duhet të përmbajë vetëm shenja alfa-numerike, _ dhe @ (https://mzl.la/2Eztyi5)."
+msgid ""
+"String name should only contain alpha-numeric characters, _ and @ (https://"
+"mzl.la/2Eztyi5)."
+msgstr ""
+"Emri i vargut duhet të përmbajë vetëm shenja alfa-numerike, _ dhe @ (https://"
+"mzl.la/2Eztyi5)."
 
 #: src/messages/locale-messagesjson.js:27
 msgid "Placeholder for message is missing"
@@ -383,56 +501,76 @@ msgid "Placeholder name contains invalid characters"
 msgstr "Emri i vendmbajtëses përmban shenja të pavlefshme"
 
 #: src/messages/locale-messagesjson.js:34
-msgid "Placeholder name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2ExbYez)."
-msgstr "Emrat e vendmbajtëseve duhet të përmbajnë vetëm shenja alfa-numerike, _ dhe @ (https://mzl.la/2ExbYez)."
+msgid ""
+"Placeholder name should only contain alpha-numeric characters, _ and @ "
+"(https://mzl.la/2ExbYez)."
+msgstr ""
+"Emrat e vendmbajtëseve duhet të përmbajnë vetëm shenja alfa-numerike, _ dhe "
+"@ (https://mzl.la/2ExbYez)."
 
 #: src/messages/locale-messagesjson.js:40
 msgid "Placeholder is missing the content property"
 msgstr "Mungon vendmbajtëse te veti lënde"
 
 #: src/messages/locale-messagesjson.js:41
-msgid "A placeholder needs a content property defining the replacement of it (https://mzl.la/2DT1MQd)"
-msgstr "Një vendmbajtëse lyp një lëndë që përkufizon si duhet zëvendësimin e saj (https://mzl.la/2DT1MQd)"
+msgid ""
+"A placeholder needs a content property defining the replacement of it "
+"(https://mzl.la/2DT1MQd)"
+msgstr ""
+"Një vendmbajtëse lyp një lëndë që përkufizon si duhet zëvendësimin e saj "
+"(https://mzl.la/2DT1MQd)"
 
 #: src/messages/locale-messagesjson.js:5
 msgid "Translation string is missing the message property"
 msgstr "Mungon varg përkthimi te veti mesazhi"
 
 #: src/messages/locale-messagesjson.js:6
-msgid "No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
-msgstr "S’ka të caktuar veti mesazhi \"message\" për një varg (https://mzl.la/2DSBTjA)."
+msgid ""
+"No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
+msgstr ""
+"S’ka të caktuar veti mesazhi \"message\" për një varg (https://mzl."
+"la/2DSBTjA)."
 
 #: src/messages/manifestjson.js:10
 msgid "The field is required."
 msgstr "Fusha është e domosdoshme."
 
-#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110 src/messages/manifestjson.js:118
+#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110
+#: src/messages/manifestjson.js:118
 msgid "The permission type is unsupported."
 msgstr "Lloji i lejes është i pambuluar."
 
 #: src/messages/manifestjson.js:103 src/messages/manifestjson.js:128
 msgid "See https://mzl.la/1R1n1t0 (MDN Docs) for more information."
-msgstr "Për më tepër të dhëna, shihni https://mzl.la/1R1n1t0 (Dokumentim te MDN)."
+msgstr ""
+"Për më tepër të dhëna, shihni https://mzl.la/1R1n1t0 (Dokumentim te MDN)."
 
 #: src/messages/manifestjson.js:11 src/messages/manifestjson.js:20
 msgid "See https://mzl.la/1ZOhoEN (MDN Docs) for more information."
-msgstr "Për më tepër informacion, shihni te https://mzl.la/1ZOhoEN (Dokumentim MDN)."
+msgstr ""
+"Për më tepër informacion, shihni te https://mzl.la/1ZOhoEN (Dokumentim MDN)."
 
 #: src/messages/manifestjson.js:111 src/messages/manifestjson.js:157
 msgid "See https://mzl.la/2Qn0fWC (MDN Docs) for more information."
-msgstr "Për më tepër hollësi, shihni https://mzl.la/2Qn0fWC (Dokumentin te MDN)."
+msgstr ""
+"Për më tepër hollësi, shihni https://mzl.la/2Qn0fWC (Dokumentin te MDN)."
 
 #: src/messages/manifestjson.js:119 src/messages/manifestjson.js:166
 msgid "See https://mzl.la/3Woeqv4 (MDN Docs) for more information."
-msgstr "Për më tepër hollësi, shihni https://mzl.la/3Woeqv4 (Dokumentim te MDN)."
+msgstr ""
+"Për më tepër hollësi, shihni https://mzl.la/3Woeqv4 (Dokumentim te MDN)."
 
 #: src/messages/manifestjson.js:127 src/messages/manifestjson.js:156
 msgid "Unknown permission."
 msgstr "Leje e panjohur."
 
 #: src/messages/manifestjson.js:138
-msgid "%(instancePath)s: the following privileged permissions are only allowed in privileged extensions: %(privilegedPermissions)s."
-msgstr "%(instancePath)s: lejet vijuese të privilegjuara lejohen vetëm bë zgjerime të privilegjuara: %(privilegedPermissions)s."
+msgid ""
+"%(instancePath)s: the following privileged permissions are only allowed in "
+"privileged extensions: %(privilegedPermissions)s."
+msgstr ""
+"%(instancePath)s: lejet vijuese të privilegjuara lejohen vetëm bë zgjerime "
+"të privilegjuara: %(privilegedPermissions)s."
 
 #: src/messages/manifestjson.js:165
 msgid "Invalid host permission."
@@ -443,8 +581,13 @@ msgid "Invalid install origin."
 msgstr "Origjinë instalimi e panjohur."
 
 #: src/messages/manifestjson.js:175
-msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
-msgstr "Origjinë e pavlefshme instalimi. Një origjinë e vlefshme përmban - vetëm - një skemë, strehëemër dhe portë (në daçi). Për më tepër hollësi, shihni https://mzl.la/3TEbqbE (Dokumentim MDN)."
+msgid ""
+"Invalid install origin. A valid origin has - only - a scheme, hostname and "
+"optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
+msgstr ""
+"Origjinë e pavlefshme instalimi. Një origjinë e vlefshme përmban - vetëm - "
+"një skemë, strehëemër dhe portë (në daçi). Për më tepër hollësi, shihni "
+"https://mzl.la/3TEbqbE (Dokumentim MDN)."
 
 #: src/messages/manifestjson.js:183
 msgid "\"manifest_version\" in the manifest.json is not a valid value"
@@ -452,7 +595,8 @@ msgstr "\"manifest_version\" te manifest.json s’është vlerë e vlefshme"
 
 #: src/messages/manifestjson.js:186
 msgid "See https://mzl.la/20PenXl (MDN Docs) for more information."
-msgstr "Për më tepër të dhëna, shihni https://mzl.la/20PenXl (Dokumentim te MDN)."
+msgstr ""
+"Për më tepër të dhëna, shihni https://mzl.la/20PenXl (Dokumentim te MDN)."
 
 #: src/messages/manifestjson.js:19
 msgid "The field is invalid."
@@ -467,44 +611,70 @@ msgid "A custom \"%(property)s\" needs additional review."
 msgstr "Një “%(property)s” vetjake lyp shqyrtim shtesë."
 
 #: src/messages/manifestjson.js:215
-msgid "\"%(property)s\" allows 'eval', which has strong security and performance implications."
-msgstr "\"%(property)s\" lejon 'eval', çka ka implikime të forta sigurie dhe funksionimi."
+msgid ""
+"\"%(property)s\" allows 'eval', which has strong security and performance "
+"implications."
+msgstr ""
+"\"%(property)s\" lejon 'eval', çka ka implikime të forta sigurie dhe "
+"funksionimi."
 
 #: src/messages/manifestjson.js:219
-msgid "In most cases the same result can be achieved differently, therefore it is generally prohibited"
-msgstr "Në shumicën e rasteve, i njëjti përfundim mund të arrihet ndryshe, ndaj përgjithësisht ndalohet"
+msgid ""
+"In most cases the same result can be achieved differently, therefore it is "
+"generally prohibited"
+msgstr ""
+"Në shumicën e rasteve, i njëjti përfundim mund të arrihet ndryshe, ndaj "
+"përgjithësisht ndalohet"
 
 #: src/messages/manifestjson.js:227
-msgid "The \"name\" property must be a string with no leading/trailing whitespaces."
-msgstr "Vetia \"name\" duhet të jetë një varg pa hapësirë paraprijëse apo në fund të tij."
+msgid ""
+"The \"name\" property must be a string with no leading/trailing whitespaces."
+msgstr ""
+"Vetia \"name\" duhet të jetë një varg pa hapësirë paraprijëse apo në fund të "
+"tij."
 
 #: src/messages/manifestjson.js:230
 msgid "See http://mzl.la/1STmr48 (MDN Docs) for more information."
-msgstr "Për më tepër të dhëna, shihni http://mzl.la/1STmr48 (Dokumentim te MDN)."
+msgstr ""
+"Për më tepër të dhëna, shihni http://mzl.la/1STmr48 (Dokumentim te MDN)."
 
 #: src/messages/manifestjson.js:238
 msgid "\"update_url\" is not allowed."
 msgstr "\"update_url\" nuk lejohet."
 
 #: src/messages/manifestjson.js:239
-msgid "\"applications.gecko.update_url\" or \"browser_specific_settings.gecko.update_url\" are not allowed for Mozilla-hosted add-ons."
-msgstr "\"applications.gecko.update_url\" ose \"browser_specific_settings.gecko.update_url\" nuk lejohen për shtesa të strehuara nga Mozilla."
+msgid ""
+"\"applications.gecko.update_url\" or \"browser_specific_settings.gecko."
+"update_url\" are not allowed for Mozilla-hosted add-ons."
+msgstr ""
+"\"applications.gecko.update_url\" ose \"browser_specific_settings.gecko."
+"update_url\" nuk lejohen për shtesa të strehuara nga Mozilla."
 
 #: src/messages/manifestjson.js:248
 msgid "The \"update_url\" property is not used by Firefox."
 msgstr "Vetia \"update_url\" nuk përdoret nga Firefox-i."
 
 #: src/messages/manifestjson.js:249
-msgid "The \"update_url\" is not used by Firefox in the root of a manifest; your add-on will be updated via the Add-ons site and not your \"update_url\". See: https://mzl.la/25zqk4O"
-msgstr "\"update_url\" s’përdoret nga Firefox-i te rrënja e një manifesti; shtesa juaj do të përditësohet përmes sajtit Shtesa dhe jo përmes \"update_url\" tuaj. Shihni: https://mzl.la/25zqk4O"
+msgid ""
+"The \"update_url\" is not used by Firefox in the root of a manifest; your "
+"add-on will be updated via the Add-ons site and not your \"update_url\". "
+"See: https://mzl.la/25zqk4O"
+msgstr ""
+"\"update_url\" s’përdoret nga Firefox-i te rrënja e një manifesti; shtesa "
+"juaj do të përditësohet përmes sajtit Shtesa dhe jo përmes \"update_url\" "
+"tuaj. Shihni: https://mzl.la/25zqk4O"
 
 #: src/messages/manifestjson.js:257
 msgid "\"strict_max_version\" not required."
 msgstr "\"strict_max_version\" jo i domosdoshëm."
 
 #: src/messages/manifestjson.js:258
-msgid "\"strict_max_version\" shouldn't be used unless the add-on is expected not to work with future versions of Firefox."
-msgstr "S’duhet përdorur \"strict_max_version\", veç nëse pritet që shtesa të mos funksionojë me versione të ardhshëm të Firefox-it."
+msgid ""
+"\"strict_max_version\" shouldn't be used unless the add-on is expected not "
+"to work with future versions of Firefox."
+msgstr ""
+"S’duhet përdorur \"strict_max_version\", veç nëse pritet që shtesa të mos "
+"funksionojë me versione të ardhshëm të Firefox-it."
 
 #: src/messages/manifestjson.js:267
 msgid "No \"%(property)s\" property found in manifest.json"
@@ -551,31 +721,44 @@ msgid "A content script css file defined in the manifest could not be found."
 msgstr "S’u gjet dot kartelë CSS programthi lënde të përkufizuar te manifesti."
 
 #: src/messages/manifestjson.js:330
-msgid "Content script defined in the manifest could not be found at \"%(path)s\"."
-msgstr "Te \"%(path)s\" s’u gjet dot programth lënde i përkufizuar te manifesti."
+msgid ""
+"Content script defined in the manifest could not be found at \"%(path)s\"."
+msgstr ""
+"Te \"%(path)s\" s’u gjet dot programth lënde i përkufizuar te manifesti."
 
 #: src/messages/manifestjson.js:333
-msgid "Content script css file defined in the manifest could not be found at \"%(path)s\"."
-msgstr "Te \"%(path)s\" s’u gjet dot kartelë CSS programthi lënde të përkufizuar te manifesti."
+msgid ""
+"Content script css file defined in the manifest could not be found at "
+"\"%(path)s\"."
+msgstr ""
+"Te \"%(path)s\" s’u gjet dot kartelë CSS programthi lënde të përkufizuar te "
+"manifesti."
 
 #: src/messages/manifestjson.js:347
 msgid "A dictionary file defined in the manifest could not be found."
 msgstr "S’u gjet dot një kartelë fjalori e përkufizuar te manifesti."
 
 #: src/messages/manifestjson.js:35
-msgid "\"%(fieldName)s\" manifest field is only used for privileged and temporarily installed extensions."
-msgstr "Fusha \"%(fieldName)s\" e manifestit përdoret vetëm për zgjerime të privilegjuara dhe të instaluara përkohësisht."
+msgid ""
+"\"%(fieldName)s\" manifest field is only used for privileged and temporarily "
+"installed extensions."
+msgstr ""
+"Fusha \"%(fieldName)s\" e manifestit përdoret vetëm për zgjerime të "
+"privilegjuara dhe të instaluara përkohësisht."
 
 #: src/messages/manifestjson.js:351
-msgid "Dictionary file defined in the manifest could not be found at \"%(path)s\"."
-msgstr "Te \"%(path)s\" s’u gjet dot kartelë fjalori e përkufizuar te manifesti."
+msgid ""
+"Dictionary file defined in the manifest could not be found at \"%(path)s\"."
+msgstr ""
+"Te \"%(path)s\" s’u gjet dot kartelë fjalori e përkufizuar te manifesti."
 
 #: src/messages/manifestjson.js:363
 msgid "The manifest contains multiple dictionaries."
 msgstr "Manifesti përmban fjalorë të shumtë."
 
 #: src/messages/manifestjson.js:364
-msgid "Multiple dictionaries were defined in the manifest, which is unsupported."
+msgid ""
+"Multiple dictionaries were defined in the manifest, which is unsupported."
 msgstr "Në manifest janë përkufizuar fjalorë të shumtë, gjë që nuk mbulohet."
 
 #: src/messages/manifestjson.js:373
@@ -603,8 +786,12 @@ msgid "This add-on contains forbidden content."
 msgstr "Kjo shtesë përmban lëndë të ndaluar."
 
 #: src/messages/manifestjson.js:4
-msgid "Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn more about privileged extensions and signing."
-msgstr "Ju lutemi, për të mësuar më tepër rreth zgjerimesh të privilegjuara dhe nënshkrim, shihni https://github.com/mozilla-extensions/xpi-manifest."
+msgid ""
+"Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn "
+"more about privileged extensions and signing."
+msgstr ""
+"Ju lutemi, për të mësuar më tepër rreth zgjerimesh të privilegjuara dhe "
+"nënshkrim, shihni https://github.com/mozilla-extensions/xpi-manifest."
 
 #: src/messages/manifestjson.js:405
 msgid "Icons must be square."
@@ -619,8 +806,12 @@ msgid "The size of the icon does not match the manifest."
 msgstr "Madhësia e ikonës nuk përputhet me atë në manifest."
 
 #: src/messages/manifestjson.js:419
-msgid "Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was %(actual)d."
-msgstr "Pritej që ikona te “%(path)s” të ishte %(expected)d piksela e gjerë, por qe %(actual)d."
+msgid ""
+"Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was "
+"%(actual)d."
+msgstr ""
+"Pritej që ikona te “%(path)s” të ishte %(expected)d piksela e gjerë, por qe "
+"%(actual)d."
 
 #: src/messages/manifestjson.js:432
 msgid "Corrupt image file"
@@ -640,7 +831,8 @@ msgstr "Ky alias LWT teme është hequr në Firefox 70."
 
 #: src/messages/manifestjson.js:451
 msgid "See https://mzl.la/2T11Lkc (MDN Docs) for more information."
-msgstr "Për më tepër të dhëna, shihni https://mzl.la/2T11Lkc (Dokumentim te MDN)."
+msgstr ""
+"Për më tepër të dhëna, shihni https://mzl.la/2T11Lkc (Dokumentim te MDN)."
 
 #: src/messages/manifestjson.js:466
 msgid "Theme image for \"%(type)s\" could not be found at \"%(path)s\""
@@ -655,7 +847,8 @@ msgid "Theme image file at \"%(path)s\" is corrupted"
 msgstr "Kartela e figurës së temës te \"%(path)s\" është e dëmtuar"
 
 #: src/messages/manifestjson.js:49
-msgid "\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
+msgid ""
+"\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
 msgstr "\"%(fieldName)s\" nuk mbulohet në versione manifesti %(versionRange)s."
 
 #: src/messages/manifestjson.js:490
@@ -664,15 +857,20 @@ msgstr "Kartela e figurës së temës ka një zgjerim të pambuluar kartelash"
 
 #: src/messages/manifestjson.js:492
 msgid "Theme image file at \"%(path)s\" has an unsupported file extension"
-msgstr "Kartela e figurës së temës te \"%(path)s\" ka një zgjerim të pambuluar kartelash"
+msgstr ""
+"Kartela e figurës së temës te \"%(path)s\" ka një zgjerim të pambuluar "
+"kartelash"
 
 #: src/messages/manifestjson.js:506
 msgid "Theme image file has an unsupported mime type"
 msgstr "Kartela e figurës së temës ka një lloj MIME të pambuluar"
 
 #: src/messages/manifestjson.js:508
-msgid "Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
-msgstr "Kartela e figurës së temës te \"%(path)s\" ka një lloj MIME \"%(mime)s\" të pambuluar"
+msgid ""
+"Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
+msgstr ""
+"Kartela e figurës së temës te \"%(path)s\" ka një lloj MIME \"%(mime)s\" të "
+"pambuluar"
 
 #: src/messages/manifestjson.js:51
 msgid "\"%(fieldName)s\" is not supported."
@@ -680,27 +878,42 @@ msgstr "\"%(fieldName)s\" nuk mbulohet."
 
 #: src/messages/manifestjson.js:522
 msgid "Theme image file mime type does not match its file extension"
-msgstr "Lloji MIME i kartelës së figurës së temës nuk përputhet me zgjatimin e vet të kartelës"
+msgstr ""
+"Lloji MIME i kartelës së figurës së temës nuk përputhet me zgjatimin e vet "
+"të kartelës"
 
 #: src/messages/manifestjson.js:526
-msgid "Theme image file extension at \"%(path)s\" does not match its actual mime type \"%(mime)s\""
-msgstr "Zgjatimi i kartelës së figurës së temës te \"%(path)s\" nuk përputhet me llojin e vet aktual MIME \"%(mime)s\""
+msgid ""
+"Theme image file extension at \"%(path)s\" does not match its actual mime "
+"type \"%(mime)s\""
+msgstr ""
+"Zgjatimi i kartelës së figurës së temës te \"%(path)s\" nuk përputhet me "
+"llojin e vet aktual MIME \"%(mime)s\""
 
 #: src/messages/manifestjson.js:539
 msgid "The \"default_locale\" is missing localizations."
 msgstr "\"default_locale\" i mungojnë përkthime."
 
 #: src/messages/manifestjson.js:540
-msgid "The \"default_locale\" value is specified in the manifest, but no matching \"messages.json\" in the \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
-msgstr "Vlera “default_locale” specifikohet te manifesti, por s’ekzistojnë “messages.json” me përputhje te drejtoria “_locales”. Shihni: https://mzl.la/2hjcaEE"
+msgid ""
+"The \"default_locale\" value is specified in the manifest, but no matching "
+"\"messages.json\" in the \"_locales\" directory exists. See: https://mzl."
+"la/2hjcaEE"
+msgstr ""
+"Vlera “default_locale” specifikohet te manifesti, por s’ekzistojnë “messages."
+"json” me përputhje te drejtoria “_locales”. Shihni: https://mzl.la/2hjcaEE"
 
 #: src/messages/manifestjson.js:548
 msgid "The \"default_locale\" is missing but \"_locales\" exist."
 msgstr "\"default_locale\" mungon, por \"_locales\" ekziston."
 
 #: src/messages/manifestjson.js:549
-msgid "The \"default_locale\" value is not specifed in the manifest, but a \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
-msgstr "Vlera “default_locale” nuk specifikohet te manifesti, por ekziston një drejtori “_locales”. Shihni: https://mzl.la/2hjcaEE"
+msgid ""
+"The \"default_locale\" value is not specifed in the manifest, but a "
+"\"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
+msgstr ""
+"Vlera “default_locale” nuk specifikohet te manifesti, por ekziston një "
+"drejtori “_locales”. Shihni: https://mzl.la/2hjcaEE"
 
 #: src/messages/manifestjson.js:557
 msgid "Unsupported image extension"
@@ -711,12 +924,21 @@ msgid "Icons should be one of JPG/JPEG, WebP, GIF, PNG or SVG."
 msgstr "Ikonat duhet të jenë JPG/JPEG, WebP, GIF, PNG ose SVG."
 
 #: src/messages/manifestjson.js:566
-msgid "\"applications\" property overridden by \"browser_specific_settings\" property"
-msgstr "Vetia “applications” e anashkaluar nga vetia “browser_specific_settings”"
+msgid ""
+"\"applications\" property overridden by \"browser_specific_settings\" "
+"property"
+msgstr ""
+"Vetia “applications” e anashkaluar nga vetia “browser_specific_settings”"
 
 #: src/messages/manifestjson.js:569
-msgid "The \"applications\" property is being ignored because it is superseded by the \"browser_specific_settings\" property which is also defined in your manifest. Consider removing applications."
-msgstr "Vetia \"applications\" po shpërfillet, ngaqë anashkalohet nga vetia \"browser_specific_settings\", e cila është përkufizuar në manifestin tuaj edhe kjo. Shihni mundësinë e heqjes së aplikacioneve."
+msgid ""
+"The \"applications\" property is being ignored because it is superseded by "
+"the \"browser_specific_settings\" property which is also defined in your "
+"manifest. Consider removing applications."
+msgstr ""
+"Vetia \"applications\" po shpërfillet, ngaqë anashkalohet nga vetia "
+"\"browser_specific_settings\", e cila është përkufizuar në manifestin tuaj "
+"edhe kjo. Shihni mundësinë e heqjes së aplikacioneve."
 
 #: src/messages/manifestjson.js:579
 msgid "Empty language directory"
@@ -728,49 +950,84 @@ msgstr "Mungon kartelë messages.json te \"%(path)s\""
 
 #: src/messages/manifestjson.js:597
 msgid "Manifest key not supported by the specified minimum Firefox version"
-msgstr "Zë manifesti i pambuluar nga versioni minimum i specifikuar për Firefox-in"
+msgstr ""
+"Zë manifesti i pambuluar nga versioni minimum i specifikuar për Firefox-in"
 
 #: src/messages/manifestjson.js:601 src/messages/manifestjson.js:623
-msgid "\"strict_min_version\" requires Firefox %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
-msgstr "\"strict_min_version\" lyp Firefox %(minVersion)s, i cili qe hedhur në qarkullim para se versioni %(versionAdded)s të sillte për herë të parë mbulim për \"%(key)s\"."
+msgid ""
+"\"strict_min_version\" requires Firefox %(minVersion)s, which was released "
+"before version %(versionAdded)s introduced support for \"%(key)s\"."
+msgstr ""
+"\"strict_min_version\" lyp Firefox %(minVersion)s, i cili qe hedhur në "
+"qarkullim para se versioni %(versionAdded)s të sillte për herë të parë "
+"mbulim për \"%(key)s\"."
 
 #: src/messages/manifestjson.js:619
 msgid "Permission not supported by the specified minimum Firefox version"
 msgstr "Leje e pambuluar nga versioni minimum i specifikuar për Firefox-in"
 
 #: src/messages/manifestjson.js:64
-msgid "%(instancePath)s: privileged manifest fields are only allowed in privileged extensions."
-msgstr "%(instancePath)s: fusha të privilegjuara manifesti lejohen vetëm në zgjerime të privilegjuara."
+msgid ""
+"%(instancePath)s: privileged manifest fields are only allowed in privileged "
+"extensions."
+msgstr ""
+"%(instancePath)s: fusha të privilegjuara manifesti lejohen vetëm në zgjerime "
+"të privilegjuara."
 
 #: src/messages/manifestjson.js:641
-msgid "Manifest key not supported by the specified minimum Firefox for Android version"
-msgstr "Zë manifesti i pambuluar nga versioni minimum i specifikuar për Firefox-in për Android"
+msgid ""
+"Manifest key not supported by the specified minimum Firefox for Android "
+"version"
+msgstr ""
+"Zë manifesti i pambuluar nga versioni minimum i specifikuar për Firefox-in "
+"për Android"
 
 #: src/messages/manifestjson.js:645 src/messages/manifestjson.js:667
-msgid "\"strict_min_version\" requires Firefox for Android %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
-msgstr "\"strict_min_version\" lyp Firefox për Android %(minVersion)s, i cili qe hedhur në qarkullim para se versioni %(versionAdded)s të sillte për herë të parë mbulim për \"%(key)s\"."
+msgid ""
+"\"strict_min_version\" requires Firefox for Android %(minVersion)s, which "
+"was released before version %(versionAdded)s introduced support for "
+"\"%(key)s\"."
+msgstr ""
+"\"strict_min_version\" lyp Firefox për Android %(minVersion)s, i cili qe "
+"hedhur në qarkullim para se versioni %(versionAdded)s të sillte për herë të "
+"parë mbulim për \"%(key)s\"."
 
 #: src/messages/manifestjson.js:663
-msgid "Permission not supported by the specified minimum Firefox for Android version"
-msgstr "Leje e pambuluar nga versioni minimum i specifikuar për Firefox-in për Android"
+msgid ""
+"Permission not supported by the specified minimum Firefox for Android version"
+msgstr ""
+"Leje e pambuluar nga versioni minimum i specifikuar për Firefox-in për "
+"Android"
 
 #: src/messages/manifestjson.js:678
 msgid "Linking to \"addons.mozilla.org\" is not allowed"
 msgstr "Nuk lejohet krijim lidhjesh për te “addons.mozilla.org”"
 
 #: src/messages/manifestjson.js:679
-msgid "Links directing to \"addons.mozilla.org\" are not allowed to be used for homepage"
-msgstr "Lidhje që shpien te “addons.mozilla.org” nuk lejohen të përdoren për faqe hyrëse"
+msgid ""
+"Links directing to \"addons.mozilla.org\" are not allowed to be used for "
+"homepage"
+msgstr ""
+"Lidhje që shpien te “addons.mozilla.org” nuk lejohen të përdoren për faqe "
+"hyrëse"
 
 #: src/messages/manifestjson.js:691
-msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above"
-msgstr "Leja \"%(permission)s\" lyp që \"strict_min_version\" të vihet si \"%(minFirefoxVersion)s\" e sipër"
+msgid ""
+"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
+"to \"%(minFirefoxVersion)s\" or above"
+msgstr ""
+"Leja \"%(permission)s\" lyp që \"strict_min_version\" të vihet si "
+"\"%(minFirefoxVersion)s\" e sipër"
 
 #: src/messages/manifestjson.js:696
-msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json version to specify a minimum Firefox version."
+msgid ""
+"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
+"to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json "
+"version to specify a minimum Firefox version."
 msgstr ""
-"Leja \"%(permission)s\" lyp që \"strict_min_version\" të vihet si \"%(minFirefoxVersion)s\" e sipër. Ju lutemi, përditësoni versionin e manifest.json tuaj, ër të specifikuar një version minimum "
-"Firefox-i."
+"Leja \"%(permission)s\" lyp që \"strict_min_version\" të vihet si "
+"\"%(minFirefoxVersion)s\" e sipër. Ju lutemi, përditësoni versionin e "
+"manifest.json tuaj, ër të specifikuar një version minimum Firefox-i."
 
 #: src/messages/manifestjson.js:708
 msgid "The extension ID is required in Manifest Version 3 and above."
@@ -781,31 +1038,55 @@ msgid "See https://mzl.la/3PLZYdo for more information."
 msgstr "Për më tepër të dhëna, shihni https://mzl.la/3PLZYdo ."
 
 #: src/messages/manifestjson.js:717
-msgid "%(instancePath)s: Privileged extensions should declare privileged permissions."
-msgstr "%(instancePath)s: Zgjerime të privilegjuara duhet të deklarojnë leje të privilegjuara."
+msgid ""
+"%(instancePath)s: Privileged extensions should declare privileged "
+"permissions."
+msgstr ""
+"%(instancePath)s: Zgjerime të privilegjuara duhet të deklarojnë leje të "
+"privilegjuara."
 
 #: src/messages/manifestjson.js:728
-msgid "This extension does not declare any privileged permission. It does not need to be signed with the privileged certificate. Please upload it directly to https://addons.mozilla.org/."
-msgstr "Ky zgjerim nuk deklaron ndonjë leje të privilegjuar. S’është nevoja të nënshkruhet me dëshminë e privilegjuar. Ju lutemi, ngarkojeni drejtpërsëdrejti te https://addons.mozilla.org/."
+msgid ""
+"This extension does not declare any privileged permission. It does not need "
+"to be signed with the privileged certificate. Please upload it directly to "
+"https://addons.mozilla.org/."
+msgstr ""
+"Ky zgjerim nuk deklaron ndonjë leje të privilegjuar. S’është nevoja të "
+"nënshkruhet me dëshminë e privilegjuar. Ju lutemi, ngarkojeni "
+"drejtpërsëdrejti te https://addons.mozilla.org/."
 
 #: src/messages/manifestjson.js:741
-msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for privileged extensions."
-msgstr "%(instancePath)s: Leja “mozillaAddons” është e domosdoshme për zgjerime të privilegjuar."
+msgid ""
+"%(instancePath)s: The \"mozillaAddons\" permission is required for "
+"privileged extensions."
+msgstr ""
+"%(instancePath)s: Leja “mozillaAddons” është e domosdoshme për zgjerime të "
+"privilegjuar."
 
 #: src/messages/manifestjson.js:744
-msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for extensions that include privileged manifest fields."
-msgstr "%(instancePath)s: Leja \"mozillaAddons\" është e domosdoshme për zgjerime që përfshijnë fusha të privilegjuara manifesti."
+msgid ""
+"%(instancePath)s: The \"mozillaAddons\" permission is required for "
+"extensions that include privileged manifest fields."
+msgstr ""
+"%(instancePath)s: Leja \"mozillaAddons\" është e domosdoshme për zgjerime që "
+"përfshijnë fusha të privilegjuara manifesti."
 
 #: src/messages/manifestjson.js:757
-msgid "This extension does not include the \"mozillaAddons\" permission, which is required for privileged extensions."
-msgstr "Ky zgjerim nuk përfshin lejen \"mozillaAddons\", e cila është e domosdoshme për zgjerime të privilegjuara."
+msgid ""
+"This extension does not include the \"mozillaAddons\" permission, which is "
+"required for privileged extensions."
+msgstr ""
+"Ky zgjerim nuk përfshin lejen \"mozillaAddons\", e cila është e domosdoshme "
+"për zgjerime të privilegjuara."
 
 #: src/messages/manifestjson.js:767
 msgid "Cannot use actions in hidden add-ons."
 msgstr "S’mund të përdoren veprime në shtesa të fshehura."
 
 #: src/messages/manifestjson.js:768
-msgid "The hidden and browser_action/page_action (or action in Manifest Version 3 and above) properties are mutually exclusive."
+msgid ""
+"The hidden and browser_action/page_action (or action in Manifest Version 3 "
+"and above) properties are mutually exclusive."
 msgstr ""
 
 #: src/messages/manifestjson.js:776
@@ -813,28 +1094,44 @@ msgid "Use \"browser_specific_settings\" instead of \"applications\"."
 msgstr "Përdorni “browser_specific_settings”, në vend se “applications”."
 
 #: src/messages/manifestjson.js:777
-msgid "The \"applications\" property in the manifest is deprecated and will no longer be accepted in Manifest Version 3 and above."
-msgstr "Vetia “applications” te manifesti është nxjerrë nga përdorimi dhe s’do të pranohet më te Manifest Version 3 e sipër."
+msgid ""
+"The \"applications\" property in the manifest is deprecated and will no "
+"longer be accepted in Manifest Version 3 and above."
+msgstr ""
+"Vetia “applications” te manifesti është nxjerrë nga përdorimi dhe s’do të "
+"pranohet më te Manifest Version 3 e sipër."
 
 #: src/messages/manifestjson.js:785
 msgid "\"applications\" is no longer allowed in Manifest Version 3 and above."
 msgstr "“applications” nuk lejohet më te Manifest Version 3 e sipër."
 
 #: src/messages/manifestjson.js:787
-msgid "The \"applications\" property in the manifest is no longer allowed in Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
-msgstr "Vetia “applications” te manifesti nuk lejohet më te Manifest Version 3 e sipër. Në vend të saj, përdorni “browser_specific_settings”."
+msgid ""
+"The \"applications\" property in the manifest is no longer allowed in "
+"Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
+msgstr ""
+"Vetia “applications” te manifesti nuk lejohet më te Manifest Version 3 e "
+"sipër. Në vend të saj, përdorni “browser_specific_settings”."
 
 #: src/messages/manifestjson.js:795
-msgid "The version string should be simplified because it won't be compatible with Manifest Version 3 and above."
-msgstr "Vargu i versionit duhet thjeshtuar, ngaqë s’do të jetë i përputhshëm me Manifest Version 3 e sipër."
+msgid ""
+"The version string should be simplified because it won't be compatible with "
+"Manifest Version 3 and above."
+msgstr ""
+"Vargu i versionit duhet thjeshtuar, ngaqë s’do të jetë i përputhshëm me "
+"Manifest Version 3 e sipër."
 
 #: src/messages/manifestjson.js:797
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros will no longer be allowed. Letters will no longer be allowed either. "
-"See https://mzl.la/3h3mCRu (MDN Docs) for more information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each "
+"number should have up to 9 digits and leading zeros will no longer be "
+"allowed. Letters will no longer be allowed either. See https://mzl."
+"la/3h3mCRu (MDN Docs) for more information."
 msgstr ""
-"Versioni duhet të jetë një varg me 1 deri në 4 numra ndarë me pika. Çdo numër duhet të ketë deri në 9 shifra dhe s’do të lejohen më zero paraprijëse. As shkronja s’do të lejohen më. Për më tepër "
-"informacion, shihni https://mzl.la/3h3mCRu (Dokumentim MDN)."
+"Versioni duhet të jetë një varg me 1 deri në 4 numra ndarë me pika. Çdo "
+"numër duhet të ketë deri në 9 shifra dhe s’do të lejohen më zero "
+"paraprijëse. As shkronja s’do të lejohen më. Për më tepër informacion, "
+"shihni https://mzl.la/3h3mCRu (Dokumentim MDN)."
 
 #: src/messages/manifestjson.js:806
 msgid "The version string should be simplified."
@@ -842,11 +1139,15 @@ msgstr "Vargu i versionit duhet thjeshtuar."
 
 #: src/messages/manifestjson.js:807
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros are not allowed. Letters are no longer allowed. See "
-"https://mzl.la/3h3mCRu (MDN Docs) for more information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each "
+"number should have up to 9 digits and leading zeros are not allowed. Letters "
+"are no longer allowed. See https://mzl.la/3h3mCRu (MDN Docs) for more "
+"information."
 msgstr ""
-"Versioni duhet të jetë një varg me 1 deri në 4 numra ndarë me pika. Çdo numër duhet të ketë deri në 9 shifra dhe zero paraprijëse nuk lejohen më. As shkronjat nuk lejohen më. Për më tepër "
-"informacion, shihni https://mzl.la/3h3mCRu (Dokumentim MDN)."
+"Versioni duhet të jetë një varg me 1 deri në 4 numra ndarë me pika. Çdo "
+"numër duhet të ketë deri në 9 shifra dhe zero paraprijëse nuk lejohen më. As "
+"shkronjat nuk lejohen më. Për më tepër informacion, shihni https://mzl."
+"la/3h3mCRu (Dokumentim MDN)."
 
 #: src/messages/manifestjson.js:816
 msgid "incognito \"split\" is unsupported."
@@ -854,8 +1155,9 @@ msgstr ""
 
 #: src/messages/manifestjson.js:817
 msgid ""
-"The incognito \"split\" value is unsupported and will be treated as \"not_allowed\" in Firefox. Remove the key from the manifest file, if your extension is compatible with Firefox's private browsing"
-" mode."
+"The incognito \"split\" value is unsupported and will be treated as "
+"\"not_allowed\" in Firefox. Remove the key from the manifest file, if your "
+"extension is compatible with Firefox's private browsing mode."
 msgstr ""
 
 #: src/messages/manifestjson.js:825
@@ -863,20 +1165,35 @@ msgid "The \"admin_install_only\" property is reserved."
 msgstr "Vetia “admin_install_only” është e rezervuar."
 
 #: src/messages/manifestjson.js:826
-msgid "The \"admin_install_only\" property is reserved and can only be used in enterprise add-ons."
-msgstr "Vetia “admin_install_only” është e rezervuar dhe mund të përdoret vetëm në shtesa për ndërmarrje."
+msgid ""
+"The \"admin_install_only\" property is reserved and can only be used in "
+"enterprise add-ons."
+msgstr ""
+"Vetia “admin_install_only” është e rezervuar dhe mund të përdoret vetëm në "
+"shtesa për ndërmarrje."
 
 #: src/messages/manifestjson.js:83
-msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions %(versionRange)s."
-msgstr "/%(fieldName)s: \"%(permissionName)s\" nuk mbulohet në versione %(versionRange)s manifesti."
+msgid ""
+"/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions "
+"%(versionRange)s."
+msgstr ""
+"/%(fieldName)s: \"%(permissionName)s\" nuk mbulohet në versione "
+"%(versionRange)s manifesti."
 
 #: src/messages/manifestjson.js:833
-msgid "\"/browser_specific_settings/gecko/admin_install_only\" property must be set to \"true\"."
-msgstr "Vetia “/browser_specific_settings/gecko/admin_install_only” duhet vënë si “true”."
+msgid ""
+"\"/browser_specific_settings/gecko/admin_install_only\" property must be set "
+"to \"true\"."
+msgstr ""
+"Vetia “/browser_specific_settings/gecko/admin_install_only” duhet vënë si "
+"“true”."
 
 #: src/messages/manifestjson.js:835
-msgid "The \"admin_install_only\" property must be set to \"true\" in an enterprise add-on."
-msgstr "Vetia “admin_install_only”, te një shtesë ndërmarrjesh, duhet vënë si “true”."
+msgid ""
+"The \"admin_install_only\" property must be set to \"true\" in an enterprise "
+"add-on."
+msgstr ""
+"Vetia “admin_install_only”, te një shtesë ndërmarrjesh, duhet vënë si “true”."
 
 #: src/messages/manifestjson.js:85
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported."
@@ -891,8 +1208,12 @@ msgstr "/%(fieldName)s: \"%(permissionName)s\" nuk mbulohet."
 #~ msgid "A CSS syntax error was encountered"
 #~ msgstr "U has një gabim sintakse CSS"
 
-#~ msgid "An error was found in the CSS file being processed. As a result, further processing of that file is not possible"
-#~ msgstr "U gjet një gabim te kartela CSS që po përpunohet. Për pasojë, s’është i mundshëm përpunimi i mëtejshëm i asaj kartele"
+#~ msgid ""
+#~ "An error was found in the CSS file being processed. As a result, further "
+#~ "processing of that file is not possible"
+#~ msgstr ""
+#~ "U gjet një gabim te kartela CSS që po përpunohet. Për pasojë, s’është i "
+#~ "mundshëm përpunimi i mëtejshëm i asaj kartele"
 
 #~ msgid "Selectors should not be nested"
 #~ msgstr "Përzgjedhësit s’duhet të jenë brenda njëri-tjetrit"
@@ -900,14 +1221,19 @@ msgstr "/%(fieldName)s: \"%(permissionName)s\" nuk mbulohet."
 #~ msgid "The \"name\" property must be a string."
 #~ msgstr "Vetia \"name\" duhet të jetë një varg."
 
-#~ msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port."
-#~ msgstr "Origjinë instalimi e panjohur. Një origjinë e vlefshme ka - vetëm - një skemë, strehëemër dhe portë opsionale."
+#~ msgid ""
+#~ "Invalid install origin. A valid origin has - only - a scheme, hostname "
+#~ "and optional port."
+#~ msgstr ""
+#~ "Origjinë instalimi e panjohur. Një origjinë e vlefshme ka - vetëm - një "
+#~ "skemë, strehëemër dhe portë opsionale."
 
 #~ msgid "The \"version\" property must be a string."
 #~ msgstr "Vetia \"version\" duhet të jetë një varg."
 
 #~ msgid "See http://mzl.la/1kXIADa (MDN Docs) for more information."
-#~ msgstr "Për më tepër të dhëna, shihni http://mzl.la/1kXIADa (Dokumentim te MDN)."
+#~ msgstr ""
+#~ "Për më tepër të dhëna, shihni http://mzl.la/1kXIADa (Dokumentim te MDN)."
 
 #~ msgid "The \"version\" property uses a Firefox-specific format."
 #~ msgstr "Vetia \"version\" përdor një format Firefox specifik."

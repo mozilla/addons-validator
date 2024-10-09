@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-21 10:05+0000\n"
+"POT-Creation-Date: 2024-10-09 07:10+0000\n"
 "PO-Revision-Date: 2022-08-16 14:25+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: none\n"
@@ -18,27 +18,27 @@ msgstr ""
 msgid "Validation Summary:"
 msgstr "Agzul n usentem:"
 
-#: src/linter.js:180
+#: src/linter.js:181
 msgid "Code"
 msgstr "Tangalt"
 
-#: src/linter.js:186
+#: src/linter.js:187
 msgid "Message"
 msgstr "Izen"
 
-#: src/linter.js:192
+#: src/linter.js:193
 msgid "Description"
 msgstr "Aglam"
 
-#: src/linter.js:198
+#: src/linter.js:199
 msgid "File"
 msgstr "Afaylu"
 
-#: src/linter.js:204
+#: src/linter.js:205
 msgid "Line"
 msgstr "Izirig"
 
-#: src/linter.js:210
+#: src/linter.js:211
 msgid "Column"
 msgstr "Tigejdit"
 

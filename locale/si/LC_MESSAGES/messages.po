@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-21 10:05+0000\n"
+"POT-Creation-Date: 2024-10-09 07:10+0000\n"
 "PO-Revision-Date: 2023-06-06 03:00+0000\n"
 "Last-Translator: හෙළබස සමූහය (HelaBasa Group) <firefox-helabasa@yalu.lk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 msgid "Validation Summary:"
 msgstr "වලංගුකරණ සාරාංශය:"
 
-#: src/linter.js:180
+#: src/linter.js:181
 msgid "Code"
 msgstr "කේතය"
 
-#: src/linter.js:186
+#: src/linter.js:187
 msgid "Message"
 msgstr "පණිවිඩය"
 
-#: src/linter.js:192
+#: src/linter.js:193
 msgid "Description"
 msgstr "සවිස්තරය"
 
-#: src/linter.js:198
+#: src/linter.js:199
 msgid "File"
 msgstr "ගොනුව"
 
-#: src/linter.js:204
+#: src/linter.js:205
 msgid "Line"
 msgstr "පේළිය"
 
-#: src/linter.js:210
+#: src/linter.js:211
 msgid "Column"
 msgstr "තීරුව"
 

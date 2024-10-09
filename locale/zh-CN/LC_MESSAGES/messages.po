@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-21 10:05+0000\n"
+"POT-Creation-Date: 2024-10-09 07:10+0000\n"
 "PO-Revision-Date: 2024-06-17 09:43+0000\n"
 "Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
 "Language-Team: none\n"
@@ -18,27 +18,27 @@ msgstr ""
 msgid "Validation Summary:"
 msgstr "验证概要："
 
-#: src/linter.js:180
+#: src/linter.js:181
 msgid "Code"
 msgstr "代码"
 
-#: src/linter.js:186
+#: src/linter.js:187
 msgid "Message"
 msgstr "消息"
 
-#: src/linter.js:192
+#: src/linter.js:193
 msgid "Description"
 msgstr "描述"
 
-#: src/linter.js:198
+#: src/linter.js:199
 msgid "File"
 msgstr "文件"
 
-#: src/linter.js:204
+#: src/linter.js:205
 msgid "Line"
 msgstr "行"
 
-#: src/linter.js:210
+#: src/linter.js:211
 msgid "Column"
 msgstr "列"
 

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-21 10:05+0000\n"
+"POT-Creation-Date: 2024-10-09 07:10+0000\n"
 "PO-Revision-Date: 2024-10-01 16:23+0000\n"
 "Last-Translator: Lan Glad <upwinxp@gmail.com>\n"
 "Language-Team: none\n"
@@ -11,44 +11,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 "X-Generator: Pontoon\n"
 
 #: src/linter.js:161
 msgid "Validation Summary:"
 msgstr "Povzetek preverjanja:"
 
-#: src/linter.js:180
+#: src/linter.js:181
 msgid "Code"
 msgstr "Koda"
 
-#: src/linter.js:186
+#: src/linter.js:187
 msgid "Message"
 msgstr "Sporočilo"
 
-#: src/linter.js:192
+#: src/linter.js:193
 msgid "Description"
 msgstr "Opis"
 
-#: src/linter.js:198
+#: src/linter.js:199
 msgid "File"
 msgstr "Datoteka"
 
-#: src/linter.js:204
+#: src/linter.js:205
 msgid "Line"
 msgstr "Vrstica"
 
-#: src/linter.js:210
+#: src/linter.js:211
 msgid "Column"
 msgstr "Stolpec"
 
 #: src/linter.js:60
 msgid ""
-"Invalid manifest version range requested: --min-manifest-version (currently set to %(minManifestVersion)s) should not be greater than --max-manifest-version (currently set to "
-"%(maxManifestVersion)s)."
+"Invalid manifest version range requested: --min-manifest-version (currently "
+"set to %(minManifestVersion)s) should not be greater than --max-manifest-"
+"version (currently set to %(maxManifestVersion)s)."
 msgstr ""
-"Zahtevan obseg različic manifesta je neveljaven: --min-manifest-version (trenutno nastavljen na %(minManifestVersion)s) ne sme biti večji od --max-manifest-version (trenutno nastavljen na "
-"%(maxManifestVersion)s)."
+"Zahtevan obseg različic manifesta je neveljaven: --min-manifest-version "
+"(trenutno nastavljen na %(minManifestVersion)s) ne sme biti večji od --max-"
+"manifest-version (trenutno nastavljen na %(maxManifestVersion)s)."
 
 #: src/messages/fluent.js:5
 msgid "Your FTL is not valid."
@@ -63,40 +66,58 @@ msgid "Remote scripts are not allowed as per the Add-on Policies."
 msgstr "Pravilnik dodatkov ne dovoljuje oddaljenih skriptov."
 
 #: src/messages/html.js:13
-msgid "Please include all scripts in the add-on. For more information, refer to https://mzl.la/2uEOkYp."
-msgstr "V dodatek vključite vse skripte. Za več informacij si oglejte https://mzl.la/2uEOkYp."
+msgid ""
+"Please include all scripts in the add-on. For more information, refer to "
+"https://mzl.la/2uEOkYp."
+msgstr ""
+"V dodatek vključite vse skripte. Za več informacij si oglejte https://mzl."
+"la/2uEOkYp."
 
 #: src/messages/html.js:5
 msgid "Inline scripts blocked by default"
 msgstr "Notranji skripti so privzeto zavrnjeni."
 
 #: src/messages/html.js:6
-msgid "Default CSP rules prevent inline JavaScript from running (https://mzl.la/2pn32nd)."
-msgstr "Privzeta pravila CSP preprečujejo izvajanje znotrajvrstičnega JavaScripta (https://mzl.la/2pn32nd)."
+msgid ""
+"Default CSP rules prevent inline JavaScript from running (https://mzl."
+"la/2pn32nd)."
+msgstr ""
+"Privzeta pravila CSP preprečujejo izvajanje znotrajvrstičnega JavaScripta "
+"(https://mzl.la/2pn32nd)."
 
 #: src/messages/javascript.js:100
 msgid "Unadvised 3rd-party JS library"
 msgstr "Nepriporočena knjižnica JS tretje osebe"
 
 #: src/messages/javascript.js:101
-msgid "Your add-on uses a JavaScript library we do not recommend. Read more: https://bit.ly/1TRIyZY"
-msgstr "Vaš dodatek uporablja knjižnico JavaScript, ki je ne priporočamo. Več na: https://bit.ly/1TRIyZY"
+msgid ""
+"Your add-on uses a JavaScript library we do not recommend. Read more: "
+"https://bit.ly/1TRIyZY"
+msgstr ""
+"Vaš dodatek uporablja knjižnico JavaScript, ki je ne priporočamo. Več na: "
+"https://bit.ly/1TRIyZY"
 
 #: src/messages/javascript.js:107
 msgid "Known JS library detected"
 msgstr "Zaznana je znana knjižnica JS"
 
 #: src/messages/javascript.js:108
-msgid "JavaScript libraries are discouraged for simple add-ons, but are generally accepted."
-msgstr "Knjižnice JavaScript niso priporočljive za preproste dodatke, vendar jih v splošnem sprejemamo."
+msgid ""
+"JavaScript libraries are discouraged for simple add-ons, but are generally "
+"accepted."
+msgstr ""
+"Knjižnice JavaScript niso priporočljive za preproste dodatke, vendar jih v "
+"splošnem sprejemamo."
 
 #: src/messages/javascript.js:116
 msgid ""
-"Due to both security and performance concerns, this may not be set using dynamic values which have not been adequately sanitized. This can lead to security issues or fairly serious performance "
-"degradation."
+"Due to both security and performance concerns, this may not be set using "
+"dynamic values which have not been adequately sanitized. This can lead to "
+"security issues or fairly serious performance degradation."
 msgstr ""
-"Zaradi pomislekov glede varnosti in zmogljivosti tega morda ne bo mogoče nastaviti z uporabo dinamičnih vrednosti, ki niso bile ustrezno prečiščene. To lahko povzroči varnostne težave ali dokaj "
-"resno poslabšanje delovanja."
+"Zaradi pomislekov glede varnosti in zmogljivosti tega morda ne bo mogoče "
+"nastaviti z uporabo dinamičnih vrednosti, ki niso bile ustrezno prečiščene. "
+"To lahko povzroči varnostne težave ali dokaj resno poslabšanje delovanja."
 
 #: src/messages/javascript.js:125
 msgid "{{api}} is not supported"
@@ -107,8 +128,12 @@ msgid "This API has not been implemented by Firefox."
 msgstr "Firefox ne podpira tega API-ja."
 
 #: src/messages/javascript.js:132
-msgid "\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` property)"
-msgstr "\"{{api}}\" je bil odstranjen v različici manifesta 3 (lastnost 'manifest_version')"
+msgid ""
+"\"{{api}}\" has been removed in Manifest Version 3 (`manifest_version` "
+"property)"
+msgstr ""
+"\"{{api}}\" je bil odstranjen v različici manifesta 3 (lastnost "
+"'manifest_version')"
 
 #: src/messages/javascript.js:141
 msgid "{{api}} is deprecated"
@@ -136,9 +161,13 @@ msgstr "\"%(api)s\" lahko povzroča težave, če je naložena začasno"
 
 #: src/messages/javascript.js:165
 msgid ""
-"This API can cause issues when loaded temporarily using about:debugging in Firefox unless you specify \"browser_specific_settings.gecko.id\" in the manifest. Please see: https://mzl.la/2hizK4a for "
-"more."
-msgstr "Ta API lahko povzroči težave pri začasnem nalaganju z uporabo about:debugging v Firefoxu, razen če v manifestu navedete \"browser_specific_settings.gecko.id\". Več na: https://mzl.la/2hizK4a."
+"This API can cause issues when loaded temporarily using about:debugging in "
+"Firefox unless you specify \"browser_specific_settings.gecko.id\" in the "
+"manifest. Please see: https://mzl.la/2hizK4a for more."
+msgstr ""
+"Ta API lahko povzroči težave pri začasnem nalaganju z uporabo about:"
+"debugging v Firefoxu, razen če v manifestu navedete "
+"\"browser_specific_settings.gecko.id\". Več na: https://mzl.la/2hizK4a."
 
 #: src/messages/javascript.js:185
 msgid "{{api}} is not supported in Firefox version {{minVersion}}"
@@ -153,7 +182,8 @@ msgid "{{api}} is not supported in Firefox for Android version {{minVersion}}"
 msgstr "{{api}} ni podprt v različici Firefox za Android {{minVersion}}"
 
 #: src/messages/javascript.js:199
-msgid "This API is not implemented by the given minimum Firefox for Android version"
+msgid ""
+"This API is not implemented by the given minimum Firefox for Android version"
 msgstr "Ta API ni uveljavljen v najnižji podprti različici Firefoxa za Android"
 
 #: src/messages/javascript.js:22
@@ -169,17 +199,26 @@ msgid "\"%(method)s\" called with a non-literal uri"
 msgstr "\"%(method)s\" klicana z nedobesednim URI"
 
 #: src/messages/javascript.js:34
-msgid "Calling \"%(method)s\" with variable parameters can result in potential security vulnerabilities if the variable contains a remote URI. Consider using 'window.open' with the 'chrome=no' flag."
+msgid ""
+"Calling \"%(method)s\" with variable parameters can result in potential "
+"security vulnerabilities if the variable contains a remote URI. Consider "
+"using 'window.open' with the 'chrome=no' flag."
 msgstr ""
-"Klicanje \"%(method)s\" s parametri spremenljivke lahko povzroči morebitne varnostne ranljivosti, če spremenljivka vsebuje oddaljeni URI. Razmislite o uporabi 'window.open' z zastavico 'chrome=no'."
+"Klicanje \"%(method)s\" s parametri spremenljivke lahko povzroči morebitne "
+"varnostne ranljivosti, če spremenljivka vsebuje oddaljeni URI. Razmislite o "
+"uporabi 'window.open' z zastavico 'chrome=no'."
 
 #: src/messages/javascript.js:45
 msgid "\"%(method)s\" called with non-local URI"
 msgstr "\"%(method)s\" klicana z nekrajevnim URI"
 
 #: src/messages/javascript.js:49
-msgid "Calling \"%(method)s\" with a non-local URI will result in the dialog being opened with chrome privileges."
-msgstr "Klicanje \"%(method)s\" z nekrajevnim URI bo povzročilo, da se bo pogovorno okno odprlo s pravicami brskalnika."
+msgid ""
+"Calling \"%(method)s\" with a non-local URI will result in the dialog being "
+"opened with chrome privileges."
+msgstr ""
+"Klicanje \"%(method)s\" z nekrajevnim URI bo povzročilo, da se bo pogovorno "
+"okno odprlo s pravicami brskalnika."
 
 #: src/messages/javascript.js:5
 msgid "JavaScript syntax error"
@@ -187,55 +226,83 @@ msgstr "Napaka skladnje JavaScripta."
 
 #: src/messages/javascript.js:6
 msgid ""
-"There is a JavaScript syntax error in your code, which might be related to some experimental JavaScript features that aren't an official part of the language specification and therefore not "
-"supported yet. The validation cannot continue on this file."
+"There is a JavaScript syntax error in your code, which might be related to "
+"some experimental JavaScript features that aren't an official part of the "
+"language specification and therefore not supported yet. The validation "
+"cannot continue on this file."
 msgstr ""
-"V vaši kodi je prišlo do sintaktične napake JavaScripta, ki je lahko povezana z nekaterimi poskusnimi funkcijami JavaScripta, ki niso uradni del jezikovne specifikacije in zato še niso podprte. "
-"Preverjanja te datoteke ni mogoče nadaljevati."
+"V vaši kodi je prišlo do sintaktične napake JavaScripta, ki je lahko "
+"povezana z nekaterimi poskusnimi funkcijami JavaScripta, ki niso uradni del "
+"jezikovne specifikacije in zato še niso podprte. Preverjanja te datoteke ni "
+"mogoče nadaljevati."
 
 #: src/messages/javascript.js:62
 msgid ""
-"Evaluation of strings as code can lead to security vulnerabilities and performance issues, even in the most innocuous of circumstances. Please avoid using `eval` and the `Function` constructor when "
-"at all possible."
+"Evaluation of strings as code can lead to security vulnerabilities and "
+"performance issues, even in the most innocuous of circumstances. Please "
+"avoid using `eval` and the `Function` constructor when at all possible."
 msgstr ""
-"Vrednotenje nizov kot kode lahko povzroči varnostne ranljivosti in težave z delovanjem, tudi v najbolj neškodljivih okoliščinah. Izogibajte se uporabi `eval` in konstruktorja `Function`, kadar je le"
-" mogoče."
+"Vrednotenje nizov kot kode lahko povzroči varnostne ranljivosti in težave z "
+"delovanjem, tudi v najbolj neškodljivih okoliščinah. Izogibajte se uporabi "
+"`eval` in konstruktorja `Function`, kadar je le mogoče."
 
 #: src/messages/javascript.js:71
-msgid "setTimeout, setInterval and execScript functions should be called only with function expressions as their first argument"
-msgstr "Funkcije setTimeout, setInterval in execScript lahko kličete samo s funkcijskimi izrazi kot prvim argumentom"
+msgid ""
+"setTimeout, setInterval and execScript functions should be called only with "
+"function expressions as their first argument"
+msgstr ""
+"Funkcije setTimeout, setInterval in execScript lahko kličete samo s "
+"funkcijskimi izrazi kot prvim argumentom"
 
 #: src/messages/javascript.js:78
 msgid "Unexpected global passed as an argument"
 msgstr "Globalna spremenljivka nepričakovano podana kot argument"
 
 #: src/messages/javascript.js:79
-msgid "Passing a global as an argument is not recommended. Please make this a var instead."
-msgstr "Posredovanje globalne spremenljivke kot argumenta ni priporočljivo. Raje uporabite \"var\"."
+msgid ""
+"Passing a global as an argument is not recommended. Please make this a var "
+"instead."
+msgstr ""
+"Posredovanje globalne spremenljivke kot argumenta ni priporočljivo. Raje "
+"uporabite \"var\"."
 
 #: src/messages/javascript.js:85
 msgid "Use of document.write strongly discouraged."
 msgstr "Uporaba document.write se močno odsvetuje."
 
 #: src/messages/javascript.js:86
-msgid "document.write will fail in many circumstances when used in extensions, and has potentially severe security repercussions when used improperly. Therefore, it should not be used."
-msgstr "document.write ne deluje v mnogo primerih, če se uporablja v razširitvah, in ima lahko resne varnostne posledice, če se uporablja nepravilno. Zato je najbolje, da se ga ne uporablja."
+msgid ""
+"document.write will fail in many circumstances when used in extensions, and "
+"has potentially severe security repercussions when used improperly. "
+"Therefore, it should not be used."
+msgstr ""
+"document.write ne deluje v mnogo primerih, če se uporablja v razširitvah, in "
+"ima lahko resne varnostne posledice, če se uporablja nepravilno. Zato je "
+"najbolje, da se ga ne uporablja."
 
 #: src/messages/javascript.js:93
 msgid "Banned 3rd-party JS library"
 msgstr "Prepovedana knjižnica JS tretje osebe"
 
 #: src/messages/javascript.js:94
-msgid "Your add-on uses a JavaScript library we consider unsafe. Read more: https://bit.ly/1TRIyZY"
-msgstr "Vaš dodatek uporablja knjižnico JavaScript, ki jo štejemo za nevarno. Več na: https://bit.ly/1TRIyZY"
+msgid ""
+"Your add-on uses a JavaScript library we consider unsafe. Read more: https://"
+"bit.ly/1TRIyZY"
+msgstr ""
+"Vaš dodatek uporablja knjižnico JavaScript, ki jo štejemo za nevarno. Več "
+"na: https://bit.ly/1TRIyZY"
 
 #: src/messages/json.js:11
 msgid "Your JSON contains block comments."
 msgstr "Vaša datoteka JSON vsebuje bloke komentarjev."
 
 #: src/messages/json.js:12
-msgid "Only line comments (comments beginning with \"//\") are allowed in JSON files. Please remove block comments (comments beginning with \"/*\")"
-msgstr "V datotekah JSON so dovoljeni samo vrstični komentarji (ki se začenjajo z \"//\"). Odstranite komentarje v blokih (ki se začenjajo z \"/*\")"
+msgid ""
+"Only line comments (comments beginning with \"//\") are allowed in JSON "
+"files. Please remove block comments (comments beginning with \"/*\")"
+msgstr ""
+"V datotekah JSON so dovoljeni samo vrstični komentarji (ki se začenjajo z "
+"\"//\"). Odstranite komentarje v blokih (ki se začenjajo z \"/*\")"
 
 #: src/messages/json.js:19
 msgid "Duplicate keys are not allowed in JSON files."
@@ -258,16 +325,24 @@ msgid "Reserved filename found."
 msgstr "Najdeno rezervirano ime datoteke."
 
 #: src/messages/layout.js:108
-msgid "Files whose names are reserved have been found in the add-on. Please refrain from using them and rename your files."
-msgstr "V dodatku so bile najdene datoteke z rezerviranimi imeni. Prosimo, da teh imen ne uporabljate in svoje datoteke preimenujete."
+msgid ""
+"Files whose names are reserved have been found in the add-on. Please refrain "
+"from using them and rename your files."
+msgstr ""
+"V dodatku so bile najdene datoteke z rezerviranimi imeni. Prosimo, da teh "
+"imen ne uporabljate in svoje datoteke preimenujete."
 
 #: src/messages/layout.js:22
 msgid ""
-"The package is invalid. It may contain entries using invalid characters, as an example using '\\' as a path separator is not allowed in Firefox. Try to recreate your add-on package (ZIP) and make "
-"sure all entries are using '/' as the path separator."
+"The package is invalid. It may contain entries using invalid characters, as "
+"an example using '\\' as a path separator is not allowed in Firefox. Try to "
+"recreate your add-on package (ZIP) and make sure all entries are using '/' "
+"as the path separator."
 msgstr ""
-"Paket je neveljaven. Morda vsebuje vnose, ki uporabljajo neveljavne znake, na primer uporaba '\\' kot ločila poti v Firefoxu ni dovoljena. Poskusite znova ustvariti paket (ZIP) in se prepričajte, da"
-" vsi vnosi kot ločilo poti uporabljajo '/'."
+"Paket je neveljaven. Morda vsebuje vnose, ki uporabljajo neveljavne znake, "
+"na primer uporaba '\\' kot ločila poti v Firefoxu ni dovoljena. Poskusite "
+"znova ustvariti paket (ZIP) in se prepričajte, da vsi vnosi kot ločilo poti "
+"uporabljajo '/'."
 
 #: src/messages/layout.js:32
 msgid "We were unable to decompress the zip file."
@@ -279,9 +354,13 @@ msgstr "Datoteke manifest.json ni bilo mogoče najti"
 
 #: src/messages/layout.js:38
 msgid ""
-"No manifest.json was found at the root of the extension. The package file must be a ZIP of the extension's files themselves, not of the containing directory. See: https://mzl.la/2r2McKv for more on "
-"packaging."
-msgstr "V korenu razširitve ni bilo mogoče najti datoteke manifest.json. Datoteka paketa mora biti ZIP same datoteke razširitve in ne mape, ki jo vsebuje. Več o embalaži na: https://mzl.la/2r2McKv."
+"No manifest.json was found at the root of the extension. The package file "
+"must be a ZIP of the extension's files themselves, not of the containing "
+"directory. See: https://mzl.la/2r2McKv for more on packaging."
+msgstr ""
+"V korenu razširitve ni bilo mogoče najti datoteke manifest.json. Datoteka "
+"paketa mora biti ZIP same datoteke razširitve in ne mape, ki jo vsebuje. Več "
+"o embalaži na: https://mzl.la/2r2McKv."
 
 #: src/messages/layout.js:45
 msgid "File is too large to parse."
@@ -289,11 +368,15 @@ msgstr "Datoteka je prevelika za razčlenjevanje."
 
 #: src/messages/layout.js:47
 msgid ""
-"This file is not binary and is too large to parse. Files larger than %(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists of data out of JavaScript files and into JSON files, "
-"or splitting very large files into smaller ones."
+"This file is not binary and is too large to parse. Files larger than "
+"%(maxFileSizeToParseMB)sMB will not be parsed. Consider moving large lists "
+"of data out of JavaScript files and into JSON files, or splitting very large "
+"files into smaller ones."
 msgstr ""
-"To ni dvojiška datoteka in je prevelika za razčlenitev. Datoteke, večje od %(maxFileSizeToParseMB)s MB, ne bodo razčlenjene. Razmislite o premiku velikih seznamov podatkov iz datotek JavaScript v "
-"datoteke JSON ali o razdelitvi zelo velikih datotek na manjše."
+"To ni dvojiška datoteka in je prevelika za razčlenitev. Datoteke, večje od "
+"%(maxFileSizeToParseMB)s MB, ne bodo razčlenjene. Razmislite o premiku "
+"velikih seznamov podatkov iz datotek JavaScript v datoteke JSON ali o "
+"razdelitvi zelo velikih datotek na manjše."
 
 #: src/messages/layout.js:57
 msgid "Hidden file flagged"
@@ -301,9 +384,13 @@ msgstr "Skrita datoteka označena"
 
 #: src/messages/layout.js:58
 msgid ""
-"Hidden files complicate the review process and can contain sensitive information about the system that generated the add-on. Please modify the packaging process so that these files aren't included."
+"Hidden files complicate the review process and can contain sensitive "
+"information about the system that generated the add-on. Please modify the "
+"packaging process so that these files aren't included."
 msgstr ""
-"Skrite datoteke otežijo postopek pregleda in lahko vsebujejo občutljive podatke o sistemu, v katerem je bil dodatek ustvarjen. Spremenite postopek pakiranja, tako da te datoteke ne bodo vključene."
+"Skrite datoteke otežijo postopek pregleda in lahko vsebujejo občutljive "
+"podatke o sistemu, v katerem je bil dodatek ustvarjen. Spremenite postopek "
+"pakiranja, tako da te datoteke ne bodo vključene."
 
 #: src/messages/layout.js:6
 msgid "Package contains duplicate entries"
@@ -314,12 +401,20 @@ msgid "Flagged filename found"
 msgstr "Najdeno označeno ime datoteke"
 
 #: src/messages/layout.js:67 src/messages/layout.js:74
-msgid "Files were found that are either unnecessary or have been included unintentionally. They should be removed."
-msgstr "Najdene so bile datoteke, ki so nepotrebne ali nenamerno vključene. Treba jih je odstraniti."
+msgid ""
+"Files were found that are either unnecessary or have been included "
+"unintentionally. They should be removed."
+msgstr ""
+"Najdene so bile datoteke, ki so nepotrebne ali nenamerno vključene. Treba "
+"jih je odstraniti."
 
 #: src/messages/layout.js:7
-msgid "The package contains multiple entries with the same name. This practice has been banned. Try unzipping and re-zipping your add-on package and try again."
-msgstr "Paket vsebuje več vnosov z istim imenom. Ta praksa je prepovedana. Poskusite razpakirati in znova zapakirati paket dodatka ter poskusiti znova."
+msgid ""
+"The package contains multiple entries with the same name. This practice has "
+"been banned. Try unzipping and re-zipping your add-on package and try again."
+msgstr ""
+"Paket vsebuje več vnosov z istim imenom. Ta praksa je prepovedana. Poskusite "
+"razpakirati in znova zapakirati paket dodatka ter poskusiti znova."
 
 #: src/messages/layout.js:73
 msgid "Flagged file extensions found"
@@ -331,39 +426,57 @@ msgstr "Najdena označena vrsta datoteke"
 
 #: src/messages/layout.js:81
 msgid ""
-"Files whose names end with flagged extensions have been found in the add-on. The extension of these files are flagged because they usually identify binary components. Please see "
-"https://bit.ly/review-policy for more information on the binary content review process."
+"Files whose names end with flagged extensions have been found in the add-on. "
+"The extension of these files are flagged because they usually identify "
+"binary components. Please see https://bit.ly/review-policy for more "
+"information on the binary content review process."
 msgstr ""
-"V dodatku so bile najdene datoteke, katerih imena se končujejo z eno od pripon, kakršne običajno pomenijo binarne komponente. Za več informacij o postopku pregleda binarne vsebine obiščite "
-"https://bit.ly/review-policy."
+"V dodatku so bile najdene datoteke, katerih imena se končujejo z eno od "
+"pripon, kakršne običajno pomenijo binarne komponente. Za več informacij o "
+"postopku pregleda binarne vsebine obiščite https://bit.ly/review-policy."
 
 #: src/messages/layout.js:90
 msgid "Package already signed"
 msgstr "Paket je že podpisan"
 
 #: src/messages/layout.js:91
-msgid "Add-ons which are already signed will be re-signed when published on AMO. This will replace any existing signatures on the add-on."
-msgstr "Dodatki, ki so že podpisani, bodo ob objavi na AMO znova podpisani. To bo zamenjalo vse obstoječe podpise v dodatku."
+msgid ""
+"Add-ons which are already signed will be re-signed when published on AMO. "
+"This will replace any existing signatures on the add-on."
+msgstr ""
+"Dodatki, ki so že podpisani, bodo ob objavi na AMO znova podpisani. To bo "
+"zamenjalo vse obstoječe podpise v dodatku."
 
 #: src/messages/layout.js:98
 msgid "Firefox add-ons are not allowed to run coin miners."
 msgstr "Dodatkom za Firefox ni dovoljeno rudariti kriptovalut."
 
 #: src/messages/layout.js:99
-msgid "We do not allow coinminer scripts to be run inside WebExtensions. See https://github.com/mozilla/addons-linter/issues/1643 for more details."
-msgstr "Znotraj WebExtensions ne dovolimo izvajanja skriptov coinminer. Za podrobnosti si oglejte https://github.com/mozilla/addons-linter/issues/1643."
+msgid ""
+"We do not allow coinminer scripts to be run inside WebExtensions. See "
+"https://github.com/mozilla/addons-linter/issues/1643 for more details."
+msgstr ""
+"Znotraj WebExtensions ne dovolimo izvajanja skriptov coinminer. Za "
+"podrobnosti si oglejte https://github.com/mozilla/addons-linter/issues/1643."
 
 #: src/messages/locale-messagesjson.js:13
 msgid "String name is reserved for a predefined message"
 msgstr "Ime niza je rezervirano za vnaprej določeno sporočilo"
 
 #: src/messages/locale-messagesjson.js:14
-msgid "String names starting with @@ get translated to built-in constants (https://mzl.la/2BL9ZjE)."
-msgstr "Imena nizov, ki se začnejo z @@, se prevedejo v vgrajene konstante (https://mzl.la/2BL9ZjE)."
+msgid ""
+"String names starting with @@ get translated to built-in constants (https://"
+"mzl.la/2BL9ZjE)."
+msgstr ""
+"Imena nizov, ki se začnejo z @@, se prevedejo v vgrajene konstante (https://"
+"mzl.la/2BL9ZjE)."
 
 #: src/messages/locale-messagesjson.js:21
-msgid "String name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2Eztyi5)."
-msgstr "Ime niza naj vsebuje le alfanumerične znake, _ in @ (https://mzl.la/2Eztyi5)."
+msgid ""
+"String name should only contain alpha-numeric characters, _ and @ (https://"
+"mzl.la/2Eztyi5)."
+msgstr ""
+"Ime niza naj vsebuje le alfanumerične znake, _ in @ (https://mzl.la/2Eztyi5)."
 
 #: src/messages/locale-messagesjson.js:27
 msgid "Placeholder for message is missing"
@@ -378,30 +491,41 @@ msgid "Placeholder name contains invalid characters"
 msgstr "Ime označbe mesta vsebuje neveljavne znake"
 
 #: src/messages/locale-messagesjson.js:34
-msgid "Placeholder name should only contain alpha-numeric characters, _ and @ (https://mzl.la/2ExbYez)."
-msgstr "Ime lahko vsebuje le alfanumerične znake, _ in @ (https://mzl.la/2ExbYez)."
+msgid ""
+"Placeholder name should only contain alpha-numeric characters, _ and @ "
+"(https://mzl.la/2ExbYez)."
+msgstr ""
+"Ime lahko vsebuje le alfanumerične znake, _ in @ (https://mzl.la/2ExbYez)."
 
 #: src/messages/locale-messagesjson.js:40
 msgid "Placeholder is missing the content property"
 msgstr "Označbi mesta manjka lastnost vsebine"
 
 #: src/messages/locale-messagesjson.js:41
-msgid "A placeholder needs a content property defining the replacement of it (https://mzl.la/2DT1MQd)"
-msgstr "Ograda mesta potrebuje lastnost vsebine, ki določa njegovo zamenjavo (https://mzl.la/2DT1MQd)"
+msgid ""
+"A placeholder needs a content property defining the replacement of it "
+"(https://mzl.la/2DT1MQd)"
+msgstr ""
+"Ograda mesta potrebuje lastnost vsebine, ki določa njegovo zamenjavo "
+"(https://mzl.la/2DT1MQd)"
 
 #: src/messages/locale-messagesjson.js:5
 msgid "Translation string is missing the message property"
 msgstr "Nizu prevoda manjka lastnost sporočila"
 
 #: src/messages/locale-messagesjson.js:6
-msgid "No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
-msgstr "Za niz ni bilo nastavljeno nobeno sporočilo \"message\" (https://mzl.la/2DSBTjA)."
+msgid ""
+"No \"message\" message property is set for a string (https://mzl.la/2DSBTjA)."
+msgstr ""
+"Za niz ni bilo nastavljeno nobeno sporočilo \"message\" (https://mzl."
+"la/2DSBTjA)."
 
 #: src/messages/manifestjson.js:10
 msgid "The field is required."
 msgstr "Polje je zahtevano."
 
-#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110 src/messages/manifestjson.js:118
+#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110
+#: src/messages/manifestjson.js:118
 msgid "The permission type is unsupported."
 msgstr "Vrsta dovoljenja ni podprta."
 
@@ -426,8 +550,12 @@ msgid "Unknown permission."
 msgstr "Neznano dovoljenje."
 
 #: src/messages/manifestjson.js:138
-msgid "%(instancePath)s: the following privileged permissions are only allowed in privileged extensions: %(privilegedPermissions)s."
-msgstr "%(instancePath)s: naslednja privilegirana dovoljenja so dovoljena samo v privilegiranih razširitvah: %(privilegedPermissions)s."
+msgid ""
+"%(instancePath)s: the following privileged permissions are only allowed in "
+"privileged extensions: %(privilegedPermissions)s."
+msgstr ""
+"%(instancePath)s: naslednja privilegirana dovoljenja so dovoljena samo v "
+"privilegiranih razširitvah: %(privilegedPermissions)s."
 
 #: src/messages/manifestjson.js:165
 msgid "Invalid host permission."
@@ -438,8 +566,13 @@ msgid "Invalid install origin."
 msgstr "Neveljavno poreklo namestitve."
 
 #: src/messages/manifestjson.js:175
-msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
-msgstr "Neveljaven izvor namestitve. Veljaven izvor ima – samo – shemo, ime gostitelja in neobvezna vrata. Za več informacij glejte https://mzl.la/3TEbqbE (MDN Docs)."
+msgid ""
+"Invalid install origin. A valid origin has - only - a scheme, hostname and "
+"optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
+msgstr ""
+"Neveljaven izvor namestitve. Veljaven izvor ima – samo – shemo, ime "
+"gostitelja in neobvezna vrata. Za več informacij glejte https://mzl."
+"la/3TEbqbE (MDN Docs)."
 
 #: src/messages/manifestjson.js:183
 msgid "\"manifest_version\" in the manifest.json is not a valid value"
@@ -455,22 +588,32 @@ msgstr "Polje je neveljavno."
 
 #: src/messages/manifestjson.js:199
 msgid "\"%(property)s\" allows remote code execution in manifest.json"
-msgstr "\"%(property)s\" dovoljuje oddaljeno izvajanje kode v datoteki manifest.json"
+msgstr ""
+"\"%(property)s\" dovoljuje oddaljeno izvajanje kode v datoteki manifest.json"
 
 #: src/messages/manifestjson.js:203
 msgid "A custom \"%(property)s\" needs additional review."
 msgstr "Lastnost po meri \"%(property)s\" potrebuje dodaten pregled."
 
 #: src/messages/manifestjson.js:215
-msgid "\"%(property)s\" allows 'eval', which has strong security and performance implications."
-msgstr "\"%(property)s\" dovoljuje \"eval\", ki močno vpliva na varnost in zmogljivost."
+msgid ""
+"\"%(property)s\" allows 'eval', which has strong security and performance "
+"implications."
+msgstr ""
+"\"%(property)s\" dovoljuje \"eval\", ki močno vpliva na varnost in "
+"zmogljivost."
 
 #: src/messages/manifestjson.js:219
-msgid "In most cases the same result can be achieved differently, therefore it is generally prohibited"
-msgstr "V večini primerov je mogoče enako doseči na drugačen način, zato je to na splošno prepovedano"
+msgid ""
+"In most cases the same result can be achieved differently, therefore it is "
+"generally prohibited"
+msgstr ""
+"V večini primerov je mogoče enako doseči na drugačen način, zato je to na "
+"splošno prepovedano"
 
 #: src/messages/manifestjson.js:227
-msgid "The \"name\" property must be a string with no leading/trailing whitespaces."
+msgid ""
+"The \"name\" property must be a string with no leading/trailing whitespaces."
 msgstr "Lastnost \"name\" mora biti niz brez presledkov na začetku ali koncu."
 
 #: src/messages/manifestjson.js:230
@@ -482,28 +625,43 @@ msgid "\"update_url\" is not allowed."
 msgstr "\"update_url\" ni dovoljen."
 
 #: src/messages/manifestjson.js:239
-msgid "\"applications.gecko.update_url\" or \"browser_specific_settings.gecko.update_url\" are not allowed for Mozilla-hosted add-ons."
-msgstr "\"applications.gecko.update_url\" ali \"browser_specific_settings.gecko.update_url\" nista dovoljena za dodatke, ki gostujejo pri Mozilli."
+msgid ""
+"\"applications.gecko.update_url\" or \"browser_specific_settings.gecko."
+"update_url\" are not allowed for Mozilla-hosted add-ons."
+msgstr ""
+"\"applications.gecko.update_url\" ali \"browser_specific_settings.gecko."
+"update_url\" nista dovoljena za dodatke, ki gostujejo pri Mozilli."
 
 #: src/messages/manifestjson.js:248
 msgid "The \"update_url\" property is not used by Firefox."
 msgstr "Lastnosti \"update_url\" Firefox ne uporablja."
 
 #: src/messages/manifestjson.js:249
-msgid "The \"update_url\" is not used by Firefox in the root of a manifest; your add-on will be updated via the Add-ons site and not your \"update_url\". See: https://mzl.la/25zqk4O"
-msgstr "Firefox ne uporablja \"update_url\" v korenu manifesta; vaš dodatek bo posodobljen na strani z dodatki in ne na \"update_url\". Glej: https://mzl.la/25zqk4O"
+msgid ""
+"The \"update_url\" is not used by Firefox in the root of a manifest; your "
+"add-on will be updated via the Add-ons site and not your \"update_url\". "
+"See: https://mzl.la/25zqk4O"
+msgstr ""
+"Firefox ne uporablja \"update_url\" v korenu manifesta; vaš dodatek bo "
+"posodobljen na strani z dodatki in ne na \"update_url\". Glej: https://mzl."
+"la/25zqk4O"
 
 #: src/messages/manifestjson.js:257
 msgid "\"strict_max_version\" not required."
 msgstr "\"strict_max_version\" ni zahtevan."
 
 #: src/messages/manifestjson.js:258
-msgid "\"strict_max_version\" shouldn't be used unless the add-on is expected not to work with future versions of Firefox."
-msgstr "\"strict_max_version\" se ne sme uporabljati, razen če se pričakuje, da dodatek s prihodnjimi različicami Firefoxa ne bo deloval."
+msgid ""
+"\"strict_max_version\" shouldn't be used unless the add-on is expected not "
+"to work with future versions of Firefox."
+msgstr ""
+"\"strict_max_version\" se ne sme uporabljati, razen če se pričakuje, da "
+"dodatek s prihodnjimi različicami Firefoxa ne bo deloval."
 
 #: src/messages/manifestjson.js:267
 msgid "No \"%(property)s\" property found in manifest.json"
-msgstr "V datoteki manifest.json ni bilo mogoče najti lastnosti \"%(property)s\""
+msgstr ""
+"V datoteki manifest.json ni bilo mogoče najti lastnosti \"%(property)s\""
 
 #: src/messages/manifestjson.js:270
 msgid "\"%(property)s\" is required"
@@ -543,34 +701,50 @@ msgstr "Skripta vsebine, določenega v manifestu, ni bilo mogoče najti."
 
 #: src/messages/manifestjson.js:325
 msgid "A content script css file defined in the manifest could not be found."
-msgstr "Datoteke css skripta vsebine, določene v manifestu, ni bilo mogoče najti."
+msgstr ""
+"Datoteke css skripta vsebine, določene v manifestu, ni bilo mogoče najti."
 
 #: src/messages/manifestjson.js:330
-msgid "Content script defined in the manifest could not be found at \"%(path)s\"."
-msgstr "V mapi \"%(path)s\" ni bilo mogoče najti skripta vsebine, določenega v manifestu."
+msgid ""
+"Content script defined in the manifest could not be found at \"%(path)s\"."
+msgstr ""
+"V mapi \"%(path)s\" ni bilo mogoče najti skripta vsebine, določenega v "
+"manifestu."
 
 #: src/messages/manifestjson.js:333
-msgid "Content script css file defined in the manifest could not be found at \"%(path)s\"."
-msgstr "V mapi \"%(path)s\" ni bilo mogoče najti datoteke css skripta vsebine, določene v manifestu."
+msgid ""
+"Content script css file defined in the manifest could not be found at "
+"\"%(path)s\"."
+msgstr ""
+"V mapi \"%(path)s\" ni bilo mogoče najti datoteke css skripta vsebine, "
+"določene v manifestu."
 
 #: src/messages/manifestjson.js:347
 msgid "A dictionary file defined in the manifest could not be found."
 msgstr "Datoteke slovarja, določene v manifestu, ni bilo mogoče najti."
 
 #: src/messages/manifestjson.js:35
-msgid "\"%(fieldName)s\" manifest field is only used for privileged and temporarily installed extensions."
-msgstr "Polje manifesta \"%(fieldName)s\" se uporablja samo za privilegirane in začasno nameščene razširitve."
+msgid ""
+"\"%(fieldName)s\" manifest field is only used for privileged and temporarily "
+"installed extensions."
+msgstr ""
+"Polje manifesta \"%(fieldName)s\" se uporablja samo za privilegirane in "
+"začasno nameščene razširitve."
 
 #: src/messages/manifestjson.js:351
-msgid "Dictionary file defined in the manifest could not be found at \"%(path)s\"."
-msgstr "V mapi \"%(path)s\" ni bilo mogoče najti datoteke slovarja, določene v manifestu."
+msgid ""
+"Dictionary file defined in the manifest could not be found at \"%(path)s\"."
+msgstr ""
+"V mapi \"%(path)s\" ni bilo mogoče najti datoteke slovarja, določene v "
+"manifestu."
 
 #: src/messages/manifestjson.js:363
 msgid "The manifest contains multiple dictionaries."
 msgstr "Manifest vsebuje več slovarjev."
 
 #: src/messages/manifestjson.js:364
-msgid "Multiple dictionaries were defined in the manifest, which is unsupported."
+msgid ""
+"Multiple dictionaries were defined in the manifest, which is unsupported."
 msgstr "V manifestu je bilo določenih več slovarjev, kar ni podprto."
 
 #: src/messages/manifestjson.js:373
@@ -598,8 +772,12 @@ msgid "This add-on contains forbidden content."
 msgstr "Ta dodatek vsebuje prepovedano vsebino."
 
 #: src/messages/manifestjson.js:4
-msgid "Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn more about privileged extensions and signing."
-msgstr "Za več informacij o privilegiranih razširitvah in podpisovanju si oglejte https://github.com/mozilla-extensions/xpi-manifest."
+msgid ""
+"Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn "
+"more about privileged extensions and signing."
+msgstr ""
+"Za več informacij o privilegiranih razširitvah in podpisovanju si oglejte "
+"https://github.com/mozilla-extensions/xpi-manifest."
 
 #: src/messages/manifestjson.js:405
 msgid "Icons must be square."
@@ -614,8 +792,12 @@ msgid "The size of the icon does not match the manifest."
 msgstr "Velikost ikone se ne ujema z manifestom."
 
 #: src/messages/manifestjson.js:419
-msgid "Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was %(actual)d."
-msgstr "Pričakovana velikost ikone na \"%(path)s\" je bila %(expected)d slikovnih pik, dejanska pa %(actual)d."
+msgid ""
+"Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was "
+"%(actual)d."
+msgstr ""
+"Pričakovana velikost ikone na \"%(path)s\" je bila %(expected)d slikovnih "
+"pik, dejanska pa %(actual)d."
 
 #: src/messages/manifestjson.js:432
 msgid "Corrupt image file"
@@ -635,7 +817,8 @@ msgstr "Ta vzdevek LWT teme je bil odstranjen v Firefoxu 70."
 
 #: src/messages/manifestjson.js:451
 msgid "See https://mzl.la/2T11Lkc (MDN Docs) for more information."
-msgstr "Za več informacij glejte https://mzl.la/2T11Lkc (dokumente na omrežju MDN)."
+msgstr ""
+"Za več informacij glejte https://mzl.la/2T11Lkc (dokumente na omrežju MDN)."
 
 #: src/messages/manifestjson.js:466
 msgid "Theme image for \"%(type)s\" could not be found at \"%(path)s\""
@@ -650,7 +833,8 @@ msgid "Theme image file at \"%(path)s\" is corrupted"
 msgstr "Slika teme v mapi \"%(path)s\" je pokvarjena"
 
 #: src/messages/manifestjson.js:49
-msgid "\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
+msgid ""
+"\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
 msgstr "\"%(fieldName)s\" ni podprto v različicah manifesta %(versionRange)s."
 
 #: src/messages/manifestjson.js:490
@@ -666,8 +850,10 @@ msgid "Theme image file has an unsupported mime type"
 msgstr "Slikovna datoteka teme ima nepodprto vrsto mime"
 
 #: src/messages/manifestjson.js:508
-msgid "Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
-msgstr "Slikovna datoteka na \"%(path)s\" ima nepodprto vrsto mime \"%(mime)s\""
+msgid ""
+"Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
+msgstr ""
+"Slikovna datoteka na \"%(path)s\" ima nepodprto vrsto mime \"%(mime)s\""
 
 #: src/messages/manifestjson.js:51
 msgid "\"%(fieldName)s\" is not supported."
@@ -678,24 +864,38 @@ msgid "Theme image file mime type does not match its file extension"
 msgstr "Vrsta mime slikovne datoteke se ne ujema s pripono datoteke"
 
 #: src/messages/manifestjson.js:526
-msgid "Theme image file extension at \"%(path)s\" does not match its actual mime type \"%(mime)s\""
-msgstr "Vrsta mime slikovne datoteke na \"%(path)s\" se ne ujema z njeno dejansko vrsto mime \"%(mime)s\""
+msgid ""
+"Theme image file extension at \"%(path)s\" does not match its actual mime "
+"type \"%(mime)s\""
+msgstr ""
+"Vrsta mime slikovne datoteke na \"%(path)s\" se ne ujema z njeno dejansko "
+"vrsto mime \"%(mime)s\""
 
 #: src/messages/manifestjson.js:539
 msgid "The \"default_locale\" is missing localizations."
 msgstr "V \"default_locale\" manjkajo lokalizacije."
 
 #: src/messages/manifestjson.js:540
-msgid "The \"default_locale\" value is specified in the manifest, but no matching \"messages.json\" in the \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
-msgstr "V manifestu je navedena vrednost \"default_locale\", vendar v imeniku \"_locales\" ne obstaja ujemajoča se datoteka \"messages.json\". Glejte: https://mzl.la/2hjcaEE"
+msgid ""
+"The \"default_locale\" value is specified in the manifest, but no matching "
+"\"messages.json\" in the \"_locales\" directory exists. See: https://mzl."
+"la/2hjcaEE"
+msgstr ""
+"V manifestu je navedena vrednost \"default_locale\", vendar v imeniku "
+"\"_locales\" ne obstaja ujemajoča se datoteka \"messages.json\". Glejte: "
+"https://mzl.la/2hjcaEE"
 
 #: src/messages/manifestjson.js:548
 msgid "The \"default_locale\" is missing but \"_locales\" exist."
 msgstr "\"default_locale\" manjka, vendar obstaja \"_locales\"."
 
 #: src/messages/manifestjson.js:549
-msgid "The \"default_locale\" value is not specifed in the manifest, but a \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
-msgstr "Vrednost \"default_locale\" ni navedena v manifestu, obstaja pa mapa \"_locales\". Glejte: https://mzl.la/2hjcaEE"
+msgid ""
+"The \"default_locale\" value is not specifed in the manifest, but a "
+"\"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
+msgstr ""
+"Vrednost \"default_locale\" ni navedena v manifestu, obstaja pa mapa "
+"\"_locales\". Glejte: https://mzl.la/2hjcaEE"
 
 #: src/messages/manifestjson.js:557
 msgid "Unsupported image extension"
@@ -706,12 +906,22 @@ msgid "Icons should be one of JPG/JPEG, WebP, GIF, PNG or SVG."
 msgstr "Ikone morajo biti vrste JPG/JPEG, WebP, GIF, PNG ali SVG."
 
 #: src/messages/manifestjson.js:566
-msgid "\"applications\" property overridden by \"browser_specific_settings\" property"
-msgstr "Lastnost \"applications\" je preglašena z lastnostjo \"browser_specific_settings\""
+msgid ""
+"\"applications\" property overridden by \"browser_specific_settings\" "
+"property"
+msgstr ""
+"Lastnost \"applications\" je preglašena z lastnostjo "
+"\"browser_specific_settings\""
 
 #: src/messages/manifestjson.js:569
-msgid "The \"applications\" property is being ignored because it is superseded by the \"browser_specific_settings\" property which is also defined in your manifest. Consider removing applications."
-msgstr "Lastnost \"applications\" je prezrta, ker je nadomeščena z lastnostjo \"browser_specific_settings\", ki je prav tako definirana v vašem manifestu. Razmislite o odstranitvi aplikacij."
+msgid ""
+"The \"applications\" property is being ignored because it is superseded by "
+"the \"browser_specific_settings\" property which is also defined in your "
+"manifest. Consider removing applications."
+msgstr ""
+"Lastnost \"applications\" je prezrta, ker je nadomeščena z lastnostjo "
+"\"browser_specific_settings\", ki je prav tako definirana v vašem manifestu. "
+"Razmislite o odstranitvi aplikacij."
 
 #: src/messages/manifestjson.js:579
 msgid "Empty language directory"
@@ -726,27 +936,44 @@ msgid "Manifest key not supported by the specified minimum Firefox version"
 msgstr "Ključ manifesta ni podprt v najnižji podprti različici Firefoxa"
 
 #: src/messages/manifestjson.js:601 src/messages/manifestjson.js:623
-msgid "\"strict_min_version\" requires Firefox %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
-msgstr "\"strict_min_version\" zahteva Firefox %(minVersion)s, ki je bil izdan, preden je različica %(versionAdded)s uvedla podporo za \"%(key)s\"."
+msgid ""
+"\"strict_min_version\" requires Firefox %(minVersion)s, which was released "
+"before version %(versionAdded)s introduced support for \"%(key)s\"."
+msgstr ""
+"\"strict_min_version\" zahteva Firefox %(minVersion)s, ki je bil izdan, "
+"preden je različica %(versionAdded)s uvedla podporo za \"%(key)s\"."
 
 #: src/messages/manifestjson.js:619
 msgid "Permission not supported by the specified minimum Firefox version"
 msgstr "Dovoljenje ni podprto v najnižji podprti različici Firefoxa"
 
 #: src/messages/manifestjson.js:64
-msgid "%(instancePath)s: privileged manifest fields are only allowed in privileged extensions."
-msgstr "%(instancePath)s: privilegirana polja manifesta so dovoljena samo v privilegiranih razširitvah."
+msgid ""
+"%(instancePath)s: privileged manifest fields are only allowed in privileged "
+"extensions."
+msgstr ""
+"%(instancePath)s: privilegirana polja manifesta so dovoljena samo v "
+"privilegiranih razširitvah."
 
 #: src/messages/manifestjson.js:641
-msgid "Manifest key not supported by the specified minimum Firefox for Android version"
-msgstr "Ključ manifesta ni podprt v najnižji podprti različici Firefoxa za Android"
+msgid ""
+"Manifest key not supported by the specified minimum Firefox for Android "
+"version"
+msgstr ""
+"Ključ manifesta ni podprt v najnižji podprti različici Firefoxa za Android"
 
 #: src/messages/manifestjson.js:645 src/messages/manifestjson.js:667
-msgid "\"strict_min_version\" requires Firefox for Android %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
-msgstr "\"strict_min_version\" zahteva Firefox za Android %(minVersion)s, ki je bil izdan, preden je različica %(versionAdded)s uvedla podporo za \"%(key)s\"."
+msgid ""
+"\"strict_min_version\" requires Firefox for Android %(minVersion)s, which "
+"was released before version %(versionAdded)s introduced support for "
+"\"%(key)s\"."
+msgstr ""
+"\"strict_min_version\" zahteva Firefox za Android %(minVersion)s, ki je bil "
+"izdan, preden je različica %(versionAdded)s uvedla podporo za \"%(key)s\"."
 
 #: src/messages/manifestjson.js:663
-msgid "Permission not supported by the specified minimum Firefox for Android version"
+msgid ""
+"Permission not supported by the specified minimum Firefox for Android version"
 msgstr "Dovoljenje ni podprto v najnižji podprti različici Firefoxa za Android"
 
 #: src/messages/manifestjson.js:678
@@ -754,16 +981,30 @@ msgid "Linking to \"addons.mozilla.org\" is not allowed"
 msgstr "Povezovanje na \"addons.mozilla.org\" ni dovoljeno"
 
 #: src/messages/manifestjson.js:679
-msgid "Links directing to \"addons.mozilla.org\" are not allowed to be used for homepage"
-msgstr "Za domačo stran ni dovoljeno uporabljati povezav, ki usmerjajo na \"addons.mozilla.org\""
+msgid ""
+"Links directing to \"addons.mozilla.org\" are not allowed to be used for "
+"homepage"
+msgstr ""
+"Za domačo stran ni dovoljeno uporabljati povezav, ki usmerjajo na \"addons."
+"mozilla.org\""
 
 #: src/messages/manifestjson.js:691
-msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above"
-msgstr "Za dovoljenje \"%(permission)s\" mora biti \"strict_min_version\" nastavljena na različico \"%(minFirefoxVersion)s\" ali novejšo"
+msgid ""
+"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
+"to \"%(minFirefoxVersion)s\" or above"
+msgstr ""
+"Za dovoljenje \"%(permission)s\" mora biti \"strict_min_version\" "
+"nastavljena na različico \"%(minFirefoxVersion)s\" ali novejšo"
 
 #: src/messages/manifestjson.js:696
-msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json version to specify a minimum Firefox version."
-msgstr "Dovoljenje \"%(permission)s\" zahteva, da je \"strict_min_version\" nastavljen na \"%(minFirefoxVersion)s\" ali višje. Posodobite svojo različico manifest.json, da bo navedla najnižjo različico Firefoxa."
+msgid ""
+"The \"%(permission)s\" permission requires \"strict_min_version\" to be set "
+"to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json "
+"version to specify a minimum Firefox version."
+msgstr ""
+"Dovoljenje \"%(permission)s\" zahteva, da je \"strict_min_version\" "
+"nastavljen na \"%(minFirefoxVersion)s\" ali višje. Posodobite svojo "
+"različico manifest.json, da bo navedla najnižjo različico Firefoxa."
 
 #: src/messages/manifestjson.js:708
 msgid "The extension ID is required in Manifest Version 3 and above."
@@ -774,60 +1015,104 @@ msgid "See https://mzl.la/3PLZYdo for more information."
 msgstr "Za več informacij glejte https://mzl.la/3PLZYdo"
 
 #: src/messages/manifestjson.js:717
-msgid "%(instancePath)s: Privileged extensions should declare privileged permissions."
-msgstr "%(instancePath)s: Privilegirane razširitve morajo navesti privilegirana dovoljenja."
+msgid ""
+"%(instancePath)s: Privileged extensions should declare privileged "
+"permissions."
+msgstr ""
+"%(instancePath)s: Privilegirane razširitve morajo navesti privilegirana "
+"dovoljenja."
 
 #: src/messages/manifestjson.js:728
-msgid "This extension does not declare any privileged permission. It does not need to be signed with the privileged certificate. Please upload it directly to https://addons.mozilla.org/."
-msgstr "Ta razširitev ne navaja nobenih privilegiranih dovoljenj. Ni ga treba podpisati s privilegiranim digitalnim potrdilom. Naložite ga neposredno na https://addons.mozilla.org/."
+msgid ""
+"This extension does not declare any privileged permission. It does not need "
+"to be signed with the privileged certificate. Please upload it directly to "
+"https://addons.mozilla.org/."
+msgstr ""
+"Ta razširitev ne navaja nobenih privilegiranih dovoljenj. Ni ga treba "
+"podpisati s privilegiranim digitalnim potrdilom. Naložite ga neposredno na "
+"https://addons.mozilla.org/."
 
 #: src/messages/manifestjson.js:741
-msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for privileged extensions."
-msgstr "%(instancePath)s: Za privilegirane razširitve je potrebno dovoljenje \"mozillaAddons\"."
+msgid ""
+"%(instancePath)s: The \"mozillaAddons\" permission is required for "
+"privileged extensions."
+msgstr ""
+"%(instancePath)s: Za privilegirane razširitve je potrebno dovoljenje "
+"\"mozillaAddons\"."
 
 #: src/messages/manifestjson.js:744
-msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for extensions that include privileged manifest fields."
-msgstr "%(instancePath)s: Za razširitve, ki vključujejo polja manifesta s posebnimi pravicami, so potrebna dovoljenja \"mozillaAddons\"."
+msgid ""
+"%(instancePath)s: The \"mozillaAddons\" permission is required for "
+"extensions that include privileged manifest fields."
+msgstr ""
+"%(instancePath)s: Za razširitve, ki vključujejo polja manifesta s posebnimi "
+"pravicami, so potrebna dovoljenja \"mozillaAddons\"."
 
 #: src/messages/manifestjson.js:757
-msgid "This extension does not include the \"mozillaAddons\" permission, which is required for privileged extensions."
-msgstr "Ta razširitev ne vključuje dovoljenja \"mozillaAddons\", ki je zahtevano za privilegirane razširitve."
+msgid ""
+"This extension does not include the \"mozillaAddons\" permission, which is "
+"required for privileged extensions."
+msgstr ""
+"Ta razširitev ne vključuje dovoljenja \"mozillaAddons\", ki je zahtevano za "
+"privilegirane razširitve."
 
 #: src/messages/manifestjson.js:767
 msgid "Cannot use actions in hidden add-ons."
 msgstr "V skritih dodatkih ni mogoče uporabljati dejanj."
 
 #: src/messages/manifestjson.js:768
-msgid "The hidden and browser_action/page_action (or action in Manifest Version 3 and above) properties are mutually exclusive."
-msgstr "Lastnosti \"hidden\" in \"browser_action\"/\"page_action\" (oz. \"action\" v manifestu različice 3 in novejših) se medsebojno izključujeta."
+msgid ""
+"The hidden and browser_action/page_action (or action in Manifest Version 3 "
+"and above) properties are mutually exclusive."
+msgstr ""
+"Lastnosti \"hidden\" in \"browser_action\"/\"page_action\" (oz. \"action\" v "
+"manifestu različice 3 in novejših) se medsebojno izključujeta."
 
 #: src/messages/manifestjson.js:776
 msgid "Use \"browser_specific_settings\" instead of \"applications\"."
 msgstr "Namesto \"applications\" uporabite \"browser_specific_settings\"."
 
 #: src/messages/manifestjson.js:777
-msgid "The \"applications\" property in the manifest is deprecated and will no longer be accepted in Manifest Version 3 and above."
-msgstr "Lastnost \"applications\" v manifestu je zastarela in v manifestu različice 3 in novejših ne bo več sprejeta."
+msgid ""
+"The \"applications\" property in the manifest is deprecated and will no "
+"longer be accepted in Manifest Version 3 and above."
+msgstr ""
+"Lastnost \"applications\" v manifestu je zastarela in v manifestu različice "
+"3 in novejših ne bo več sprejeta."
 
 #: src/messages/manifestjson.js:785
 msgid "\"applications\" is no longer allowed in Manifest Version 3 and above."
-msgstr "Lastnost \"applications\" v Manifestu 3 in novejših različicah ni več dovoljena."
+msgstr ""
+"Lastnost \"applications\" v Manifestu 3 in novejših različicah ni več "
+"dovoljena."
 
 #: src/messages/manifestjson.js:787
-msgid "The \"applications\" property in the manifest is no longer allowed in Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
-msgstr "Lastnost \"applications\" v manifestu različice 3 in novejših ni več dovoljena. Namesto nje uporabite \"browser_specific_settings\"."
+msgid ""
+"The \"applications\" property in the manifest is no longer allowed in "
+"Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
+msgstr ""
+"Lastnost \"applications\" v manifestu različice 3 in novejših ni več "
+"dovoljena. Namesto nje uporabite \"browser_specific_settings\"."
 
 #: src/messages/manifestjson.js:795
-msgid "The version string should be simplified because it won't be compatible with Manifest Version 3 and above."
-msgstr "Niz različice je treba poenostaviti, sicer ne bo združljiv z Manifestom 3 in novejšimi različicami."
+msgid ""
+"The version string should be simplified because it won't be compatible with "
+"Manifest Version 3 and above."
+msgstr ""
+"Niz različice je treba poenostaviti, sicer ne bo združljiv z Manifestom 3 in "
+"novejšimi različicami."
 
 #: src/messages/manifestjson.js:797
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros will no longer be allowed. Letters will no longer be allowed either. "
-"See https://mzl.la/3h3mCRu (MDN Docs) for more information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each "
+"number should have up to 9 digits and leading zeros will no longer be "
+"allowed. Letters will no longer be allowed either. See https://mzl."
+"la/3h3mCRu (MDN Docs) for more information."
 msgstr ""
-"Različica naj bo niz z 1 do 4 številkami, ločenimi s piko. Vsaka številka naj bo sestavljena iz največ 9 števk, ničle na začetku niso več dovoljene. Dovoljene niso več niti črke. Za več informacij "
-"glejte https://mzl.la/3h3mCRu (dokumentacija MDN)."
+"Različica naj bo niz z 1 do 4 številkami, ločenimi s piko. Vsaka številka "
+"naj bo sestavljena iz največ 9 števk, ničle na začetku niso več dovoljene. "
+"Dovoljene niso več niti črke. Za več informacij glejte https://mzl."
+"la/3h3mCRu (dokumentacija MDN)."
 
 #: src/messages/manifestjson.js:806
 msgid "The version string should be simplified."
@@ -835,11 +1120,15 @@ msgstr "Niz različice je treba poenostaviti."
 
 #: src/messages/manifestjson.js:807
 msgid ""
-"The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros are not allowed. Letters are no longer allowed. See "
-"https://mzl.la/3h3mCRu (MDN Docs) for more information."
+"The version should be a string with 1 to 4 numbers separated with dots. Each "
+"number should have up to 9 digits and leading zeros are not allowed. Letters "
+"are no longer allowed. See https://mzl.la/3h3mCRu (MDN Docs) for more "
+"information."
 msgstr ""
-"Različica naj bo niz z 1 do 4 številkami, ločenimi s piko. Vsaka številka naj bo sestavljena iz največ 9 števk. Ničle na začetku in črke niso več dovoljene. Za več informacij glejte "
-"https://mzl.la/3h3mCRu (dokumentacija MDN)."
+"Različica naj bo niz z 1 do 4 številkami, ločenimi s piko. Vsaka številka "
+"naj bo sestavljena iz največ 9 števk. Ničle na začetku in črke niso več "
+"dovoljene. Za več informacij glejte https://mzl.la/3h3mCRu (dokumentacija "
+"MDN)."
 
 #: src/messages/manifestjson.js:816
 msgid "incognito \"split\" is unsupported."
@@ -847,31 +1136,49 @@ msgstr "Vrednost \"split\" ni podprta."
 
 #: src/messages/manifestjson.js:817
 msgid ""
-"The incognito \"split\" value is unsupported and will be treated as \"not_allowed\" in Firefox. Remove the key from the manifest file, if your extension is compatible with Firefox's private browsing"
-" mode."
+"The incognito \"split\" value is unsupported and will be treated as "
+"\"not_allowed\" in Firefox. Remove the key from the manifest file, if your "
+"extension is compatible with Firefox's private browsing mode."
 msgstr ""
-"Vrednost \"split\" za ključ \"incognito\" ni podprta in bo v Firefoxu obravnavana kot \"not_allowed\". Odstranite ključ iz datoteke z manifestom, če je vaša razširitev združljiva s Firefoxovim "
-"načinom zasebnega brskanja."
+"Vrednost \"split\" za ključ \"incognito\" ni podprta in bo v Firefoxu "
+"obravnavana kot \"not_allowed\". Odstranite ključ iz datoteke z manifestom, "
+"če je vaša razširitev združljiva s Firefoxovim načinom zasebnega brskanja."
 
 #: src/messages/manifestjson.js:825
 msgid "The \"admin_install_only\" property is reserved."
 msgstr "Lastnost \"admin_install_only\" je rezervirana."
 
 #: src/messages/manifestjson.js:826
-msgid "The \"admin_install_only\" property is reserved and can only be used in enterprise add-ons."
-msgstr "Lastnost \"admin_install_only\" je rezervirana in jo lahko uporabite samo v dodatkih za podjetja."
+msgid ""
+"The \"admin_install_only\" property is reserved and can only be used in "
+"enterprise add-ons."
+msgstr ""
+"Lastnost \"admin_install_only\" je rezervirana in jo lahko uporabite samo v "
+"dodatkih za podjetja."
 
 #: src/messages/manifestjson.js:83
-msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions %(versionRange)s."
-msgstr "/%(fieldName)s: dovoljenje \"%(permissionName)s\" ni podprto v različicah manifesta %(versionRange)s."
+msgid ""
+"/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions "
+"%(versionRange)s."
+msgstr ""
+"/%(fieldName)s: dovoljenje \"%(permissionName)s\" ni podprto v različicah "
+"manifesta %(versionRange)s."
 
 #: src/messages/manifestjson.js:833
-msgid "\"/browser_specific_settings/gecko/admin_install_only\" property must be set to \"true\"."
-msgstr "Lastnost \"/browser_specific_settings/gecko/admin_install_only\" mora biti nastavljena na \"true\"."
+msgid ""
+"\"/browser_specific_settings/gecko/admin_install_only\" property must be set "
+"to \"true\"."
+msgstr ""
+"Lastnost \"/browser_specific_settings/gecko/admin_install_only\" mora biti "
+"nastavljena na \"true\"."
 
 #: src/messages/manifestjson.js:835
-msgid "The \"admin_install_only\" property must be set to \"true\" in an enterprise add-on."
-msgstr "Lastnost \"admin_install_only\" mora biti v dodatkih za podjetja nastavljena na \"true\"."
+msgid ""
+"The \"admin_install_only\" property must be set to \"true\" in an enterprise "
+"add-on."
+msgstr ""
+"Lastnost \"admin_install_only\" mora biti v dodatkih za podjetja nastavljena "
+"na \"true\"."
 
 #: src/messages/manifestjson.js:85
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported."
@@ -889,8 +1196,12 @@ msgstr "/%(fieldName)s: dovoljenje \"%(permissionName)s\" ni podprto."
 #~ msgid "A CSS syntax error was encountered"
 #~ msgstr "Najdena je bila napaka skladnje CSS."
 
-#~ msgid "An error was found in the CSS file being processed. As a result, further processing of that file is not possible"
-#~ msgstr "V datoteki CSS v obdelavi je bila najdena napaka. Zaradi nje nadaljnja obdelava te datoteke ni mogoča"
+#~ msgid ""
+#~ "An error was found in the CSS file being processed. As a result, further "
+#~ "processing of that file is not possible"
+#~ msgstr ""
+#~ "V datoteki CSS v obdelavi je bila najdena napaka. Zaradi nje nadaljnja "
+#~ "obdelava te datoteke ni mogoča"
 
 #~ msgid "Selector nesting is supported from firefox version 117.0 and above"
 #~ msgstr "Gnezdenje izbirnikov je podprto od različice firefoxa 117.0 dalje"
@@ -901,20 +1212,29 @@ msgstr "/%(fieldName)s: dovoljenje \"%(permissionName)s\" ni podprto."
 #~ msgid "The \"name\" property must be a string."
 #~ msgstr "Lastnost \"name\" mora biti niz."
 
-#~ msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port."
-#~ msgstr "Neveljavno poreklo namestitve. Veljavno poreklo vsebuje samo shemo, ime gostitelja in po izbiri vrata."
+#~ msgid ""
+#~ "Invalid install origin. A valid origin has - only - a scheme, hostname "
+#~ "and optional port."
+#~ msgstr ""
+#~ "Neveljavno poreklo namestitve. Veljavno poreklo vsebuje samo shemo, ime "
+#~ "gostitelja in po izbiri vrata."
 
 #~ msgid "The \"version\" property must be a string."
 #~ msgstr "Lastnost \"version\" mora biti niz."
 
 #~ msgid "See http://mzl.la/1kXIADa (MDN Docs) for more information."
-#~ msgstr "Za več informacij glejte http://mzl.la/1kXIADa (dokumente na MDN-u)."
+#~ msgstr ""
+#~ "Za več informacij glejte http://mzl.la/1kXIADa (dokumente na MDN-u)."
 
 #~ msgid "The \"version\" property uses a Firefox-specific format."
 #~ msgstr "Lastnost \"version\" uporablja obliko, posebno za Firefox."
 
-#~ msgid "See https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/ for more information."
-#~ msgstr "Za več informacij glejte https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/"
+#~ msgid ""
+#~ "See https://extensionworkshop.com/documentation/develop/extensions-and-"
+#~ "the-add-on-id/ for more information."
+#~ msgstr ""
+#~ "Za več informacij glejte https://extensionworkshop.com/documentation/"
+#~ "develop/extensions-and-the-add-on-id/"
 
 #~ msgid "addEventListener` called with truthy fourth argument."
 #~ msgstr "Klic addEventListener s četrtim argumentom truthy."
