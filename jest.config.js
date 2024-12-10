@@ -1,3 +1,4 @@
+/** @type {import('jest').Config} */
 module.exports = {
   coveragePathIgnorePatterns: [
     '<rootDir>/node_modules/',
@@ -27,7 +28,7 @@ module.exports = {
     '^.+\\.js$': 'babel-jest',
     '^.+\\.txt$': '<rootDir>/tests/jest-raw-loader.js',
   },
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/(?!os-locale)'],
   testEnvironment: 'node',
   verbose: false,
 };

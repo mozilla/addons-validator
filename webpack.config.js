@@ -6,6 +6,12 @@ const webpack = require('webpack');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const nodeExternals = require('webpack-node-externals');
 
+// ESM packages must be bundled because webpack will otherwise turn `require()` into `import()`
+// and make the import silently asynchronous. In most cases this breaks the import.
+const dependenciesToBundle = [
+  'os-locale', // Used exclusively in sync functions
+];
+
 module.exports = {
   // Set the webpack4 mode 'none' for compatibility with the behavior of the
   // webpack3 bundling step.
@@ -13,7 +19,6 @@ module.exports = {
   entry: {
     'addons-linter': './src/main.js',
   },
-  target: 'node',
   output: {
     filename: '[name].js',
     libraryTarget: 'commonjs2',
@@ -38,6 +43,7 @@ module.exports = {
   externals: [
     nodeExternals({
       modulesFromFile: true,
+      allowlist: dependenciesToBundle,
     }),
   ],
   plugins: [

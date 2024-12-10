@@ -4,7 +4,7 @@ import upath from 'upath';
 import Jed from 'jed';
 import semver from 'semver';
 import { oneLine } from 'common-tags';
-import osLocale from 'os-locale';
+import { osLocaleSync } from 'os-locale';
 
 import log from 'logger';
 import { PACKAGE_TYPES, LOCAL_PROTOCOLS } from 'const';
@@ -136,7 +136,7 @@ export function getVariable(context, name) {
 }
 
 export function getLocale() {
-  return osLocale.sync();
+  return osLocaleSync();
 }
 
 export function getI18Data(locale) {
