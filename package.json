@@ -54,7 +54,7 @@
     "columnify": "1.6.0",
     "common-tags": "1.8.2",
     "deepmerge": "4.3.1",
-    "eslint": "8.57.1",
+    "eslint": "9.19.0",
     "eslint-plugin-no-unsanitized": "4.1.2",
     "eslint-visitor-keys": "4.2.0",
     "espree": "10.3.0",
