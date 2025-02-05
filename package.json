@@ -105,6 +105,6 @@
     "webpack": "5.97.1",
     "webpack-cli": "5.1.4",
     "webpack-node-externals": "3.0.0",
-    "yazl": "2.5.1"
+    "yazl": "3.3.1"
   }
 }
