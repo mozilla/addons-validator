@@ -95,6 +95,8 @@ function importSchemaFromPartialClone() {
     `Importing WebExtensions API JSONSchema data from Gecko ${version_display}`
   );
 
+  shell.cp(version_file_path, 'src/schema/imported/version_display.txt');
+
   shell.exec(`./scripts/firefox-schema-import ${tmpDir}`);
 
   shell.echo('Schema changes diff:\n');

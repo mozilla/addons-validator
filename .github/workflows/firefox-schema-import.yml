@@ -1,0 +1,140 @@
+name: Import Firefox API Schema
+
+run-name: |
+  ref: ${{ github.ref_name }}
+  github-dev-branch: ${{ inputs.gecko-dev-branch }}
+
+concurrency:
+  group: firefox-schema-import-${{ inputs.gecko-dev-branch }}
+  cancel-in-progress: true
+
+on:
+  workflow_call:
+    inputs:
+      gecko-dev-branch:
+        type: string
+        description: Which gecko-dev branch to import API schema from.
+        default: beta
+        required: true
+      run-tests:
+        type: boolean
+        default: false
+        required: false
+        description: |
+          run-tests - Whether addons-linter tests should be executed to
+          check imported schema for test failures.
+      create-issue:
+        type: boolean
+        required: false
+        default: false
+        description: |
+          create-issue - Whether an issue should be created
+          on detected changes or detected failures.
+      create-pull:
+        type: boolean
+        required: false
+        default: false
+        description: |
+          create-pull - Whether a pull request should be created
+          on detected changes.
+  workflow_dispatch:
+    inputs:
+      gecko-dev-branch:
+        type: choice
+        description: Which gecko-dev branch to import API schema from.
+        default: beta
+        required: true
+        options:
+          - beta
+          - master
+      run-tests:
+        type: boolean
+        default: false
+        required: false
+        description: |
+          run-tests - Whether addons-linter tests should be executed to
+          check imported schema for test failures.
+      create-issue:
+        type: boolean
+        required: false
+        default: false
+        description: |
+          create-issue - Whether an issue should be created
+          on detected changes or detected failures.
+      create-pull:
+        type: boolean
+        required: false
+        default: false
+        description: |
+          create-pull - Whether a pull request should be created
+          on detected changes.
+
+jobs:
+  import-firefox-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Import Firefox API Schema from gecko-dev branch "${{ inputs.gecko-dev-branch }}"
+        run: ./scripts/download-import-schema-from-gecko-dev "${{ inputs.gecko-dev-branch }}"
+      - name: Handle Firefox API Schema import result
+        uses: actions/github-script@v7
+        with:
+          result-encoding: string
+          retries: 1
+          # API docs: https://github.com/actions/github-script and https://octokit.github.io/rest.js/v20
+          script: |
+            const workflowInputs = ${{ toJson(inputs) }};
+
+            const {
+              getImportResultState,
+              createBranchAndCommit,
+              findExistingIssue,
+              createIssue,
+              findExistingPull,
+              createPull,
+            } = await import('${{ github.workspace }}/scripts/workflow-github-script-helpers.mjs');
+            
+            const importState = await getImportResultState({ github, context, workflowInputs });
+            if (!importState.has_pending_changes) {
+              console.log("Import completed. No changes detected.");
+              return;
+            }
+
+            if (importState.has_remote_branch_changes) {
+              console.log("Import completed. An existing branch with changes has been detected.");
+              return;
+            }
+
+            const commitDiff = createBranchAndCommit(importState); 
+
+            let issue = null;
+            if (workflowInputs['create-issue']) {
+              issue = await findExistingIssue({ ...importState, github, context });
+              if (!issue) {
+                issue = await createIssue({ importState, github, context });
+                console.log("Created new tracking issue:", issue.html_url);
+              } else {
+                console.log("Not creating new issue, existing issue found:", issue.html_url);
+              }
+            }
+
+            let pull = null;
+            if (workflowInputs['create-pull']) {
+               pull = await findExistingPull({ ...importState, github, context });
+               if (!pull) {
+                 pull = await createPull({ importState, issue, github, context });
+                 if (pull) {
+                   console.log("Created new pull request:", pull.html_url);
+                 }
+               } else {
+                 console.log("Not creating new pullrequest, existing found:", pull.html_url);
+               }
+            }
