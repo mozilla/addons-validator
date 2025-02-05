@@ -97,7 +97,7 @@
     "prettier": "3.4.2",
     "pretty-quick": "4.0.0",
     "raw-loader": "4.0.2",
-    "replace-in-file": "7.2.0",
+    "replace-in-file": "8.3.0",
     "shelljs": "0.8.5",
     "sinon": "19.0.2",
     "tar-fs": "3.0.8",
